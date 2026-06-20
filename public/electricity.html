@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>WateLetric - Electricity Dashboard</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-container": "#8e0a1e",
+                        "secondary-container": "#adf3b8",
+                        "on-primary-fixed-variant": "#8f0c1f",
+                        "on-secondary-container": "#307142",
+                        "tertiary-fixed-dim": "#a3cddb",
+                        "error-container": "#ffdad6",
+                        "inverse-on-surface": "#eff1f3",
+                        "secondary": "#296b3c",
+                        "surface-variant": "#e0e3e5",
+                        "outline": "#8d706f",
+                        "on-secondary-fixed": "#00210b",
+                        "on-tertiary-fixed": "#001f27",
+                        "on-secondary": "#ffffff",
+                        "on-background": "#191c1e",
+                        "tertiary-container": "#204b57",
+                        "surface-dim": "#d8dadc",
+                        "inverse-primary": "#ffb3b1",
+                        "surface-bright": "#f7f9fb",
+                        "on-tertiary-container": "#90bac8",
+                        "on-primary-fixed": "#410007",
+                        "on-primary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "primary": "#660011",
+                        "primary-fixed-dim": "#ffb3b1",
+                        "tertiary-fixed": "#beeaf8",
+                        "surface": "#f7f9fb",
+                        "surface-container-high": "#e6e8ea",
+                        "surface-container": "#eceef0",
+                        "outline-variant": "#e1bebd",
+                        "surface-container-low": "#f2f4f6",
+                        "secondary-fixed": "#adf3b8",
+                        "secondary-fixed-dim": "#92d69d",
+                        "on-surface-variant": "#594140",
+                        "background": "#f7f9fb",
+                        "on-secondary-fixed-variant": "#0a5226",
+                        "surface-tint": "#b12934",
+                        "tertiary": "#003440",
+                        "on-tertiary-fixed-variant": "#214c58",
+                        "surface-container-highest": "#e0e3e5",
+                        "primary-fixed": "#ffdad8",
+                        "on-surface": "#191c1e",
+                        "on-primary-container": "#ff9695",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "on-error": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "inverse-surface": "#2d3133"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1rem",
+                        "3xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-desktop": "40px",
+                        "unit": "8px",
+                        "margin-mobile": "16px",
+                        "container-padding": "32px",
+                        "card-gap": "24px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "headline-md": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "display-lg": ["Hanken Grotesk"],
+                        "label-mono": ["JetBrains Mono"],
+                        "title-lg": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "label-mono": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "title-lg": ["20px", {"lineHeight": "28px", "fontWeight": "500"}]
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            background-color: #f7f9fb;
+            font-family: 'Hanken Grotesk', sans-serif;
+            color: #191c1e;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #e0e3e5;
+            border-radius: 10px;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .animate-float { animation: float 4s ease-in-out infinite; }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md min-h-screen flex">
+    <!-- Sidebar Navigation -->
+    <aside class="fixed left-0 top-0 h-full flex flex-col z-50 bg-surface-container-low shadow-lg w-64 hidden md:flex" style="background-color: rgb(242, 244, 246); color: rgb(25, 28, 30);">
+        <div class="p-6 flex flex-col h-full">
+            <div class="flex items-center gap-3 mb-10 cursor-pointer" onclick="location.href='index.html'">
+                <div class="w-10 h-10 bg-primary rounded-xl flex items-center justify-center">
+                    <span class="material-symbols-outlined text-white">ac_unit</span>
+                </div>
+                <div>
+                    <h1 class="text-headline-md font-headline-lg text-primary">WateLetric</h1>
+                    <p class="text-label-mono font-label-mono text-on-surface-variant uppercase tracking-widest">Utility Management</p>
+                </div>
+            </div>
+            <nav class="flex-1 space-y-2">
+                <a class="flex items-center gap-4 px-4 py-3 rounded-lg text-primary-container font-bold border-l-4 border-primary-container bg-primary/10 translate-x-1 transition-transform" href="electricity.html" style="background-color: rgba(102, 0, 17, 0.1); color: rgb(102, 0, 17); border-color: rgb(102, 0, 17);">
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">bolt</span>
+                    <span class="font-label-mono text-label-mono">Electricity</span>
+                </a>
+                <a class="flex items-center gap-4 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-all" href="water.html">
+                    <span class="material-symbols-outlined">opacity</span>
+                    <span class="font-label-mono text-label-mono">Water</span>
+                </a>
+                <a class="flex items-center gap-4 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-all" href="summary.html">
+                    <span class="material-symbols-outlined">dashboard</span>
+                    <span class="font-label-mono text-label-mono">Summary</span>
+                </a>
+                <a class="flex items-center gap-4 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-all" href="profile.html">
+                    <span class="material-symbols-outlined">settings</span>
+                    <span class="font-label-mono text-label-mono">Settings</span>
+                </a>
+            </nav>
+            <div class="pt-6 border-t border-outline-variant space-y-2">
+                <button class="w-full flex items-center gap-4 px-4 py-3 rounded-lg text-primary hover:bg-primary/5 transition-all" onclick="location.href='index.html'">
+                    <span class="material-symbols-outlined">logout</span>
+                    <span class="font-label-mono text-label-mono">Logout</span>
+                </button>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Canvas -->
+    <main class="flex-1 md:ml-64 min-h-screen flex flex-col lg:mr-80 pb-20 md:pb-0">
+        <!-- Top App Bar -->
+        <header class="flex justify-between items-center px-margin-mobile md:px-margin-desktop w-full h-16 bg-surface shadow-sm sticky top-0 z-40">
+            <div class="flex items-center gap-4">
+                <button class="material-symbols-outlined md:hidden text-primary" onclick="alert('Menu opened')">menu</button>
+                <h2 class="text-headline-md font-headline-md text-primary">Electricity Usage</h2>
+            </div>
+            <div class="flex items-center gap-4">
+                <!-- Utility Toggle -->
+                <div class="hidden lg:flex items-center bg-surface-container p-1 rounded-full border border-outline-variant">
+                    <button class="px-4 py-1.5 rounded-full bg-secondary-container text-on-secondary-container text-label-mono font-label-mono flex items-center gap-2 shadow-sm" onclick="location.href='electricity.html'">
+                        <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">bolt</span> Electricity
+                    </button>
+                    <button class="px-4 py-1.5 rounded-full text-on-surface-variant text-label-mono font-label-mono flex items-center gap-2 hover:bg-surface-container-high transition-colors" onclick="location.href='water.html'">
+                        <span class="material-symbols-outlined text-sm">opacity</span> Water
+                    </button>
+                </div>
+                <div class="flex items-center gap-2">
+                    <button class="material-symbols-outlined p-2 rounded-full hover:bg-surface-container-high transition-colors text-on-surface-variant">search</button>
+                    <button class="material-symbols-outlined p-2 rounded-full hover:bg-surface-container-high transition-colors text-primary" onclick="location.href='profile.html'">account_circle</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Simulation Control Panel -->
+        <div class="bg-surface-container-low border-b border-outline-variant/30 px-margin-mobile md:px-margin-desktop py-4 flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <span class="material-symbols-outlined text-primary text-2xl animate-pulse">tune</span>
+                <div>
+                    <h4 class="font-bold text-on-surface">Simulation Control</h4>
+                    <p class="text-[11px] text-on-surface-variant">Toggle the simulation to playback live consumption data streaming into the dashboard.</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-2 w-full md:w-auto md:min-w-[250px]">
+                <button id="start-realtime-btn" class="bg-secondary-container text-on-secondary-container py-3 px-6 rounded-lg font-bold text-xs shadow-sm hover:opacity-90 flex items-center justify-center gap-2 w-full">
+                    <span class="material-symbols-outlined text-sm">play_circle</span> Start Simulation
+                </button>
+                <input type="range" id="day-slider" min="1" max="30" value="1" class="hidden">
+                <span id="current-day-label" class="hidden">1</span>
+            </div>
+        </div>
+
+        <!-- Content Body -->
+        <div class="p-margin-mobile md:p-container-padding space-y-card-gap max-w-5xl mx-auto w-full">
+            <!-- Real-time Hero Section -->
+            <section class="bg-surface-container-lowest rounded-[32px] p-8 shadow-sm border border-outline-variant/30 overflow-hidden relative">
+                <div class="absolute top-0 right-0 p-8 flex items-center gap-4">
+                    <span id="anomaly-badge" class="hidden px-3 py-1 rounded-full bg-error-container text-error text-xs font-bold animate-pulse">
+                        SPIKE DETECTED
+                    </span>
+                    <span class="flex items-center gap-2 text-secondary font-bold text-label-mono">
+                        <span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+                        LIVE MONITORING
+                    </span>
+                </div>
+                <div class="mb-8">
+                    <p class="text-on-surface-variant text-label-mono font-label-mono uppercase tracking-widest mb-1">Current Consumption</p>
+                    <h3 class="text-display-lg font-display-lg text-secondary"><span id="live-consumption-val">4.4</span> <span class="text-headline-md">kWh</span></h3>
+                </div>
+                <!-- Main Usage Graph -->
+                <div class="h-64 w-full relative">
+                    <canvas id="consumption-chart"></canvas>
+                </div>
+                <div class="relative w-full h-6 mt-4 text-on-surface-variant font-label-mono text-[10px]">
+                    <span class="absolute left-0">12:00 AM</span>
+                    <span class="absolute left-[12.5%] -translate-x-1/2 hidden sm:inline">03:00 AM</span>
+                    <span class="absolute left-[25%] -translate-x-1/2">06:00 AM</span>
+                    <span class="absolute left-[37.5%] -translate-x-1/2 hidden sm:inline">09:00 AM</span>
+                    <span class="absolute left-[50%] -translate-x-1/2">12:00 PM</span>
+                    <span class="absolute left-[62.5%] -translate-x-1/2 hidden sm:inline">03:00 PM</span>
+                    <span class="absolute left-[75%] -translate-x-1/2">06:00 PM</span>
+                    <span class="absolute left-[87.5%] -translate-x-1/2 hidden sm:inline">09:00 PM</span>
+                    <span class="absolute right-0">12:00 AM</span>
+                </div>
+            </section>
+
+            <!-- Bottom Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-card-gap">
+                <!-- Prediction Card -->
+                <section class="bg-white rounded-[24px] p-6 border border-outline-variant/30 flex flex-col justify-between md:col-span-2">
+                    <div>
+                        <div class="flex justify-between items-start mb-6">
+                            <div>
+                                <h4 class="text-title-lg font-headline-md text-on-surface">Next 30 Minutes Prediction</h4>
+                                <p class="text-body-md text-on-surface-variant">Based on historical weekday patterns</p>
+                            </div>
+                            <span class="material-symbols-outlined text-secondary-container bg-on-secondary-container p-2 rounded-xl">auto_graph</span>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between">
+                                <span class="text-label-mono font-label-mono text-on-surface-variant">Expected Trend</span>
+                                <span id="surge-pct-val" class="text-body-md font-bold text-on-surface">-12% vs Avg</span>
+                            </div>
+                            <div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+                                <div id="surge-progress-bar" class="bg-secondary-container h-full w-[35%] transition-all duration-500"></div>
+                            </div>
+                            <p class="text-body-md text-on-surface-variant leading-relaxed">
+                                AI projects next 30-minute consumption to be <span id="next-2h-kwh" class="font-bold text-secondary">2.8 kWh</span> due to lower occupancy or cooling needs.
+                            </p>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+
+            <!-- Bento Mini Features -->
+            <div class="grid grid-cols-1 gap-card-gap sm:grid-cols-2">
+                <div class="bg-white p-6 rounded-2xl border border-outline-variant/30 flex items-center gap-4 hover:shadow-md transition-shadow">
+                    <span class="material-symbols-outlined text-secondary text-3xl">savings</span>
+                    <div>
+                        <p class="text-label-mono text-on-surface-variant">Estimated Bill</p>
+                        <p id="estimated-bill-val" class="text-title-lg font-bold">RM 124.50</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl border border-outline-variant/30 flex items-center gap-4 hover:shadow-md transition-shadow">
+                    <span class="material-symbols-outlined text-secondary text-3xl">history</span>
+                    <div>
+                        <p class="text-label-mono text-on-surface-variant">Daily Avg (Month-to-date)</p>
+                        <p id="daily-avg-val" class="text-title-lg font-bold">18.4 kWh</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Chatbot Sidebar (Right) -->
+    <aside class="fixed right-0 top-0 h-full w-80 bg-surface shadow-[-10px_0_30px_rgba(0,0,0,0.03)] border-l border-outline-variant/20 flex flex-col hidden lg:flex" style="background-color: rgb(255, 255, 255); color: rgb(25, 28, 30);">
+        <div class="p-6 border-b border-outline-variant/20 flex items-center justify-between bg-primary/5 text-on-surface">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-full flex items-center justify-center animate-float bg-white/30">
+                    <span class="material-symbols-outlined text-white text-sm">smart_toy</span>
+                </div>
+                <div>
+                    <h5 class="text-body-md font-bold text-primary">Berry Assistant</h5>
+                    <span class="text-[10px] text-secondary flex items-center gap-1">
+                        <span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Online
+                    </span>
+                </div>
+            </div>
+            <button class="material-symbols-outlined text-on-surface-variant hover:opacity-75">close</button>
+        </div>
+
+        <!-- Conversation Container -->
+        <div id="chat-messages" class="flex-1 p-4 space-y-4 overflow-y-auto custom-scrollbar bg-surface-bright/50">
+            <!-- Injected by JS -->
+        </div>
+
+        <div class="p-4 border-t border-outline-variant/20">
+            <div class="relative">
+                <input id="chat-input" class="w-full rounded-full py-3 px-5 pr-12 text-body-md border border-outline-variant/30 focus:ring-2 focus:ring-primary/50 bg-surface-container-low" placeholder="Ask about your bill..." type="text">
+                <button id="send-btn" class="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full text-on-primary flex items-center justify-center bg-primary hover:opacity-90 transition-opacity">
+                    <span class="material-symbols-outlined text-sm">send</span>
+                </button>
+            </div>
+        </div>
+    </aside>
+
+    <nav class="fixed bottom-0 left-0 w-full z-40 flex justify-around items-center h-16 md:hidden bg-surface shadow-lg rounded-t-xl border-t border-outline-variant">
+        <a class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-6 py-1 scale-90 transition-all" href="electricity.html">
+            <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">bolt</span>
+            <span class="text-label-sm font-label-sm">Electricity</span>
+        </a>
+        <a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-secondary-fixed-dim transition-colors" href="water.html">
+            <span class="material-symbols-outlined">opacity</span>
+            <span class="text-label-sm font-label-sm">Water</span>
+        </a>
+        <a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-secondary-fixed-dim transition-colors" href="summary.html">
+            <span class="material-symbols-outlined">dashboard</span>
+            <span class="text-label-sm font-label-sm">Summary</span>
+        </a>
+        <a class="flex flex-col items-center justify-center text-on-surface-variant" href="profile.html">
+            <span class="material-symbols-outlined">settings</span>
+            <span class="text-label-sm font-label-sm">Settings</span>
+        </a>
+    </nav>
+
+    <!-- Load prediction and billing data -->
+    <script src="billing_data.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Firebase App and Auth SDKs compat -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+    <script src="firebase-mock.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const slider = document.getElementById('day-slider');
+            const dayLabel = document.getElementById('current-day-label');
+            const estimatedBillVal = document.getElementById('estimated-bill-val');
+            const dailyAvgVal = document.getElementById('daily-avg-val');
+            const surgePctVal = document.getElementById('surge-pct-val');
+            const surgeProgressBar = document.getElementById('surge-progress-bar');
+            const liveConsumptionVal = document.getElementById('live-consumption-val');
+            const anomalyBadge = document.getElementById('anomaly-badge');
+            const chatMessages = document.getElementById('chat-messages');
+            const chatInput = document.getElementById('chat-input');
+            const sendBtn = document.getElementById('send-btn');
+
+            let currentDay = 1;
+            slider.value = currentDay;
+
+            // Initialize Firebase Mock / Real Firebase SDK
+            const firebaseConfig = { projectId: "wateletric-production" };
+            firebase.initializeApp(firebaseConfig);
+            const db = firebase.firestore();
+
+            // Load real Firebase credentials dynamically for Auth
+            fetch('/api/firebase-config')
+                .then(res => res.json())
+                .then(config => {
+                    const isPlaceholder = config.apiKey.includes("ReplaceMe") || !config.apiKey;
+                    if (!isPlaceholder) {
+                        firebase.initializeApp(config);
+                        firebase.auth().onAuthStateChanged(user => {
+                            if (!user) {
+                                window.location.href = 'index.html';
+                            }
+                        });
+                    }
+                })
+                .catch(err => console.error("Error loading real firebase config", err));
+
+            // Initialize Chart.js Bar Chart
+            const ctx = document.getElementById('consumption-chart').getContext('2d');
+            const chartInstance = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: Array.from({length: 48}, (_, i) => {
+                        const h = Math.floor(i / 2);
+                        const m = i % 2 === 0 ? "00" : "30";
+                        return `${h.toString().padStart(2, '0')}:${m}`;
+                    }),
+                    datasets: [{
+                        label: 'Electricity (kWh)',
+                        data: [],
+                        backgroundColor: [],
+                        borderColor: '#8e0a1e',
+                        borderWidth: 0,
+                        borderRadius: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const val = context.parsed.y;
+                                    const index = context.dataIndex;
+                                    const isFuture = index * 0.5 > 14.0;
+                                    return `${val.toFixed(1)} kWh ${isFuture ? '(Forecast)' : ''}`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: { display: false },
+                        y: {
+                            beginAtZero: true,
+                            grid: { color: 'rgba(0, 0, 0, 0.04)' },
+                            ticks: { font: { family: 'JetBrains Mono', size: 9 } }
+                        }
+                    }
+                }
+            });
+
+            let unsubscribeSummary = null;
+            let unsubscribeIntervals = null;
+            let activeElectricityData = {};
+
+            function updateUI(day) {
+                dayLabel.innerText = day;
+                currentDay = day;
+
+                // Unsubscribe from previous observers
+                if (unsubscribeSummary) unsubscribeSummary();
+                if (unsubscribeIntervals) unsubscribeIntervals();
+
+                // 1. Observe Daily Summary Document
+                unsubscribeSummary = db.collection("daily_summaries")
+                  .doc(`day${day}_electricity`)
+                  .onSnapshot((doc) => {
+                      if (doc.exists) {
+                          const electricity = doc.data();
+                          activeElectricityData = electricity;
+                          estimatedBillVal.innerText = `RM ${electricity.estimated_bill_rm.toFixed(2)}`;
+                          dailyAvgVal.innerText = `${electricity.daily_avg_kwh.toFixed(2)} kWh`;
+
+                          const isSurge = electricity.surge_pct >= 0;
+                          surgePctVal.innerText = `${isSurge ? '+' : ''}${electricity.surge_pct}% vs Avg`;
+                          surgePctVal.className = `text-body-md font-bold ${isSurge ? 'text-primary' : 'text-secondary'}`;
+
+                          const progressWidth = Math.max(10, Math.min(100, 50 + electricity.surge_pct));
+                          surgeProgressBar.style.width = `${progressWidth}%`;
+                          if (isSurge) {
+                              surgeProgressBar.className = "bg-primary-container h-full transition-all duration-500";
+                          } else {
+                              surgeProgressBar.className = "bg-secondary h-full transition-all duration-500";
+                          }
+
+                          document.getElementById('next-2h-kwh').innerText = `${electricity.next_30m_prediction_kwh.toFixed(2)} kWh`;
+
+                          if (electricity.has_anomaly && electricity.anomaly_type !== 'occupancy_mismatch') {
+                              anomalyBadge.innerText = electricity.anomaly_type.toUpperCase().replace('_', ' ');
+                              anomalyBadge.classList.remove('hidden');
+                          } else {
+                              anomalyBadge.classList.add('hidden');
+                          }
+
+                          updateChatbot(day, electricity);
+                      }
+                  });
+
+                // 2. Observe Intervals Collection (Real-Time Chart Updates)
+                unsubscribeIntervals = db.collection("intervals")
+                  .where("day", "==", parseInt(day))
+                  .where("utility_type", "==", "electricity")
+                  .onSnapshot((snapshot) => {
+                      const values = [];
+                      const colors = [];
+                      
+                      snapshot.forEach((doc) => {
+                          const record = doc.data();
+                          values.push(record.value);
+                          
+                          const time = record.time;
+                          if (time > 14.0) {
+                              colors.push('rgba(142, 10, 30, 0.25)'); // forecast red
+                          } else if (time === 14.0) {
+                              colors.push('rgba(102, 0, 17, 1.0)'); // active primary
+                          } else {
+                              colors.push('rgba(142, 10, 30, 0.45)'); // history
+                          }
+                      });
+                      
+                      chartInstance.data.datasets[0].data = values;
+                      chartInstance.data.datasets[0].backgroundColor = colors;
+                      chartInstance.update();
+
+                      // Set live value (using current hour's value: time = 14.0)
+                      if (!window.realtimeInterval && values.length > 0) {
+                          liveConsumptionVal.innerText = (values[28] || values[values.length - 1]).toFixed(1);
+                      }
+                  });
+            }
+
+            function updateChatbot(day, electricity) {
+                chatMessages.innerHTML = '';
+                
+                let botMessage = '';
+                if (electricity.has_anomaly && electricity.anomaly_type !== 'occupancy_mismatch') {
+                    if (electricity.anomaly_type === 'electricity_spike') {
+                        botMessage = `⚠️ <b>ALERT: Unusual Consumption Spike on Day ${day}!</b><br><br>
+                        At 07:00 PM, electricity consumption spiked by over 40% compared to typical baseline. 
+                        This corresponds to heavy equipment usage and lighting during late-day operations. This anomaly will increase your monthly bill by approx <b>RM 128.00</b> if sustained.<br><br>
+                        Would you like me to adjust cooling setpoints or alert maintenance?`;
+                    }
+                } else {
+                    botMessage = `👋 Hello! I've analyzed your electricity usage.<br><br>
+                    Up to Day ${day}, you have consumed <b>${(electricity.actual_so_far_kwh || electricity.actual_so_far || 0.0).toFixed(1)} kWh</b>.<br><br>
+                    My XGBoost model projects a total of <b>${(electricity.projected_total_kwh || electricity.projected_total || 0.0).toFixed(1)} kWh</b> for the full 30 days, resulting in an estimated monthly bill of <b>RM ${(electricity.estimated_bill_rm || electricity.estimated_bill || 0.0).toFixed(2)}</b> (TNB Tariff D - Industrial).`;
+                }
+
+                addMessage('bot', botMessage);
+            }
+
+            function addMessage(sender, text) {
+                const bubble = document.createElement('div');
+                bubble.className = `flex flex-col gap-1 ${sender === 'user' ? 'items-end ml-auto' : 'items-start'} max-w-[85%]`;
+                
+                const time = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+                
+                const content = document.createElement('div');
+                content.className = sender === 'user' 
+                    ? 'bg-primary text-white p-3 rounded-2xl rounded-tr-none text-body-md shadow-sm'
+                    : 'bg-surface-container p-3 rounded-2xl rounded-tl-none text-body-md shadow-sm border border-outline-variant/15 text-on-surface';
+                content.innerHTML = text;
+
+                const timeLabel = document.createElement('span');
+                timeLabel.className = 'text-[9px] text-on-surface-variant mx-1';
+                timeLabel.innerText = time;
+
+                bubble.appendChild(content);
+                bubble.appendChild(timeLabel);
+                chatMessages.appendChild(bubble);
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }
+
+            // Events
+            slider.addEventListener('input', (e) => {
+                currentDay = e.target.value;
+                updateUI(currentDay);
+            });
+
+            sendBtn.addEventListener('click', () => {
+                const text = chatInput.value.trim();
+                if (text) {
+                    addMessage('user', text);
+                    chatInput.value = '';
+                    
+                    // Add Thinking... indicator
+                    const thinkingBubble = document.createElement('div');
+                    thinkingBubble.id = 'thinking-indicator';
+                    thinkingBubble.className = 'flex flex-col gap-1 items-start max-w-[85%] animate-pulse';
+                    const thinkingContent = document.createElement('div');
+                    thinkingContent.className = 'bg-surface-container p-3 rounded-2xl rounded-tl-none text-body-md shadow-sm border border-outline-variant/15 text-on-surface-variant italic';
+                    thinkingContent.innerText = 'Thinking...';
+                    thinkingBubble.appendChild(thinkingContent);
+                    chatMessages.appendChild(thinkingBubble);
+                    chatMessages.scrollTop = chatMessages.scrollHeight;
+                    
+                    // Call proxy API
+                    fetch('/api/chat', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            message: text,
+                            day: currentDay,
+                            waterData: window.billingData[currentDay] ? window.billingData[currentDay].water : activeElectricityData,
+                            electricityData: activeElectricityData
+                        })
+                    })
+                    .then(res => res.json())
+                    .then(data => {
+                        // Remove thinking indicator
+                        const indicator = document.getElementById('thinking-indicator');
+                        if (indicator) indicator.remove();
+                        
+                        // Render reply
+                        addMessage('bot', data.reply);
+                    })
+                    .catch(err => {
+                        const indicator = document.getElementById('thinking-indicator');
+                        if (indicator) indicator.remove();
+                        addMessage('bot', 'Error: Could not connect to Utility Assistant. Ensure the backend server is running.');
+                    });
+                }
+            });
+
+            chatInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    sendBtn.click();
+                }
+            });
+
+            // Initial UI load
+            updateUI(currentDay);
+
+            // Simulating slight fluctuations in the live consumption
+            setInterval(() => {
+                if (window.realtimeInterval) return; // Don't fluctuate if realtime feed is running
+                const liveVal = document.getElementById('live-consumption-val');
+                if (liveVal && activeElectricityData && activeElectricityData.intervals) {
+                    const currentVal = parseFloat(liveVal.innerText);
+                    const randomFlux = (Math.random() * 0.4 - 0.2).toFixed(1);
+                    const newVal = (currentVal + parseFloat(randomFlux)).toFixed(1);
+                    // keep it within a reasonable range of the historical 2:00 PM interval
+                    const base2PMVal = activeElectricityData.intervals.find(i => i.time === 14.0).value;
+                    if (newVal > base2PMVal - 5 && newVal < base2PMVal + 5) {
+                        liveVal.innerText = newVal;
+                    }
+                }
+            }, 3000);
+
+            // Real-time sensor logic
+            const realtimeBtn = document.getElementById('start-realtime-btn');
+            window.realtimeInterval = null;
+            let runtimeData = [];
+            
+            realtimeBtn.addEventListener('click', () => {
+                if (window.realtimeInterval) {
+                    clearInterval(window.realtimeInterval);
+                    window.realtimeInterval = null;
+                    realtimeBtn.innerHTML = '<span class="material-symbols-outlined text-sm">play_circle</span> Start Simulation';
+                    updateUI(currentDay); // Reset back to daily view
+                    return;
+                }
+                
+                realtimeBtn.innerHTML = '<span class="material-symbols-outlined text-sm">stop_circle</span> Stop Simulation';
+                
+                // Fetch intervals array from mock local memory
+                runtimeData = window.billingData["1"].electricity.intervals;
+                startDataStream();
+            });
+
+            function startDataStream() {
+                let currentIndex = 0;
+                let hasAlerted = false;
+                window.simulatedIntervals = [];
+                anomalyBadge.classList.add('hidden');
+                
+                window.realtimeInterval = setInterval(() => {
+                    if (currentIndex >= runtimeData.length) {
+                        clearInterval(window.realtimeInterval);
+                        window.realtimeInterval = null;
+                        realtimeBtn.innerHTML = '<span class="material-symbols-outlined text-sm">play_circle</span> Start Simulation';
+                        return;
+                    }
+                    
+                    const point = runtimeData[currentIndex];
+                    liveConsumptionVal.innerText = point.electricity_kwh.toFixed(1);
+                    
+                    // Add point to simulated database array
+                    window.simulatedIntervals.push({
+                        time: point.time,
+                        time_str: point.time_str,
+                        value: point.electricity_kwh,
+                        predicted: point.predicted,
+                        anomaly: point.anomaly
+                    });
+                    
+                    // Dispatch update event for firebase-mock
+                    window.dispatchEvent(new CustomEvent("firestore-update"));
+                    
+                    // Check for anomaly
+                    if (point.anomaly && !hasAlerted) {
+                        anomalyBadge.innerText = "SPIKE DETECTED";
+                        anomalyBadge.classList.remove('hidden');
+                        hasAlerted = true;
+                        
+                        addMessage('bot', `⚠️ <b>ALERT: Unusual Consumption Spike!</b><br><br>
+                        At ${point.time_str}, electricity consumption spiked abnormally. 
+                        This corresponds to high cooling load (HVAC system) or abnormal equipment use. This anomaly will increase your monthly bill if sustained.<br><br>
+                        Would you like me to adjust cooling setpoints?`);
+
+                        // Trigger Telegram Alert on backend
+                        fetch('/api/trigger-alert', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({
+                                utility: 'electricity',
+                                anomaly_type: 'electricity_spike',
+                                time: point.time_str,
+                                value: point.electricity_kwh
+                            })
+                        }).catch(err => console.error("Failed to trigger Telegram alert", err));
+                    } else if (!point.anomaly) {
+                        anomalyBadge.classList.add('hidden');
+                        hasAlerted = false;
+                    }
+                    
+                    currentIndex++;
+                }, 1000);
+            }
+        });
+    </script>
+</body>
+</html>

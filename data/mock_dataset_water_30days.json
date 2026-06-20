@@ -1,0 +1,10152 @@
+[
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "00:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "00:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "01:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "01:30",
+    "water_liters": 2.5,
+    "occupancy": 2
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "02:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "03:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "03:30",
+    "water_liters": 2.8,
+    "occupancy": 2
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "04:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "04:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "06:00",
+    "water_liters": 0.4,
+    "occupancy": 1
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "06:30",
+    "water_liters": 6.4,
+    "occupancy": 2
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "07:00",
+    "water_liters": 28.9,
+    "occupancy": 15
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "07:30",
+    "water_liters": 20.9,
+    "occupancy": 12
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "08:00",
+    "water_liters": 73.0,
+    "occupancy": 43
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "08:30",
+    "water_liters": 70.2,
+    "occupancy": 37
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "09:00",
+    "water_liters": 62.6,
+    "occupancy": 34
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "09:30",
+    "water_liters": 69.0,
+    "occupancy": 40
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "10:00",
+    "water_liters": 70.2,
+    "occupancy": 45
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "10:30",
+    "water_liters": 78.9,
+    "occupancy": 49
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "11:00",
+    "water_liters": 80.0,
+    "occupancy": 50
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "11:30",
+    "water_liters": 75.1,
+    "occupancy": 44
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "12:00",
+    "water_liters": 137.7,
+    "occupancy": 48
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "12:30",
+    "water_liters": 136.2,
+    "occupancy": 49
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "13:00",
+    "water_liters": 135.3,
+    "occupancy": 50
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "13:30",
+    "water_liters": 141.6,
+    "occupancy": 50
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "14:00",
+    "water_liters": 78.9,
+    "occupancy": 50
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "14:30",
+    "water_liters": 81.1,
+    "occupancy": 48
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "15:00",
+    "water_liters": 75.0,
+    "occupancy": 44
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "15:30",
+    "water_liters": 80.6,
+    "occupancy": 50
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "16:00",
+    "water_liters": 82.3,
+    "occupancy": 50
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "16:30",
+    "water_liters": 70.7,
+    "occupancy": 43
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "17:00",
+    "water_liters": 37.0,
+    "occupancy": 23
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "17:30",
+    "water_liters": 48.0,
+    "occupancy": 27
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "18:00",
+    "water_liters": 41.0,
+    "occupancy": 25
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "18:30",
+    "water_liters": 29.5,
+    "occupancy": 18
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "19:00",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "19:30",
+    "water_liters": 9.7,
+    "occupancy": 6
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "20:00",
+    "water_liters": 5.0,
+    "occupancy": 1
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "20:30",
+    "water_liters": 8.8,
+    "occupancy": 3
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "21:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "21:30",
+    "water_liters": 1.1,
+    "occupancy": 3
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "22:00",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "22:30",
+    "water_liters": 2.5,
+    "occupancy": 2
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "23:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 1,
+    "day_of_week": "Mon",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "00:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "00:30",
+    "water_liters": 0.7,
+    "occupancy": 2
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "01:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "01:30",
+    "water_liters": 4.0,
+    "occupancy": 2
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "02:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "03:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "03:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "04:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "04:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "05:00",
+    "water_liters": 0.6,
+    "occupancy": 2
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "06:00",
+    "water_liters": 0.7,
+    "occupancy": 1
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "06:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "07:00",
+    "water_liters": 12.7,
+    "occupancy": 10
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "07:30",
+    "water_liters": 16.7,
+    "occupancy": 12
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "08:00",
+    "water_liters": 64.2,
+    "occupancy": 35
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "08:30",
+    "water_liters": 82.8,
+    "occupancy": 45
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "09:00",
+    "water_liters": 51.9,
+    "occupancy": 28
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "09:30",
+    "water_liters": 59.5,
+    "occupancy": 36
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "10:00",
+    "water_liters": 67.5,
+    "occupancy": 46
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "10:30",
+    "water_liters": 78.4,
+    "occupancy": 48
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "11:00",
+    "water_liters": 77.8,
+    "occupancy": 48
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "11:30",
+    "water_liters": 76.7,
+    "occupancy": 50
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "12:00",
+    "water_liters": 121.5,
+    "occupancy": 47
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "12:30",
+    "water_liters": 120.2,
+    "occupancy": 45
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "13:00",
+    "water_liters": 128.5,
+    "occupancy": 48
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "13:30",
+    "water_liters": 119.5,
+    "occupancy": 44
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "14:00",
+    "water_liters": 77.8,
+    "occupancy": 47
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "14:30",
+    "water_liters": 76.7,
+    "occupancy": 48
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "15:00",
+    "water_liters": 76.9,
+    "occupancy": 50
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "15:30",
+    "water_liters": 70.6,
+    "occupancy": 46
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "16:00",
+    "water_liters": 77.0,
+    "occupancy": 48
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "16:30",
+    "water_liters": 79.8,
+    "occupancy": 48
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "17:00",
+    "water_liters": 25.8,
+    "occupancy": 16
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "17:30",
+    "water_liters": 25.2,
+    "occupancy": 16
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "18:00",
+    "water_liters": 33.6,
+    "occupancy": 19
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "18:30",
+    "water_liters": 44.2,
+    "occupancy": 26
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "19:00",
+    "water_liters": 12.5,
+    "occupancy": 6
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "19:30",
+    "water_liters": 10.0,
+    "occupancy": 6
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "20:00",
+    "water_liters": 9.0,
+    "occupancy": 8
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "20:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "21:00",
+    "water_liters": 0.3,
+    "occupancy": 2
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "21:30",
+    "water_liters": 9.8,
+    "occupancy": 4
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "22:00",
+    "water_liters": 7.1,
+    "occupancy": 2
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "22:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "23:00",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 2,
+    "day_of_week": "Tue",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "00:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "00:30",
+    "water_liters": 3.9,
+    "occupancy": 2
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "01:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "01:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "02:00",
+    "water_liters": 21.2,
+    "occupancy": 0,
+    "anomaly": true,
+    "anomaly_type": "water_leak"
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "02:30",
+    "water_liters": 22.9,
+    "occupancy": 0,
+    "anomaly": true,
+    "anomaly_type": "water_leak"
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "03:00",
+    "water_liters": 21.7,
+    "occupancy": 0,
+    "anomaly": true,
+    "anomaly_type": "water_leak"
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "03:30",
+    "water_liters": 22.8,
+    "occupancy": 0,
+    "anomaly": true,
+    "anomaly_type": "water_leak"
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "04:00",
+    "water_liters": 2.3,
+    "occupancy": 2
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "04:30",
+    "water_liters": 7.6,
+    "occupancy": 2
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "06:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "06:30",
+    "water_liters": 8.6,
+    "occupancy": 3
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "07:00",
+    "water_liters": 20.0,
+    "occupancy": 11
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "07:30",
+    "water_liters": 15.1,
+    "occupancy": 11
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "08:00",
+    "water_liters": 82.2,
+    "occupancy": 44
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "08:30",
+    "water_liters": 61.6,
+    "occupancy": 36
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "09:00",
+    "water_liters": 76.7,
+    "occupancy": 40
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "09:30",
+    "water_liters": 67.3,
+    "occupancy": 38
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "10:00",
+    "water_liters": 76.2,
+    "occupancy": 49
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "10:30",
+    "water_liters": 80.2,
+    "occupancy": 46
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "11:00",
+    "water_liters": 68.7,
+    "occupancy": 43
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "11:30",
+    "water_liters": 78.6,
+    "occupancy": 48
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "12:00",
+    "water_liters": 134.3,
+    "occupancy": 50
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "12:30",
+    "water_liters": 131.0,
+    "occupancy": 46
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "13:00",
+    "water_liters": 131.8,
+    "occupancy": 49
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "13:30",
+    "water_liters": 140.7,
+    "occupancy": 50
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "14:00",
+    "water_liters": 75.3,
+    "occupancy": 45
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "14:30",
+    "water_liters": 79.0,
+    "occupancy": 48
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "15:00",
+    "water_liters": 75.6,
+    "occupancy": 47
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "15:30",
+    "water_liters": 78.1,
+    "occupancy": 49
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "16:00",
+    "water_liters": 73.9,
+    "occupancy": 47
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "16:30",
+    "water_liters": 81.4,
+    "occupancy": 50
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "17:00",
+    "water_liters": 48.8,
+    "occupancy": 28
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "17:30",
+    "water_liters": 31.1,
+    "occupancy": 18
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "18:00",
+    "water_liters": 60.2,
+    "occupancy": 34
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "18:30",
+    "water_liters": 32.9,
+    "occupancy": 22
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "19:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "19:30",
+    "water_liters": 10.4,
+    "occupancy": 9
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "20:00",
+    "water_liters": 15.1,
+    "occupancy": 8
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "20:30",
+    "water_liters": 14.7,
+    "occupancy": 8
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "21:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "21:30",
+    "water_liters": 5.3,
+    "occupancy": 2
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "22:00",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "22:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "23:00",
+    "water_liters": 6.6,
+    "occupancy": 1
+  },
+  {
+    "day": 3,
+    "day_of_week": "Wed",
+    "time": "23:30",
+    "water_liters": 5.9,
+    "occupancy": 2
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "00:00",
+    "water_liters": 7.2,
+    "occupancy": 2
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "00:30",
+    "water_liters": 4.0,
+    "occupancy": 1
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "01:00",
+    "water_liters": 4.1,
+    "occupancy": 1
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "01:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "02:00",
+    "water_liters": 0.6,
+    "occupancy": 2
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "03:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "03:30",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "04:00",
+    "water_liters": 3.6,
+    "occupancy": 1
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "04:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "05:30",
+    "water_liters": 4.9,
+    "occupancy": 1
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "06:00",
+    "water_liters": 3.2,
+    "occupancy": 5
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "06:30",
+    "water_liters": 4.9,
+    "occupancy": 4
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "07:00",
+    "water_liters": 24.5,
+    "occupancy": 14
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "07:30",
+    "water_liters": 18.4,
+    "occupancy": 12
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "08:00",
+    "water_liters": 55.8,
+    "occupancy": 31
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "08:30",
+    "water_liters": 75.7,
+    "occupancy": 41
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "09:00",
+    "water_liters": 86.1,
+    "occupancy": 50
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "09:30",
+    "water_liters": 79.5,
+    "occupancy": 46
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "10:00",
+    "water_liters": 73.3,
+    "occupancy": 47
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "10:30",
+    "water_liters": 77.1,
+    "occupancy": 47
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "11:00",
+    "water_liters": 79.4,
+    "occupancy": 48
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "11:30",
+    "water_liters": 73.8,
+    "occupancy": 45
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "12:00",
+    "water_liters": 117.0,
+    "occupancy": 45
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "12:30",
+    "water_liters": 133.8,
+    "occupancy": 48
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "13:00",
+    "water_liters": 116.0,
+    "occupancy": 44
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "13:30",
+    "water_liters": 121.2,
+    "occupancy": 46
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "14:00",
+    "water_liters": 76.0,
+    "occupancy": 50
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "14:30",
+    "water_liters": 71.2,
+    "occupancy": 47
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "15:00",
+    "water_liters": 75.6,
+    "occupancy": 45
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "15:30",
+    "water_liters": 81.4,
+    "occupancy": 50
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "16:00",
+    "water_liters": 75.8,
+    "occupancy": 47
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "16:30",
+    "water_liters": 72.3,
+    "occupancy": 45
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "17:00",
+    "water_liters": 30.2,
+    "occupancy": 20
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "17:30",
+    "water_liters": 45.9,
+    "occupancy": 28
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "18:00",
+    "water_liters": 21.5,
+    "occupancy": 16
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "18:30",
+    "water_liters": 42.2,
+    "occupancy": 27
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "19:00",
+    "water_liters": 16.8,
+    "occupancy": 8
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "19:30",
+    "water_liters": 15.0,
+    "occupancy": 8
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "20:00",
+    "water_liters": 9.6,
+    "occupancy": 4
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "20:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "21:00",
+    "water_liters": 13.1,
+    "occupancy": 9
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "21:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "22:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "22:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "23:00",
+    "water_liters": 1.0,
+    "occupancy": 2
+  },
+  {
+    "day": 4,
+    "day_of_week": "Thu",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "00:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "00:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "01:00",
+    "water_liters": 1.4,
+    "occupancy": 1
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "01:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "02:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "03:00",
+    "water_liters": 3.6,
+    "occupancy": 2
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "03:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "04:00",
+    "water_liters": 5.0,
+    "occupancy": 2
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "04:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "06:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "06:30",
+    "water_liters": 9.1,
+    "occupancy": 3
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "07:00",
+    "water_liters": 13.3,
+    "occupancy": 10
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "07:30",
+    "water_liters": 18.7,
+    "occupancy": 11
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "08:00",
+    "water_liters": 52.6,
+    "occupancy": 34
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "08:30",
+    "water_liters": 66.0,
+    "occupancy": 38
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "09:00",
+    "water_liters": 51.6,
+    "occupancy": 31
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "09:30",
+    "water_liters": 69.3,
+    "occupancy": 44
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "10:00",
+    "water_liters": 69.0,
+    "occupancy": 46
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "10:30",
+    "water_liters": 67.2,
+    "occupancy": 47
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "11:00",
+    "water_liters": 69.1,
+    "occupancy": 48
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "11:30",
+    "water_liters": 66.1,
+    "occupancy": 44
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "12:00",
+    "water_liters": 129.5,
+    "occupancy": 50
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "12:30",
+    "water_liters": 127.5,
+    "occupancy": 49
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "13:00",
+    "water_liters": 119.9,
+    "occupancy": 48
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "13:30",
+    "water_liters": 121.3,
+    "occupancy": 48
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "14:00",
+    "water_liters": 66.7,
+    "occupancy": 46
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "14:30",
+    "water_liters": 68.3,
+    "occupancy": 48
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "15:00",
+    "water_liters": 71.6,
+    "occupancy": 50
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "15:30",
+    "water_liters": 71.0,
+    "occupancy": 47
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "16:00",
+    "water_liters": 77.3,
+    "occupancy": 49
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "16:30",
+    "water_liters": 80.2,
+    "occupancy": 50
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "17:00",
+    "water_liters": 40.9,
+    "occupancy": 26
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "17:30",
+    "water_liters": 30.3,
+    "occupancy": 22
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "18:00",
+    "water_liters": 40.2,
+    "occupancy": 26
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "18:30",
+    "water_liters": 39.8,
+    "occupancy": 25
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "19:00",
+    "water_liters": 9.1,
+    "occupancy": 6
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "19:30",
+    "water_liters": 3.9,
+    "occupancy": 3
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "20:00",
+    "water_liters": 6.8,
+    "occupancy": 7
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "20:30",
+    "water_liters": 13.7,
+    "occupancy": 12
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "21:00",
+    "water_liters": 17.7,
+    "occupancy": 10
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "21:30",
+    "water_liters": 4.0,
+    "occupancy": 3
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "22:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "22:30",
+    "water_liters": 6.0,
+    "occupancy": 2
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "23:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 5,
+    "day_of_week": "Fri",
+    "time": "23:30",
+    "water_liters": 3.1,
+    "occupancy": 1
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "00:00",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "00:30",
+    "water_liters": 2.2,
+    "occupancy": 1
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "01:00",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "01:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "02:00",
+    "water_liters": 5.1,
+    "occupancy": 1
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "03:00",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "03:30",
+    "water_liters": 6.1,
+    "occupancy": 2
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "04:00",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "04:30",
+    "water_liters": 1.1,
+    "occupancy": 2
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "05:00",
+    "water_liters": 6.7,
+    "occupancy": 1
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "05:30",
+    "water_liters": 5.6,
+    "occupancy": 2
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "06:00",
+    "water_liters": 2.4,
+    "occupancy": 2
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "06:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "07:00",
+    "water_liters": 5.7,
+    "occupancy": 2
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "07:30",
+    "water_liters": 11.8,
+    "occupancy": 4
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "08:00",
+    "water_liters": 21.1,
+    "occupancy": 12
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "08:30",
+    "water_liters": 25.9,
+    "occupancy": 16
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "09:00",
+    "water_liters": 20.5,
+    "occupancy": 9
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "09:30",
+    "water_liters": 20.8,
+    "occupancy": 14
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "10:00",
+    "water_liters": 26.2,
+    "occupancy": 15
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "10:30",
+    "water_liters": 26.5,
+    "occupancy": 16
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "11:00",
+    "water_liters": 26.5,
+    "occupancy": 14
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "11:30",
+    "water_liters": 29.3,
+    "occupancy": 15
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "12:00",
+    "water_liters": 37.4,
+    "occupancy": 14
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "12:30",
+    "water_liters": 34.2,
+    "occupancy": 12
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "13:00",
+    "water_liters": 46.2,
+    "occupancy": 15
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "13:30",
+    "water_liters": 35.4,
+    "occupancy": 14
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "14:00",
+    "water_liters": 22.8,
+    "occupancy": 16
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "14:30",
+    "water_liters": 19.8,
+    "occupancy": 12
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "15:00",
+    "water_liters": 25.3,
+    "occupancy": 14
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "15:30",
+    "water_liters": 23.6,
+    "occupancy": 11
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "16:00",
+    "water_liters": 28.6,
+    "occupancy": 16
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "16:30",
+    "water_liters": 25.1,
+    "occupancy": 16
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "17:00",
+    "water_liters": 14.0,
+    "occupancy": 11
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "17:30",
+    "water_liters": 19.5,
+    "occupancy": 10
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "18:00",
+    "water_liters": 12.3,
+    "occupancy": 6
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "18:30",
+    "water_liters": 8.0,
+    "occupancy": 6
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "19:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "19:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "20:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "20:30",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "21:00",
+    "water_liters": 2.6,
+    "occupancy": 1
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "21:30",
+    "water_liters": 6.8,
+    "occupancy": 3
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "22:00",
+    "water_liters": 3.6,
+    "occupancy": 1
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "22:30",
+    "water_liters": 6.8,
+    "occupancy": 1
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "23:00",
+    "water_liters": 1.2,
+    "occupancy": 1
+  },
+  {
+    "day": 6,
+    "day_of_week": "Sat",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "00:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "00:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "01:00",
+    "water_liters": 2.2,
+    "occupancy": 1
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "01:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "02:00",
+    "water_liters": 5.5,
+    "occupancy": 1
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "03:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "03:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "04:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "04:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "05:00",
+    "water_liters": 0.2,
+    "occupancy": 1
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "06:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "06:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "07:00",
+    "water_liters": 5.6,
+    "occupancy": 5
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "07:30",
+    "water_liters": 9.0,
+    "occupancy": 3
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "08:00",
+    "water_liters": 18.6,
+    "occupancy": 11
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "08:30",
+    "water_liters": 11.1,
+    "occupancy": 8
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "09:00",
+    "water_liters": 26.9,
+    "occupancy": 14
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "09:30",
+    "water_liters": 15.0,
+    "occupancy": 9
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "10:00",
+    "water_liters": 26.6,
+    "occupancy": 15
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "10:30",
+    "water_liters": 18.5,
+    "occupancy": 12
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "11:00",
+    "water_liters": 26.1,
+    "occupancy": 16
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "11:30",
+    "water_liters": 20.0,
+    "occupancy": 13
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "12:00",
+    "water_liters": 36.1,
+    "occupancy": 15
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "12:30",
+    "water_liters": 29.2,
+    "occupancy": 11
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "13:00",
+    "water_liters": 28.3,
+    "occupancy": 12
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "13:30",
+    "water_liters": 39.6,
+    "occupancy": 14
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "14:00",
+    "water_liters": 25.7,
+    "occupancy": 15
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "14:30",
+    "water_liters": 19.9,
+    "occupancy": 12
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "15:00",
+    "water_liters": 16.0,
+    "occupancy": 12
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "15:30",
+    "water_liters": 16.4,
+    "occupancy": 13
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "16:00",
+    "water_liters": 28.1,
+    "occupancy": 15
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "16:30",
+    "water_liters": 15.7,
+    "occupancy": 12
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "17:00",
+    "water_liters": 6.6,
+    "occupancy": 6
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "17:30",
+    "water_liters": 14.4,
+    "occupancy": 12
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "18:00",
+    "water_liters": 12.2,
+    "occupancy": 6
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "18:30",
+    "water_liters": 6.8,
+    "occupancy": 4
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "19:00",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "19:30",
+    "water_liters": 6.6,
+    "occupancy": 2
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "20:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "20:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "21:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "21:30",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "22:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "22:30",
+    "water_liters": 4.0,
+    "occupancy": 1
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "23:00",
+    "water_liters": 0.2,
+    "occupancy": 1
+  },
+  {
+    "day": 7,
+    "day_of_week": "Sun",
+    "time": "23:30",
+    "water_liters": 3.2,
+    "occupancy": 2
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "00:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "00:30",
+    "water_liters": 5.0,
+    "occupancy": 2
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "01:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "01:30",
+    "water_liters": 0.9,
+    "occupancy": 1
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "02:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "03:00",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "03:30",
+    "water_liters": 3.9,
+    "occupancy": 2
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "04:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "04:30",
+    "water_liters": 2.9,
+    "occupancy": 2
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "05:00",
+    "water_liters": 6.6,
+    "occupancy": 2
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "06:00",
+    "water_liters": 0.5,
+    "occupancy": 2
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "06:30",
+    "water_liters": 7.6,
+    "occupancy": 3
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "07:00",
+    "water_liters": 19.7,
+    "occupancy": 13
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "07:30",
+    "water_liters": 24.1,
+    "occupancy": 12
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "08:00",
+    "water_liters": 64.8,
+    "occupancy": 33
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "08:30",
+    "water_liters": 72.8,
+    "occupancy": 36
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "09:00",
+    "water_liters": 87.7,
+    "occupancy": 47
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "09:30",
+    "water_liters": 78.4,
+    "occupancy": 41
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "10:00",
+    "water_liters": 74.1,
+    "occupancy": 45
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "10:30",
+    "water_liters": 81.5,
+    "occupancy": 50
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "11:00",
+    "water_liters": 81.6,
+    "occupancy": 49
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "11:30",
+    "water_liters": 85.6,
+    "occupancy": 47
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "12:00",
+    "water_liters": 146.3,
+    "occupancy": 50
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "12:30",
+    "water_liters": 140.3,
+    "occupancy": 49
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "13:00",
+    "water_liters": 133.5,
+    "occupancy": 47
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "13:30",
+    "water_liters": 135.3,
+    "occupancy": 48
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "14:00",
+    "water_liters": 82.6,
+    "occupancy": 48
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "14:30",
+    "water_liters": 80.3,
+    "occupancy": 49
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "15:00",
+    "water_liters": 81.3,
+    "occupancy": 47
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "15:30",
+    "water_liters": 76.4,
+    "occupancy": 43
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "16:00",
+    "water_liters": 75.4,
+    "occupancy": 43
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "16:30",
+    "water_liters": 83.3,
+    "occupancy": 50
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "17:00",
+    "water_liters": 45.5,
+    "occupancy": 29
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "17:30",
+    "water_liters": 56.2,
+    "occupancy": 34
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "18:00",
+    "water_liters": 34.7,
+    "occupancy": 23
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "18:30",
+    "water_liters": 38.9,
+    "occupancy": 21
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "19:00",
+    "water_liters": 1.6,
+    "occupancy": 4
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "19:30",
+    "water_liters": 8.9,
+    "occupancy": 5
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "20:00",
+    "water_liters": 10.4,
+    "occupancy": 5
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "20:30",
+    "water_liters": 7.7,
+    "occupancy": 3
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "21:00",
+    "water_liters": 2.3,
+    "occupancy": 4
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "21:30",
+    "water_liters": 11.0,
+    "occupancy": 7
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "22:00",
+    "water_liters": 0.7,
+    "occupancy": 1
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "22:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "23:00",
+    "water_liters": 5.5,
+    "occupancy": 2
+  },
+  {
+    "day": 8,
+    "day_of_week": "Mon",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "00:00",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "00:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "01:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "01:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "02:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "03:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "03:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "04:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "04:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "05:30",
+    "water_liters": 2.4,
+    "occupancy": 1
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "06:00",
+    "water_liters": 13.6,
+    "occupancy": 5
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "06:30",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "07:00",
+    "water_liters": 22.9,
+    "occupancy": 13
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "07:30",
+    "water_liters": 23.2,
+    "occupancy": 14
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "08:00",
+    "water_liters": 51.6,
+    "occupancy": 29
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "08:30",
+    "water_liters": 89.2,
+    "occupancy": 48
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "09:00",
+    "water_liters": 88.5,
+    "occupancy": 46
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "09:30",
+    "water_liters": 60.2,
+    "occupancy": 32
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "10:00",
+    "water_liters": 77.7,
+    "occupancy": 0,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "10:30",
+    "water_liters": 81.2,
+    "occupancy": 5,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "11:00",
+    "water_liters": 74.5,
+    "occupancy": 5,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "11:30",
+    "water_liters": 83.9,
+    "occupancy": 2,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "12:00",
+    "water_liters": 137.8,
+    "occupancy": 5,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "12:30",
+    "water_liters": 136.4,
+    "occupancy": 0,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "13:00",
+    "water_liters": 127.9,
+    "occupancy": 2,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "13:30",
+    "water_liters": 141.7,
+    "occupancy": 4,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "14:00",
+    "water_liters": 80.7,
+    "occupancy": 5,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "14:30",
+    "water_liters": 86.6,
+    "occupancy": 0,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "15:00",
+    "water_liters": 85.8,
+    "occupancy": 49
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "15:30",
+    "water_liters": 82.8,
+    "occupancy": 48
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "16:00",
+    "water_liters": 80.7,
+    "occupancy": 49
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "16:30",
+    "water_liters": 77.5,
+    "occupancy": 46
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "17:00",
+    "water_liters": 33.3,
+    "occupancy": 21
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "17:30",
+    "water_liters": 37.3,
+    "occupancy": 20
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "18:00",
+    "water_liters": 52.9,
+    "occupancy": 29
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "18:30",
+    "water_liters": 52.1,
+    "occupancy": 33
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "19:00",
+    "water_liters": 3.2,
+    "occupancy": 4
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "19:30",
+    "water_liters": 10.3,
+    "occupancy": 5
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "20:00",
+    "water_liters": 9.4,
+    "occupancy": 4
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "20:30",
+    "water_liters": 8.1,
+    "occupancy": 6
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "21:00",
+    "water_liters": 14.8,
+    "occupancy": 6
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "21:30",
+    "water_liters": 16.4,
+    "occupancy": 8
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "22:00",
+    "water_liters": 8.3,
+    "occupancy": 2
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "22:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "23:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 9,
+    "day_of_week": "Tue",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "00:00",
+    "water_liters": 5.6,
+    "occupancy": 2
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "00:30",
+    "water_liters": 1.1,
+    "occupancy": 2
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "01:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "01:30",
+    "water_liters": 2.7,
+    "occupancy": 2
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "02:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "03:00",
+    "water_liters": 1.7,
+    "occupancy": 1
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "03:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "04:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "04:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "06:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "06:30",
+    "water_liters": 3.1,
+    "occupancy": 2
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "07:00",
+    "water_liters": 10.6,
+    "occupancy": 8
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "07:30",
+    "water_liters": 23.2,
+    "occupancy": 13
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "08:00",
+    "water_liters": 73.7,
+    "occupancy": 41
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "08:30",
+    "water_liters": 59.3,
+    "occupancy": 31
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "09:00",
+    "water_liters": 96.8,
+    "occupancy": 50
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "09:30",
+    "water_liters": 89.1,
+    "occupancy": 47
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "10:00",
+    "water_liters": 79.2,
+    "occupancy": 48
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "10:30",
+    "water_liters": 80.5,
+    "occupancy": 47
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "11:00",
+    "water_liters": 73.1,
+    "occupancy": 44
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "11:30",
+    "water_liters": 90.0,
+    "occupancy": 50
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "12:00",
+    "water_liters": 135.2,
+    "occupancy": 47
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "12:30",
+    "water_liters": 141.5,
+    "occupancy": 50
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "13:00",
+    "water_liters": 128.1,
+    "occupancy": 45
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "13:30",
+    "water_liters": 140.9,
+    "occupancy": 48
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "14:00",
+    "water_liters": 78.5,
+    "occupancy": 46
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "14:30",
+    "water_liters": 85.1,
+    "occupancy": 49
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "15:00",
+    "water_liters": 88.1,
+    "occupancy": 50
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "15:30",
+    "water_liters": 74.8,
+    "occupancy": 46
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "16:00",
+    "water_liters": 72.6,
+    "occupancy": 44
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "16:30",
+    "water_liters": 79.9,
+    "occupancy": 50
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "17:00",
+    "water_liters": 61.5,
+    "occupancy": 34
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "17:30",
+    "water_liters": 30.3,
+    "occupancy": 16
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "18:00",
+    "water_liters": 53.4,
+    "occupancy": 29
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "18:30",
+    "water_liters": 45.7,
+    "occupancy": 27
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "19:00",
+    "water_liters": 12.1,
+    "occupancy": 7
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "19:30",
+    "water_liters": 4.5,
+    "occupancy": 2
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "20:00",
+    "water_liters": 2.6,
+    "occupancy": 4
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "20:30",
+    "water_liters": 9.6,
+    "occupancy": 5
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "21:00",
+    "water_liters": 6.9,
+    "occupancy": 5
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "21:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "22:00",
+    "water_liters": 6.8,
+    "occupancy": 1
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "22:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "23:00",
+    "water_liters": 4.9,
+    "occupancy": 1
+  },
+  {
+    "day": 10,
+    "day_of_week": "Wed",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "00:00",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "00:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "01:00",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "01:30",
+    "water_liters": 0.3,
+    "occupancy": 1
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "02:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "02:30",
+    "water_liters": 1.3,
+    "occupancy": 2
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "03:00",
+    "water_liters": 20.9,
+    "occupancy": 0,
+    "anomaly": true,
+    "anomaly_type": "water_leak"
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "03:30",
+    "water_liters": 23.1,
+    "occupancy": 0,
+    "anomaly": true,
+    "anomaly_type": "water_leak"
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "04:00",
+    "water_liters": 5.6,
+    "occupancy": 2
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "04:30",
+    "water_liters": 2.6,
+    "occupancy": 1
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "06:00",
+    "water_liters": 5.9,
+    "occupancy": 1
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "06:30",
+    "water_liters": 3.5,
+    "occupancy": 2
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "07:00",
+    "water_liters": 20.1,
+    "occupancy": 12
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "07:30",
+    "water_liters": 13.0,
+    "occupancy": 11
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "08:00",
+    "water_liters": 58.0,
+    "occupancy": 35
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "08:30",
+    "water_liters": 71.0,
+    "occupancy": 43
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "09:00",
+    "water_liters": 72.4,
+    "occupancy": 46
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "09:30",
+    "water_liters": 68.4,
+    "occupancy": 40
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "10:00",
+    "water_liters": 78.5,
+    "occupancy": 50
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "10:30",
+    "water_liters": 67.7,
+    "occupancy": 44
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "11:00",
+    "water_liters": 72.5,
+    "occupancy": 49
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "11:30",
+    "water_liters": 79.8,
+    "occupancy": 50
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "12:00",
+    "water_liters": 124.0,
+    "occupancy": 50
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "12:30",
+    "water_liters": 117.4,
+    "occupancy": 47
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "13:00",
+    "water_liters": 122.1,
+    "occupancy": 46
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "13:30",
+    "water_liters": 116.7,
+    "occupancy": 45
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "14:00",
+    "water_liters": 72.1,
+    "occupancy": 49
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "14:30",
+    "water_liters": 67.8,
+    "occupancy": 47
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "15:00",
+    "water_liters": 73.6,
+    "occupancy": 48
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "15:30",
+    "water_liters": 74.5,
+    "occupancy": 49
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "16:00",
+    "water_liters": 66.2,
+    "occupancy": 43
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "16:30",
+    "water_liters": 76.4,
+    "occupancy": 49
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "17:00",
+    "water_liters": 45.2,
+    "occupancy": 30
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "17:30",
+    "water_liters": 60.1,
+    "occupancy": 37
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "18:00",
+    "water_liters": 45.5,
+    "occupancy": 29
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "18:30",
+    "water_liters": 33.6,
+    "occupancy": 25
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "19:00",
+    "water_liters": 9.3,
+    "occupancy": 8
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "19:30",
+    "water_liters": 14.1,
+    "occupancy": 8
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "20:00",
+    "water_liters": 7.8,
+    "occupancy": 6
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "20:30",
+    "water_liters": 8.7,
+    "occupancy": 6
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "21:00",
+    "water_liters": 3.7,
+    "occupancy": 5
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "21:30",
+    "water_liters": 6.8,
+    "occupancy": 5
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "22:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "22:30",
+    "water_liters": 0.1,
+    "occupancy": 2
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "23:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 11,
+    "day_of_week": "Thu",
+    "time": "23:30",
+    "water_liters": 6.6,
+    "occupancy": 2
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "00:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "00:30",
+    "water_liters": 0.6,
+    "occupancy": 2
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "01:00",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "01:30",
+    "water_liters": 5.0,
+    "occupancy": 1
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "02:00",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "03:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "03:30",
+    "water_liters": 0.6,
+    "occupancy": 1
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "04:00",
+    "water_liters": 1.8,
+    "occupancy": 2
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "04:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "05:00",
+    "water_liters": 3.7,
+    "occupancy": 2
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "06:00",
+    "water_liters": 6.5,
+    "occupancy": 1
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "06:30",
+    "water_liters": 1.7,
+    "occupancy": 1
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "07:00",
+    "water_liters": 14.9,
+    "occupancy": 8
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "07:30",
+    "water_liters": 25.1,
+    "occupancy": 15
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "08:00",
+    "water_liters": 80.3,
+    "occupancy": 45
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "08:30",
+    "water_liters": 65.7,
+    "occupancy": 36
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "09:00",
+    "water_liters": 75.4,
+    "occupancy": 41
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "09:30",
+    "water_liters": 82.4,
+    "occupancy": 48
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "10:00",
+    "water_liters": 68.1,
+    "occupancy": 45
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "10:30",
+    "water_liters": 84.0,
+    "occupancy": 50
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "11:00",
+    "water_liters": 74.4,
+    "occupancy": 48
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "11:30",
+    "water_liters": 82.2,
+    "occupancy": 50
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "12:00",
+    "water_liters": 137.2,
+    "occupancy": 50
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "12:30",
+    "water_liters": 137.7,
+    "occupancy": 50
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "13:00",
+    "water_liters": 123.9,
+    "occupancy": 47
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "13:30",
+    "water_liters": 121.6,
+    "occupancy": 46
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "14:00",
+    "water_liters": 81.1,
+    "occupancy": 49
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "14:30",
+    "water_liters": 73.8,
+    "occupancy": 46
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "15:00",
+    "water_liters": 78.2,
+    "occupancy": 49
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "15:30",
+    "water_liters": 76.4,
+    "occupancy": 48
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "16:00",
+    "water_liters": 80.1,
+    "occupancy": 49
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "16:30",
+    "water_liters": 76.9,
+    "occupancy": 50
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "17:00",
+    "water_liters": 32.4,
+    "occupancy": 22
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "17:30",
+    "water_liters": 40.3,
+    "occupancy": 24
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "18:00",
+    "water_liters": 48.6,
+    "occupancy": 30
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "18:30",
+    "water_liters": 38.5,
+    "occupancy": 23
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "19:00",
+    "water_liters": 15.7,
+    "occupancy": 7
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "19:30",
+    "water_liters": 7.7,
+    "occupancy": 2
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "20:00",
+    "water_liters": 3.2,
+    "occupancy": 1
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "20:30",
+    "water_liters": 10.0,
+    "occupancy": 6
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "21:00",
+    "water_liters": 14.0,
+    "occupancy": 8
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "21:30",
+    "water_liters": 14.5,
+    "occupancy": 8
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "22:00",
+    "water_liters": 0.5,
+    "occupancy": 2
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "22:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "23:00",
+    "water_liters": 4.3,
+    "occupancy": 1
+  },
+  {
+    "day": 12,
+    "day_of_week": "Fri",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "00:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "00:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "01:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "01:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "02:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "03:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "03:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "04:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "04:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "06:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "06:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "07:00",
+    "water_liters": 3.1,
+    "occupancy": 2
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "07:30",
+    "water_liters": 4.2,
+    "occupancy": 1
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "08:00",
+    "water_liters": 23.2,
+    "occupancy": 15
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "08:30",
+    "water_liters": 25.5,
+    "occupancy": 12
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "09:00",
+    "water_liters": 27.0,
+    "occupancy": 12
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "09:30",
+    "water_liters": 25.5,
+    "occupancy": 14
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "10:00",
+    "water_liters": 20.4,
+    "occupancy": 12
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "10:30",
+    "water_liters": 16.1,
+    "occupancy": 11
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "11:00",
+    "water_liters": 26.5,
+    "occupancy": 14
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "11:30",
+    "water_liters": 24.5,
+    "occupancy": 13
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "12:00",
+    "water_liters": 28.5,
+    "occupancy": 11
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "12:30",
+    "water_liters": 54.0,
+    "occupancy": 17
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "13:00",
+    "water_liters": 39.9,
+    "occupancy": 12
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "13:30",
+    "water_liters": 51.8,
+    "occupancy": 16
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "14:00",
+    "water_liters": 27.7,
+    "occupancy": 13
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "14:30",
+    "water_liters": 30.3,
+    "occupancy": 15
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "15:00",
+    "water_liters": 24.3,
+    "occupancy": 13
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "15:30",
+    "water_liters": 21.0,
+    "occupancy": 12
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "16:00",
+    "water_liters": 16.5,
+    "occupancy": 12
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "16:30",
+    "water_liters": 28.0,
+    "occupancy": 16
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "17:00",
+    "water_liters": 9.7,
+    "occupancy": 6
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "17:30",
+    "water_liters": 18.1,
+    "occupancy": 8
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "18:00",
+    "water_liters": 10.5,
+    "occupancy": 6
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "18:30",
+    "water_liters": 16.8,
+    "occupancy": 10
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "19:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "19:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "20:00",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "20:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "21:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "21:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "22:00",
+    "water_liters": 5.9,
+    "occupancy": 1
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "22:30",
+    "water_liters": 6.1,
+    "occupancy": 1
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "23:00",
+    "water_liters": 6.7,
+    "occupancy": 1
+  },
+  {
+    "day": 13,
+    "day_of_week": "Sat",
+    "time": "23:30",
+    "water_liters": 7.3,
+    "occupancy": 2
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "00:00",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "00:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "01:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "01:30",
+    "water_liters": 1.9,
+    "occupancy": 1
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "02:00",
+    "water_liters": 0.5,
+    "occupancy": 2
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "03:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "03:30",
+    "water_liters": 5.6,
+    "occupancy": 1
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "04:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "04:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "06:00",
+    "water_liters": 1.9,
+    "occupancy": 1
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "06:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "07:00",
+    "water_liters": 5.2,
+    "occupancy": 2
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "07:30",
+    "water_liters": 9.1,
+    "occupancy": 5
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "08:00",
+    "water_liters": 14.8,
+    "occupancy": 11
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "08:30",
+    "water_liters": 17.7,
+    "occupancy": 12
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "09:00",
+    "water_liters": 30.3,
+    "occupancy": 16
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "09:30",
+    "water_liters": 22.2,
+    "occupancy": 16
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "10:00",
+    "water_liters": 20.8,
+    "occupancy": 15
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "10:30",
+    "water_liters": 21.4,
+    "occupancy": 15
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "11:00",
+    "water_liters": 20.0,
+    "occupancy": 15
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "11:30",
+    "water_liters": 24.9,
+    "occupancy": 14
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "12:00",
+    "water_liters": 38.8,
+    "occupancy": 15
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "12:30",
+    "water_liters": 33.0,
+    "occupancy": 14
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "13:00",
+    "water_liters": 36.5,
+    "occupancy": 13
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "13:30",
+    "water_liters": 35.4,
+    "occupancy": 15
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "14:00",
+    "water_liters": 23.5,
+    "occupancy": 15
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "14:30",
+    "water_liters": 18.9,
+    "occupancy": 12
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "15:00",
+    "water_liters": 22.8,
+    "occupancy": 17
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "15:30",
+    "water_liters": 16.5,
+    "occupancy": 14
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "16:00",
+    "water_liters": 18.9,
+    "occupancy": 11
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "16:30",
+    "water_liters": 21.6,
+    "occupancy": 15
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "17:00",
+    "water_liters": 10.0,
+    "occupancy": 8
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "17:30",
+    "water_liters": 13.2,
+    "occupancy": 10
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "18:00",
+    "water_liters": 13.2,
+    "occupancy": 9
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "18:30",
+    "water_liters": 12.3,
+    "occupancy": 9
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "19:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "19:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "20:00",
+    "water_liters": 5.2,
+    "occupancy": 4
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "20:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "21:00",
+    "water_liters": 4.5,
+    "occupancy": 3
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "21:30",
+    "water_liters": 7.5,
+    "occupancy": 3
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "22:00",
+    "water_liters": 3.7,
+    "occupancy": 1
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "22:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "23:00",
+    "water_liters": 6.9,
+    "occupancy": 2
+  },
+  {
+    "day": 14,
+    "day_of_week": "Sun",
+    "time": "23:30",
+    "water_liters": 7.3,
+    "occupancy": 2
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "00:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "00:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "01:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "01:30",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "02:00",
+    "water_liters": 4.8,
+    "occupancy": 2
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "03:00",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "03:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "04:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "04:30",
+    "water_liters": 5.7,
+    "occupancy": 1
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "05:30",
+    "water_liters": 0.1,
+    "occupancy": 2
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "06:00",
+    "water_liters": 2.2,
+    "occupancy": 2
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "06:30",
+    "water_liters": 2.2,
+    "occupancy": 3
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "07:00",
+    "water_liters": 21.2,
+    "occupancy": 11
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "07:30",
+    "water_liters": 11.6,
+    "occupancy": 8
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "08:00",
+    "water_liters": 78.0,
+    "occupancy": 43
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "08:30",
+    "water_liters": 59.8,
+    "occupancy": 33
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "09:00",
+    "water_liters": 79.0,
+    "occupancy": 42
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "09:30",
+    "water_liters": 81.8,
+    "occupancy": 44
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "10:00",
+    "water_liters": 75.8,
+    "occupancy": 0,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "10:30",
+    "water_liters": 80.9,
+    "occupancy": 0,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "11:00",
+    "water_liters": 70.9,
+    "occupancy": 1,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "11:30",
+    "water_liters": 78.3,
+    "occupancy": 4,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "12:00",
+    "water_liters": 129.9,
+    "occupancy": 4,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "12:30",
+    "water_liters": 127.4,
+    "occupancy": 5,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "13:00",
+    "water_liters": 135.8,
+    "occupancy": 0,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "13:30",
+    "water_liters": 121.3,
+    "occupancy": 4,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "14:00",
+    "water_liters": 83.1,
+    "occupancy": 50
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "14:30",
+    "water_liters": 71.8,
+    "occupancy": 45
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "15:00",
+    "water_liters": 72.6,
+    "occupancy": 46
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "15:30",
+    "water_liters": 72.9,
+    "occupancy": 48
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "16:00",
+    "water_liters": 80.8,
+    "occupancy": 49
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "16:30",
+    "water_liters": 74.4,
+    "occupancy": 45
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "17:00",
+    "water_liters": 52.8,
+    "occupancy": 34
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "17:30",
+    "water_liters": 23.8,
+    "occupancy": 16
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "18:00",
+    "water_liters": 37.6,
+    "occupancy": 26
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "18:30",
+    "water_liters": 46.7,
+    "occupancy": 29
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "19:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "19:30",
+    "water_liters": 12.5,
+    "occupancy": 6
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "20:00",
+    "water_liters": 5.3,
+    "occupancy": 4
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "20:30",
+    "water_liters": 9.6,
+    "occupancy": 3
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "21:00",
+    "water_liters": 16.5,
+    "occupancy": 11
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "21:30",
+    "water_liters": 3.1,
+    "occupancy": 2
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "22:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "22:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "23:00",
+    "water_liters": 0.2,
+    "occupancy": 1
+  },
+  {
+    "day": 15,
+    "day_of_week": "Mon",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "00:00",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "00:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "01:00",
+    "water_liters": 2.8,
+    "occupancy": 1
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "01:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "02:00",
+    "water_liters": 5.2,
+    "occupancy": 1
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "02:30",
+    "water_liters": 1.4,
+    "occupancy": 2
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "03:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "03:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "04:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "04:30",
+    "water_liters": 4.4,
+    "occupancy": 1
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "05:30",
+    "water_liters": 5.9,
+    "occupancy": 1
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "06:00",
+    "water_liters": 1.6,
+    "occupancy": 3
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "06:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "07:00",
+    "water_liters": 18.9,
+    "occupancy": 10
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "07:30",
+    "water_liters": 20.4,
+    "occupancy": 14
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "08:00",
+    "water_liters": 68.0,
+    "occupancy": 37
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "08:30",
+    "water_liters": 57.8,
+    "occupancy": 33
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "09:00",
+    "water_liters": 81.6,
+    "occupancy": 44
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "09:30",
+    "water_liters": 83.8,
+    "occupancy": 45
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "10:00",
+    "water_liters": 84.1,
+    "occupancy": 50
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "10:30",
+    "water_liters": 68.9,
+    "occupancy": 44
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "11:00",
+    "water_liters": 84.8,
+    "occupancy": 50
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "11:30",
+    "water_liters": 78.3,
+    "occupancy": 50
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "12:00",
+    "water_liters": 122.6,
+    "occupancy": 46
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "12:30",
+    "water_liters": 137.8,
+    "occupancy": 50
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "13:00",
+    "water_liters": 127.4,
+    "occupancy": 47
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "13:30",
+    "water_liters": 132.4,
+    "occupancy": 50
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "14:00",
+    "water_liters": 72.7,
+    "occupancy": 46
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "14:30",
+    "water_liters": 71.1,
+    "occupancy": 43
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "15:00",
+    "water_liters": 78.0,
+    "occupancy": 47
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "15:30",
+    "water_liters": 75.9,
+    "occupancy": 50
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "16:00",
+    "water_liters": 78.0,
+    "occupancy": 50
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "16:30",
+    "water_liters": 75.2,
+    "occupancy": 48
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "17:00",
+    "water_liters": 29.6,
+    "occupancy": 17
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "17:30",
+    "water_liters": 46.3,
+    "occupancy": 30
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "18:00",
+    "water_liters": 45.4,
+    "occupancy": 29
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "18:30",
+    "water_liters": 29.7,
+    "occupancy": 19
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "19:00",
+    "water_liters": 2.7,
+    "occupancy": 2
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "19:30",
+    "water_liters": 8.3,
+    "occupancy": 7
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "20:00",
+    "water_liters": 6.2,
+    "occupancy": 2
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "20:30",
+    "water_liters": 8.2,
+    "occupancy": 7
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "21:00",
+    "water_liters": 1.5,
+    "occupancy": 1
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "21:30",
+    "water_liters": 17.1,
+    "occupancy": 10
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "22:00",
+    "water_liters": 1.7,
+    "occupancy": 2
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "22:30",
+    "water_liters": 4.7,
+    "occupancy": 1
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "23:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 16,
+    "day_of_week": "Tue",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "00:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "00:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "01:00",
+    "water_liters": 3.9,
+    "occupancy": 2
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "01:30",
+    "water_liters": 0.1,
+    "occupancy": 2
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "02:00",
+    "water_liters": 4.4,
+    "occupancy": 2
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "03:00",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "03:30",
+    "water_liters": 4.9,
+    "occupancy": 1
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "04:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "04:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "05:00",
+    "water_liters": 3.0,
+    "occupancy": 2
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "05:30",
+    "water_liters": 4.7,
+    "occupancy": 1
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "06:00",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "06:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "07:00",
+    "water_liters": 17.1,
+    "occupancy": 11
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "07:30",
+    "water_liters": 23.2,
+    "occupancy": 15
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "08:00",
+    "water_liters": 64.8,
+    "occupancy": 40
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "08:30",
+    "water_liters": 57.5,
+    "occupancy": 32
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "09:00",
+    "water_liters": 57.6,
+    "occupancy": 32
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "09:30",
+    "water_liters": 75.7,
+    "occupancy": 44
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "10:00",
+    "water_liters": 66.6,
+    "occupancy": 46
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "10:30",
+    "water_liters": 78.5,
+    "occupancy": 50
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "11:00",
+    "water_liters": 71.7,
+    "occupancy": 50
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "11:30",
+    "water_liters": 68.3,
+    "occupancy": 45
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "12:00",
+    "water_liters": 122.0,
+    "occupancy": 49
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "12:30",
+    "water_liters": 125.5,
+    "occupancy": 50
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "13:00",
+    "water_liters": 122.4,
+    "occupancy": 47
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "13:30",
+    "water_liters": 120.9,
+    "occupancy": 46
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "14:00",
+    "water_liters": 69.6,
+    "occupancy": 45
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "14:30",
+    "water_liters": 71.3,
+    "occupancy": 47
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "15:00",
+    "water_liters": 68.1,
+    "occupancy": 48
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "15:30",
+    "water_liters": 67.0,
+    "occupancy": 46
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "16:00",
+    "water_liters": 70.5,
+    "occupancy": 48
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "16:30",
+    "water_liters": 64.2,
+    "occupancy": 43
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "17:00",
+    "water_liters": 35.1,
+    "occupancy": 24
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "17:30",
+    "water_liters": 38.9,
+    "occupancy": 27
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "18:00",
+    "water_liters": 32.6,
+    "occupancy": 24
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "18:30",
+    "water_liters": 47.5,
+    "occupancy": 30
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "19:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "19:30",
+    "water_liters": 10.9,
+    "occupancy": 5
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "20:00",
+    "water_liters": 16.3,
+    "occupancy": 8
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "20:30",
+    "water_liters": 1.1,
+    "occupancy": 2
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "21:00",
+    "water_liters": 0.7,
+    "occupancy": 2
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "21:30",
+    "water_liters": 7.2,
+    "occupancy": 4
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "22:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "22:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "23:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 17,
+    "day_of_week": "Wed",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "00:00",
+    "water_liters": 3.4,
+    "occupancy": 1
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "00:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "01:00",
+    "water_liters": 1.3,
+    "occupancy": 1
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "01:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "02:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "03:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "03:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "04:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "04:30",
+    "water_liters": 4.5,
+    "occupancy": 2
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "06:00",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "06:30",
+    "water_liters": 1.6,
+    "occupancy": 2
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "07:00",
+    "water_liters": 17.5,
+    "occupancy": 13
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "07:30",
+    "water_liters": 14.7,
+    "occupancy": 9
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "08:00",
+    "water_liters": 84.3,
+    "occupancy": 49
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "08:30",
+    "water_liters": 64.0,
+    "occupancy": 38
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "09:00",
+    "water_liters": 73.4,
+    "occupancy": 42
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "09:30",
+    "water_liters": 61.5,
+    "occupancy": 38
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "10:00",
+    "water_liters": 80.2,
+    "occupancy": 50
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "10:30",
+    "water_liters": 65.3,
+    "occupancy": 45
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "11:00",
+    "water_liters": 78.2,
+    "occupancy": 50
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "11:30",
+    "water_liters": 66.2,
+    "occupancy": 46
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "12:00",
+    "water_liters": 115.4,
+    "occupancy": 46
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "12:30",
+    "water_liters": 132.1,
+    "occupancy": 50
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "13:00",
+    "water_liters": 123.4,
+    "occupancy": 49
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "13:30",
+    "water_liters": 127.9,
+    "occupancy": 50
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "14:00",
+    "water_liters": 66.0,
+    "occupancy": 45
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "14:30",
+    "water_liters": 74.3,
+    "occupancy": 48
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "15:00",
+    "water_liters": 72.8,
+    "occupancy": 48
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "15:30",
+    "water_liters": 71.4,
+    "occupancy": 44
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "16:00",
+    "water_liters": 66.1,
+    "occupancy": 46
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "16:30",
+    "water_liters": 77.0,
+    "occupancy": 49
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "17:00",
+    "water_liters": 20.0,
+    "occupancy": 14
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "17:30",
+    "water_liters": 43.9,
+    "occupancy": 31
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "18:00",
+    "water_liters": 27.6,
+    "occupancy": 21
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "18:30",
+    "water_liters": 40.6,
+    "occupancy": 28
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "19:00",
+    "water_liters": 10.8,
+    "occupancy": 7
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "19:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "20:00",
+    "water_liters": 6.8,
+    "occupancy": 2
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "20:30",
+    "water_liters": 12.3,
+    "occupancy": 8
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "21:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "21:30",
+    "water_liters": 12.1,
+    "occupancy": 5
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "22:00",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "22:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "23:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 18,
+    "day_of_week": "Thu",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "00:00",
+    "water_liters": 1.3,
+    "occupancy": 1
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "00:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "01:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "01:30",
+    "water_liters": 2.0,
+    "occupancy": 2
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "02:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "03:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "03:30",
+    "water_liters": 8.8,
+    "occupancy": 2
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "04:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "04:30",
+    "water_liters": 0.7,
+    "occupancy": 2
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "06:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "06:30",
+    "water_liters": 4.2,
+    "occupancy": 1
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "07:00",
+    "water_liters": 12.7,
+    "occupancy": 9
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "07:30",
+    "water_liters": 15.1,
+    "occupancy": 11
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "08:00",
+    "water_liters": 65.3,
+    "occupancy": 36
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "08:30",
+    "water_liters": 87.7,
+    "occupancy": 47
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "09:00",
+    "water_liters": 60.5,
+    "occupancy": 34
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "09:30",
+    "water_liters": 71.1,
+    "occupancy": 40
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "10:00",
+    "water_liters": 81.9,
+    "occupancy": 49
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "10:30",
+    "water_liters": 85.3,
+    "occupancy": 48
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "11:00",
+    "water_liters": 78.1,
+    "occupancy": 48
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "11:30",
+    "water_liters": 78.5,
+    "occupancy": 45
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "12:00",
+    "water_liters": 128.5,
+    "occupancy": 44
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "12:30",
+    "water_liters": 139.8,
+    "occupancy": 46
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "13:00",
+    "water_liters": 135.2,
+    "occupancy": 47
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "13:30",
+    "water_liters": 128.0,
+    "occupancy": 43
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "14:00",
+    "water_liters": 89.8,
+    "occupancy": 50
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "14:30",
+    "water_liters": 76.6,
+    "occupancy": 46
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "15:00",
+    "water_liters": 84.6,
+    "occupancy": 48
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "15:30",
+    "water_liters": 78.2,
+    "occupancy": 46
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "16:00",
+    "water_liters": 83.5,
+    "occupancy": 50
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "16:30",
+    "water_liters": 75.4,
+    "occupancy": 46
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "17:00",
+    "water_liters": 27.6,
+    "occupancy": 13
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "17:30",
+    "water_liters": 29.6,
+    "occupancy": 18
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "18:00",
+    "water_liters": 54.3,
+    "occupancy": 33
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "18:30",
+    "water_liters": 22.6,
+    "occupancy": 15
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "19:00",
+    "water_liters": 14.6,
+    "occupancy": 11
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "19:30",
+    "water_liters": 4.7,
+    "occupancy": 3
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "20:00",
+    "water_liters": 9.3,
+    "occupancy": 4
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "20:30",
+    "water_liters": 7.8,
+    "occupancy": 5
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "21:00",
+    "water_liters": 4.5,
+    "occupancy": 4
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "21:30",
+    "water_liters": 11.6,
+    "occupancy": 6
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "22:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "22:30",
+    "water_liters": 2.3,
+    "occupancy": 1
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "23:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 19,
+    "day_of_week": "Fri",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "00:00",
+    "water_liters": 8.6,
+    "occupancy": 2
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "00:30",
+    "water_liters": 8.6,
+    "occupancy": 2
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "01:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "01:30",
+    "water_liters": 2.4,
+    "occupancy": 1
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "02:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "03:00",
+    "water_liters": 7.6,
+    "occupancy": 2
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "03:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "04:00",
+    "water_liters": 4.5,
+    "occupancy": 1
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "04:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "06:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "06:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "07:00",
+    "water_liters": 1.5,
+    "occupancy": 2
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "07:30",
+    "water_liters": 10.6,
+    "occupancy": 5
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "08:00",
+    "water_liters": 34.7,
+    "occupancy": 16
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "08:30",
+    "water_liters": 27.9,
+    "occupancy": 15
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "09:00",
+    "water_liters": 10.1,
+    "occupancy": 7
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "09:30",
+    "water_liters": 30.6,
+    "occupancy": 14
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "10:00",
+    "water_liters": 17.0,
+    "occupancy": 12
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "10:30",
+    "water_liters": 21.3,
+    "occupancy": 12
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "11:00",
+    "water_liters": 22.5,
+    "occupancy": 11
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "11:30",
+    "water_liters": 23.8,
+    "occupancy": 13
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "12:00",
+    "water_liters": 32.8,
+    "occupancy": 12
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "12:30",
+    "water_liters": 45.3,
+    "occupancy": 14
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "13:00",
+    "water_liters": 48.3,
+    "occupancy": 15
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "13:30",
+    "water_liters": 46.1,
+    "occupancy": 17
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "14:00",
+    "water_liters": 24.6,
+    "occupancy": 13
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "14:30",
+    "water_liters": 16.8,
+    "occupancy": 13
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "15:00",
+    "water_liters": 34.1,
+    "occupancy": 17
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "15:30",
+    "water_liters": 18.5,
+    "occupancy": 12
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "16:00",
+    "water_liters": 17.9,
+    "occupancy": 13
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "16:30",
+    "water_liters": 17.6,
+    "occupancy": 13
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "17:00",
+    "water_liters": 16.0,
+    "occupancy": 7
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "17:30",
+    "water_liters": 6.0,
+    "occupancy": 5
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "18:00",
+    "water_liters": 9.8,
+    "occupancy": 4
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "18:30",
+    "water_liters": 5.9,
+    "occupancy": 2
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "19:00",
+    "water_liters": 0.4,
+    "occupancy": 1
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "19:30",
+    "water_liters": 4.9,
+    "occupancy": 3
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "20:00",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "20:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "21:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "21:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "22:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "22:30",
+    "water_liters": 5.6,
+    "occupancy": 2
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "23:00",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 20,
+    "day_of_week": "Sat",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "00:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "00:30",
+    "water_liters": 5.2,
+    "occupancy": 2
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "01:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "01:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "02:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "03:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "03:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "04:00",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "04:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "06:00",
+    "water_liters": 3.1,
+    "occupancy": 1
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "06:30",
+    "water_liters": 1.8,
+    "occupancy": 2
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "07:00",
+    "water_liters": 0.2,
+    "occupancy": 3
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "07:30",
+    "water_liters": 9.3,
+    "occupancy": 4
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "08:00",
+    "water_liters": 22.0,
+    "occupancy": 12
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "08:30",
+    "water_liters": 14.7,
+    "occupancy": 7
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "09:00",
+    "water_liters": 19.3,
+    "occupancy": 14
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "09:30",
+    "water_liters": 23.8,
+    "occupancy": 14
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "10:00",
+    "water_liters": 24.2,
+    "occupancy": 16
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "10:30",
+    "water_liters": 23.4,
+    "occupancy": 14
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "11:00",
+    "water_liters": 27.3,
+    "occupancy": 16
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "11:30",
+    "water_liters": 30.2,
+    "occupancy": 17
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "12:00",
+    "water_liters": 30.5,
+    "occupancy": 13
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "12:30",
+    "water_liters": 30.4,
+    "occupancy": 12
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "13:00",
+    "water_liters": 44.5,
+    "occupancy": 16
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "13:30",
+    "water_liters": 42.8,
+    "occupancy": 15
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "14:00",
+    "water_liters": 15.8,
+    "occupancy": 11
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "14:30",
+    "water_liters": 25.3,
+    "occupancy": 14
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "15:00",
+    "water_liters": 25.6,
+    "occupancy": 15
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "15:30",
+    "water_liters": 22.0,
+    "occupancy": 14
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "16:00",
+    "water_liters": 18.9,
+    "occupancy": 12
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "16:30",
+    "water_liters": 23.4,
+    "occupancy": 13
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "17:00",
+    "water_liters": 12.1,
+    "occupancy": 8
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "17:30",
+    "water_liters": 14.6,
+    "occupancy": 11
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "18:00",
+    "water_liters": 12.5,
+    "occupancy": 7
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "18:30",
+    "water_liters": 6.0,
+    "occupancy": 5
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "19:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "19:30",
+    "water_liters": 4.5,
+    "occupancy": 1
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "20:00",
+    "water_liters": 1.4,
+    "occupancy": 1
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "20:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "21:00",
+    "water_liters": 1.3,
+    "occupancy": 2
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "21:30",
+    "water_liters": 1.6,
+    "occupancy": 3
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "22:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "22:30",
+    "water_liters": 4.0,
+    "occupancy": 1
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "23:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 21,
+    "day_of_week": "Sun",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "00:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "00:30",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "01:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "01:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "02:00",
+    "water_liters": 20.4,
+    "occupancy": 0,
+    "anomaly": true,
+    "anomaly_type": "water_leak"
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "02:30",
+    "water_liters": 22.2,
+    "occupancy": 0,
+    "anomaly": true,
+    "anomaly_type": "water_leak"
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "03:00",
+    "water_liters": 3.1,
+    "occupancy": 1
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "03:30",
+    "water_liters": 21.9,
+    "occupancy": 0,
+    "anomaly": true,
+    "anomaly_type": "water_leak"
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "04:00",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "04:30",
+    "water_liters": 0.1,
+    "occupancy": 1
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "06:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "06:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "07:00",
+    "water_liters": 18.4,
+    "occupancy": 10
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "07:30",
+    "water_liters": 25.3,
+    "occupancy": 13
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "08:00",
+    "water_liters": 57.9,
+    "occupancy": 31
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "08:30",
+    "water_liters": 86.6,
+    "occupancy": 47
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "09:00",
+    "water_liters": 69.7,
+    "occupancy": 39
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "09:30",
+    "water_liters": 76.1,
+    "occupancy": 42
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "10:00",
+    "water_liters": 81.6,
+    "occupancy": 50
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "10:30",
+    "water_liters": 72.8,
+    "occupancy": 43
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "11:00",
+    "water_liters": 82.2,
+    "occupancy": 49
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "11:30",
+    "water_liters": 72.7,
+    "occupancy": 45
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "12:00",
+    "water_liters": 129.7,
+    "occupancy": 47
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "12:30",
+    "water_liters": 140.7,
+    "occupancy": 50
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "13:00",
+    "water_liters": 126.8,
+    "occupancy": 44
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "13:30",
+    "water_liters": 142.4,
+    "occupancy": 50
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "14:00",
+    "water_liters": 84.5,
+    "occupancy": 48
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "14:30",
+    "water_liters": 81.8,
+    "occupancy": 48
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "15:00",
+    "water_liters": 81.1,
+    "occupancy": 50
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "15:30",
+    "water_liters": 82.5,
+    "occupancy": 49
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "16:00",
+    "water_liters": 82.9,
+    "occupancy": 48
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "16:30",
+    "water_liters": 78.5,
+    "occupancy": 50
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "17:00",
+    "water_liters": 32.0,
+    "occupancy": 19
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "17:30",
+    "water_liters": 30.2,
+    "occupancy": 20
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "18:00",
+    "water_liters": 40.4,
+    "occupancy": 22
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "18:30",
+    "water_liters": 42.6,
+    "occupancy": 26
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "19:00",
+    "water_liters": 4.7,
+    "occupancy": 2
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "19:30",
+    "water_liters": 22.2,
+    "occupancy": 11
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "20:00",
+    "water_liters": 8.7,
+    "occupancy": 6
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "20:30",
+    "water_liters": 11.9,
+    "occupancy": 5
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "21:00",
+    "water_liters": 6.7,
+    "occupancy": 1
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "21:30",
+    "water_liters": 12.2,
+    "occupancy": 6
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "22:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "22:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "23:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 22,
+    "day_of_week": "Mon",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "00:00",
+    "water_liters": 3.2,
+    "occupancy": 2
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "00:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "01:00",
+    "water_liters": 0.7,
+    "occupancy": 1
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "01:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "02:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "03:00",
+    "water_liters": 5.2,
+    "occupancy": 2
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "03:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "04:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "04:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "06:00",
+    "water_liters": 6.0,
+    "occupancy": 3
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "06:30",
+    "water_liters": 10.2,
+    "occupancy": 3
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "07:00",
+    "water_liters": 18.5,
+    "occupancy": 13
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "07:30",
+    "water_liters": 20.7,
+    "occupancy": 11
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "08:00",
+    "water_liters": 61.6,
+    "occupancy": 33
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "08:30",
+    "water_liters": 62.2,
+    "occupancy": 33
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "09:00",
+    "water_liters": 56.2,
+    "occupancy": 32
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "09:30",
+    "water_liters": 95.2,
+    "occupancy": 49
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "10:00",
+    "water_liters": 75.1,
+    "occupancy": 48
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "10:30",
+    "water_liters": 78.9,
+    "occupancy": 48
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "11:00",
+    "water_liters": 78.2,
+    "occupancy": 49
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "11:30",
+    "water_liters": 81.8,
+    "occupancy": 48
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "12:00",
+    "water_liters": 143.1,
+    "occupancy": 50
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "12:30",
+    "water_liters": 129.3,
+    "occupancy": 47
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "13:00",
+    "water_liters": 137.9,
+    "occupancy": 50
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "13:30",
+    "water_liters": 127.5,
+    "occupancy": 46
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "14:00",
+    "water_liters": 80.3,
+    "occupancy": 49
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "14:30",
+    "water_liters": 80.7,
+    "occupancy": 48
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "15:00",
+    "water_liters": 73.3,
+    "occupancy": 47
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "15:30",
+    "water_liters": 83.7,
+    "occupancy": 48
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "16:00",
+    "water_liters": 79.2,
+    "occupancy": 50
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "16:30",
+    "water_liters": 74.3,
+    "occupancy": 47
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "17:00",
+    "water_liters": 41.7,
+    "occupancy": 22
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "17:30",
+    "water_liters": 43.3,
+    "occupancy": 24
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "18:00",
+    "water_liters": 28.6,
+    "occupancy": 16
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "18:30",
+    "water_liters": 46.1,
+    "occupancy": 26
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "19:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "19:30",
+    "water_liters": 19.1,
+    "occupancy": 9
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "20:00",
+    "water_liters": 10.8,
+    "occupancy": 9
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "20:30",
+    "water_liters": 5.6,
+    "occupancy": 4
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "21:00",
+    "water_liters": 13.7,
+    "occupancy": 7
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "21:30",
+    "water_liters": 16.5,
+    "occupancy": 8
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "22:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "22:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "23:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 23,
+    "day_of_week": "Tue",
+    "time": "23:30",
+    "water_liters": 4.1,
+    "occupancy": 2
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "00:00",
+    "water_liters": 5.0,
+    "occupancy": 2
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "00:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "01:00",
+    "water_liters": 0.7,
+    "occupancy": 1
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "01:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "02:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "02:30",
+    "water_liters": 3.9,
+    "occupancy": 2
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "03:00",
+    "water_liters": 7.7,
+    "occupancy": 2
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "03:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "04:00",
+    "water_liters": 4.8,
+    "occupancy": 2
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "04:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "05:00",
+    "water_liters": 4.8,
+    "occupancy": 1
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "05:30",
+    "water_liters": 4.6,
+    "occupancy": 2
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "06:00",
+    "water_liters": 8.2,
+    "occupancy": 3
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "06:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "07:00",
+    "water_liters": 15.2,
+    "occupancy": 11
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "07:30",
+    "water_liters": 19.6,
+    "occupancy": 13
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "08:00",
+    "water_liters": 64.0,
+    "occupancy": 35
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "08:30",
+    "water_liters": 72.7,
+    "occupancy": 42
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "09:00",
+    "water_liters": 54.5,
+    "occupancy": 34
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "09:30",
+    "water_liters": 75.4,
+    "occupancy": 43
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "10:00",
+    "water_liters": 75.8,
+    "occupancy": 47
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "10:30",
+    "water_liters": 80.9,
+    "occupancy": 50
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "11:00",
+    "water_liters": 77.6,
+    "occupancy": 3,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "11:30",
+    "water_liters": 78.6,
+    "occupancy": 5,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "12:00",
+    "water_liters": 130.8,
+    "occupancy": 5,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "12:30",
+    "water_liters": 121.8,
+    "occupancy": 2,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "13:00",
+    "water_liters": 130.8,
+    "occupancy": 1,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "13:30",
+    "water_liters": 129.0,
+    "occupancy": 3,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "14:00",
+    "water_liters": 68.2,
+    "occupancy": 3,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "14:30",
+    "water_liters": 71.4,
+    "occupancy": 2,
+    "anomaly": true,
+    "anomaly_type": "occupancy_mismatch"
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "15:00",
+    "water_liters": 74.2,
+    "occupancy": 46
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "15:30",
+    "water_liters": 83.1,
+    "occupancy": 50
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "16:00",
+    "water_liters": 75.6,
+    "occupancy": 50
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "16:30",
+    "water_liters": 68.4,
+    "occupancy": 46
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "17:00",
+    "water_liters": 47.6,
+    "occupancy": 30
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "17:30",
+    "water_liters": 38.0,
+    "occupancy": 22
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "18:00",
+    "water_liters": 31.2,
+    "occupancy": 19
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "18:30",
+    "water_liters": 42.0,
+    "occupancy": 27
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "19:00",
+    "water_liters": 17.3,
+    "occupancy": 8
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "19:30",
+    "water_liters": 4.3,
+    "occupancy": 5
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "20:00",
+    "water_liters": 19.4,
+    "occupancy": 11
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "20:30",
+    "water_liters": 8.1,
+    "occupancy": 7
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "21:00",
+    "water_liters": 18.4,
+    "occupancy": 9
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "21:30",
+    "water_liters": 3.5,
+    "occupancy": 1
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "22:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "22:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "23:00",
+    "water_liters": 4.8,
+    "occupancy": 2
+  },
+  {
+    "day": 24,
+    "day_of_week": "Wed",
+    "time": "23:30",
+    "water_liters": 5.5,
+    "occupancy": 1
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "00:00",
+    "water_liters": 1.8,
+    "occupancy": 1
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "00:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "01:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "01:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "02:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "03:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "03:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "04:00",
+    "water_liters": 6.4,
+    "occupancy": 2
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "04:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "05:00",
+    "water_liters": 5.7,
+    "occupancy": 2
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "05:30",
+    "water_liters": 3.3,
+    "occupancy": 2
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "06:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "06:30",
+    "water_liters": 11.2,
+    "occupancy": 4
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "07:00",
+    "water_liters": 25.0,
+    "occupancy": 14
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "07:30",
+    "water_liters": 24.5,
+    "occupancy": 13
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "08:00",
+    "water_liters": 78.1,
+    "occupancy": 43
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "08:30",
+    "water_liters": 88.9,
+    "occupancy": 50
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "09:00",
+    "water_liters": 89.6,
+    "occupancy": 48
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "09:30",
+    "water_liters": 72.6,
+    "occupancy": 40
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "10:00",
+    "water_liters": 68.6,
+    "occupancy": 45
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "10:30",
+    "water_liters": 71.6,
+    "occupancy": 46
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "11:00",
+    "water_liters": 72.2,
+    "occupancy": 48
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "11:30",
+    "water_liters": 79.9,
+    "occupancy": 47
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "12:00",
+    "water_liters": 129.8,
+    "occupancy": 47
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "12:30",
+    "water_liters": 137.5,
+    "occupancy": 50
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "13:00",
+    "water_liters": 121.2,
+    "occupancy": 45
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "13:30",
+    "water_liters": 125.9,
+    "occupancy": 45
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "14:00",
+    "water_liters": 74.6,
+    "occupancy": 47
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "14:30",
+    "water_liters": 75.6,
+    "occupancy": 46
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "15:00",
+    "water_liters": 80.1,
+    "occupancy": 47
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "15:30",
+    "water_liters": 81.1,
+    "occupancy": 50
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "16:00",
+    "water_liters": 75.7,
+    "occupancy": 48
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "16:30",
+    "water_liters": 74.6,
+    "occupancy": 48
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "17:00",
+    "water_liters": 28.7,
+    "occupancy": 16
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "17:30",
+    "water_liters": 32.8,
+    "occupancy": 19
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "18:00",
+    "water_liters": 26.1,
+    "occupancy": 17
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "18:30",
+    "water_liters": 49.4,
+    "occupancy": 32
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "19:00",
+    "water_liters": 10.3,
+    "occupancy": 9
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "19:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "20:00",
+    "water_liters": 11.7,
+    "occupancy": 10
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "20:30",
+    "water_liters": 13.7,
+    "occupancy": 9
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "21:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "21:30",
+    "water_liters": 3.0,
+    "occupancy": 4
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "22:00",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "22:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "23:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 25,
+    "day_of_week": "Thu",
+    "time": "23:30",
+    "water_liters": 7.3,
+    "occupancy": 2
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "00:00",
+    "water_liters": 0.9,
+    "occupancy": 1
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "00:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "01:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "01:30",
+    "water_liters": 5.6,
+    "occupancy": 2
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "02:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "03:00",
+    "water_liters": 6.0,
+    "occupancy": 2
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "03:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "04:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "04:30",
+    "water_liters": 4.7,
+    "occupancy": 1
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "05:30",
+    "water_liters": 5.6,
+    "occupancy": 2
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "06:00",
+    "water_liters": 5.4,
+    "occupancy": 1
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "06:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "07:00",
+    "water_liters": 14.9,
+    "occupancy": 9
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "07:30",
+    "water_liters": 19.6,
+    "occupancy": 15
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "08:00",
+    "water_liters": 66.4,
+    "occupancy": 36
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "08:30",
+    "water_liters": 75.3,
+    "occupancy": 45
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "09:00",
+    "water_liters": 65.8,
+    "occupancy": 37
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "09:30",
+    "water_liters": 84.0,
+    "occupancy": 46
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "10:00",
+    "water_liters": 74.6,
+    "occupancy": 50
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "10:30",
+    "water_liters": 72.7,
+    "occupancy": 48
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "11:00",
+    "water_liters": 77.4,
+    "occupancy": 50
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "11:30",
+    "water_liters": 78.4,
+    "occupancy": 49
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "12:00",
+    "water_liters": 121.6,
+    "occupancy": 46
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "12:30",
+    "water_liters": 130.6,
+    "occupancy": 50
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "13:00",
+    "water_liters": 135.8,
+    "occupancy": 49
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "13:30",
+    "water_liters": 120.7,
+    "occupancy": 44
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "14:00",
+    "water_liters": 77.4,
+    "occupancy": 50
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "14:30",
+    "water_liters": 78.5,
+    "occupancy": 50
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "15:00",
+    "water_liters": 70.2,
+    "occupancy": 47
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "15:30",
+    "water_liters": 76.7,
+    "occupancy": 50
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "16:00",
+    "water_liters": 78.0,
+    "occupancy": 48
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "16:30",
+    "water_liters": 79.5,
+    "occupancy": 48
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "17:00",
+    "water_liters": 46.5,
+    "occupancy": 29
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "17:30",
+    "water_liters": 51.0,
+    "occupancy": 32
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "18:00",
+    "water_liters": 56.3,
+    "occupancy": 34
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "18:30",
+    "water_liters": 45.2,
+    "occupancy": 27
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "19:00",
+    "water_liters": 4.8,
+    "occupancy": 3
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "19:30",
+    "water_liters": 11.1,
+    "occupancy": 6
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "20:00",
+    "water_liters": 9.1,
+    "occupancy": 8
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "20:30",
+    "water_liters": 2.2,
+    "occupancy": 1
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "21:00",
+    "water_liters": 0.2,
+    "occupancy": 3
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "21:30",
+    "water_liters": 8.2,
+    "occupancy": 6
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "22:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "22:30",
+    "water_liters": 1.8,
+    "occupancy": 2
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "23:00",
+    "water_liters": 5.3,
+    "occupancy": 1
+  },
+  {
+    "day": 26,
+    "day_of_week": "Fri",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "00:00",
+    "water_liters": 0.9,
+    "occupancy": 2
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "00:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "01:00",
+    "water_liters": 4.6,
+    "occupancy": 2
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "01:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "02:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "03:00",
+    "water_liters": 5.1,
+    "occupancy": 1
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "03:30",
+    "water_liters": 5.3,
+    "occupancy": 1
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "04:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "04:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "06:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "06:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "07:00",
+    "water_liters": 1.3,
+    "occupancy": 1
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "07:30",
+    "water_liters": 11.0,
+    "occupancy": 5
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "08:00",
+    "water_liters": 14.4,
+    "occupancy": 8
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "08:30",
+    "water_liters": 10.9,
+    "occupancy": 9
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "09:00",
+    "water_liters": 19.9,
+    "occupancy": 13
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "09:30",
+    "water_liters": 21.5,
+    "occupancy": 12
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "10:00",
+    "water_liters": 20.9,
+    "occupancy": 12
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "10:30",
+    "water_liters": 19.7,
+    "occupancy": 12
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "11:00",
+    "water_liters": 26.5,
+    "occupancy": 15
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "11:30",
+    "water_liters": 23.3,
+    "occupancy": 13
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "12:00",
+    "water_liters": 37.4,
+    "occupancy": 15
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "12:30",
+    "water_liters": 40.6,
+    "occupancy": 15
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "13:00",
+    "water_liters": 28.1,
+    "occupancy": 12
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "13:30",
+    "water_liters": 35.7,
+    "occupancy": 12
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "14:00",
+    "water_liters": 25.9,
+    "occupancy": 16
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "14:30",
+    "water_liters": 22.7,
+    "occupancy": 14
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "15:00",
+    "water_liters": 20.9,
+    "occupancy": 16
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "15:30",
+    "water_liters": 22.2,
+    "occupancy": 14
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "16:00",
+    "water_liters": 20.5,
+    "occupancy": 14
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "16:30",
+    "water_liters": 27.6,
+    "occupancy": 15
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "17:00",
+    "water_liters": 18.5,
+    "occupancy": 10
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "17:30",
+    "water_liters": 8.5,
+    "occupancy": 7
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "18:00",
+    "water_liters": 9.9,
+    "occupancy": 4
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "18:30",
+    "water_liters": 14.5,
+    "occupancy": 8
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "19:00",
+    "water_liters": 3.3,
+    "occupancy": 2
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "19:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "20:00",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "20:30",
+    "water_liters": 11.2,
+    "occupancy": 5
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "21:00",
+    "water_liters": 2.5,
+    "occupancy": 3
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "21:30",
+    "water_liters": 2.1,
+    "occupancy": 1
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "22:00",
+    "water_liters": 0.7,
+    "occupancy": 2
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "22:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "23:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 27,
+    "day_of_week": "Sat",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "00:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "00:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "01:00",
+    "water_liters": 5.0,
+    "occupancy": 2
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "01:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "02:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "03:00",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "03:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "04:00",
+    "water_liters": 1.9,
+    "occupancy": 2
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "04:30",
+    "water_liters": 1.7,
+    "occupancy": 1
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "05:00",
+    "water_liters": 5.6,
+    "occupancy": 2
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "06:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "06:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "07:00",
+    "water_liters": 3.2,
+    "occupancy": 5
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "07:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "08:00",
+    "water_liters": 19.0,
+    "occupancy": 12
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "08:30",
+    "water_liters": 23.9,
+    "occupancy": 13
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "09:00",
+    "water_liters": 13.8,
+    "occupancy": 7
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "09:30",
+    "water_liters": 31.0,
+    "occupancy": 16
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "10:00",
+    "water_liters": 16.8,
+    "occupancy": 13
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "10:30",
+    "water_liters": 21.1,
+    "occupancy": 16
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "11:00",
+    "water_liters": 18.2,
+    "occupancy": 12
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "11:30",
+    "water_liters": 22.5,
+    "occupancy": 12
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "12:00",
+    "water_liters": 40.6,
+    "occupancy": 16
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "12:30",
+    "water_liters": 38.7,
+    "occupancy": 16
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "13:00",
+    "water_liters": 42.3,
+    "occupancy": 15
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "13:30",
+    "water_liters": 31.9,
+    "occupancy": 14
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "14:00",
+    "water_liters": 18.6,
+    "occupancy": 14
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "14:30",
+    "water_liters": 22.9,
+    "occupancy": 15
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "15:00",
+    "water_liters": 15.8,
+    "occupancy": 13
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "15:30",
+    "water_liters": 26.8,
+    "occupancy": 15
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "16:00",
+    "water_liters": 24.9,
+    "occupancy": 14
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "16:30",
+    "water_liters": 21.4,
+    "occupancy": 13
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "17:00",
+    "water_liters": 8.1,
+    "occupancy": 7
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "17:30",
+    "water_liters": 6.3,
+    "occupancy": 6
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "18:00",
+    "water_liters": 14.7,
+    "occupancy": 8
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "18:30",
+    "water_liters": 6.1,
+    "occupancy": 3
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "19:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "19:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "20:00",
+    "water_liters": 8.3,
+    "occupancy": 3
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "20:30",
+    "water_liters": 7.6,
+    "occupancy": 2
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "21:00",
+    "water_liters": 5.4,
+    "occupancy": 2
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "21:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "22:00",
+    "water_liters": 1.9,
+    "occupancy": 1
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "22:30",
+    "water_liters": 6.4,
+    "occupancy": 2
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "23:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 28,
+    "day_of_week": "Sun",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "00:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "00:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "01:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "01:30",
+    "water_liters": 0.1,
+    "occupancy": 2
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "02:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "03:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "03:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "04:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "04:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "06:00",
+    "water_liters": 5.1,
+    "occupancy": 1
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "06:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "07:00",
+    "water_liters": 15.9,
+    "occupancy": 12
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "07:30",
+    "water_liters": 22.5,
+    "occupancy": 12
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "08:00",
+    "water_liters": 86.8,
+    "occupancy": 48
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "08:30",
+    "water_liters": 68.9,
+    "occupancy": 39
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "09:00",
+    "water_liters": 65.6,
+    "occupancy": 40
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "09:30",
+    "water_liters": 64.2,
+    "occupancy": 39
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "10:00",
+    "water_liters": 78.1,
+    "occupancy": 50
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "10:30",
+    "water_liters": 77.0,
+    "occupancy": 49
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "11:00",
+    "water_liters": 78.7,
+    "occupancy": 49
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "11:30",
+    "water_liters": 82.3,
+    "occupancy": 50
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "12:00",
+    "water_liters": 126.9,
+    "occupancy": 47
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "12:30",
+    "water_liters": 133.9,
+    "occupancy": 50
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "13:00",
+    "water_liters": 126.2,
+    "occupancy": 48
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "13:30",
+    "water_liters": 125.4,
+    "occupancy": 46
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "14:00",
+    "water_liters": 71.6,
+    "occupancy": 46
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "14:30",
+    "water_liters": 76.8,
+    "occupancy": 47
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "15:00",
+    "water_liters": 78.9,
+    "occupancy": 50
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "15:30",
+    "water_liters": 77.4,
+    "occupancy": 49
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "16:00",
+    "water_liters": 67.8,
+    "occupancy": 45
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "16:30",
+    "water_liters": 75.1,
+    "occupancy": 46
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "17:00",
+    "water_liters": 21.5,
+    "occupancy": 16
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "17:30",
+    "water_liters": 23.9,
+    "occupancy": 18
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "18:00",
+    "water_liters": 42.0,
+    "occupancy": 29
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "18:30",
+    "water_liters": 41.3,
+    "occupancy": 25
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "19:00",
+    "water_liters": 11.9,
+    "occupancy": 6
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "19:30",
+    "water_liters": 12.9,
+    "occupancy": 6
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "20:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "20:30",
+    "water_liters": 13.2,
+    "occupancy": 6
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "21:00",
+    "water_liters": 14.2,
+    "occupancy": 6
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "21:30",
+    "water_liters": 10.7,
+    "occupancy": 7
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "22:00",
+    "water_liters": 4.6,
+    "occupancy": 2
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "22:30",
+    "water_liters": 1.7,
+    "occupancy": 2
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "23:00",
+    "water_liters": 0.0,
+    "occupancy": 2
+  },
+  {
+    "day": 29,
+    "day_of_week": "Mon",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "00:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "00:30",
+    "water_liters": 6.4,
+    "occupancy": 2
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "01:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "01:30",
+    "water_liters": 7.1,
+    "occupancy": 2
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "02:00",
+    "water_liters": 4.1,
+    "occupancy": 1
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "02:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "03:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "03:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "04:00",
+    "water_liters": 0.7,
+    "occupancy": 2
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "04:30",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "05:00",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "05:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "06:00",
+    "water_liters": 3.4,
+    "occupancy": 2
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "06:30",
+    "water_liters": 0.5,
+    "occupancy": 3
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "07:00",
+    "water_liters": 16.5,
+    "occupancy": 11
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "07:30",
+    "water_liters": 19.9,
+    "occupancy": 13
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "08:00",
+    "water_liters": 68.8,
+    "occupancy": 38
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "08:30",
+    "water_liters": 47.0,
+    "occupancy": 29
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "09:00",
+    "water_liters": 56.7,
+    "occupancy": 35
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "09:30",
+    "water_liters": 52.6,
+    "occupancy": 32
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "10:00",
+    "water_liters": 73.5,
+    "occupancy": 48
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "10:30",
+    "water_liters": 71.6,
+    "occupancy": 45
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "11:00",
+    "water_liters": 66.7,
+    "occupancy": 44
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "11:30",
+    "water_liters": 80.7,
+    "occupancy": 50
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "12:00",
+    "water_liters": 121.9,
+    "occupancy": 48
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "12:30",
+    "water_liters": 132.7,
+    "occupancy": 49
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "13:00",
+    "water_liters": 117.3,
+    "occupancy": 44
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "13:30",
+    "water_liters": 120.1,
+    "occupancy": 47
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "14:00",
+    "water_liters": 70.6,
+    "occupancy": 48
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "14:30",
+    "water_liters": 74.3,
+    "occupancy": 48
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "15:00",
+    "water_liters": 67.3,
+    "occupancy": 45
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "15:30",
+    "water_liters": 66.5,
+    "occupancy": 45
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "16:00",
+    "water_liters": 66.0,
+    "occupancy": 44
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "16:30",
+    "water_liters": 69.8,
+    "occupancy": 46
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "17:00",
+    "water_liters": 31.5,
+    "occupancy": 20
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "17:30",
+    "water_liters": 51.8,
+    "occupancy": 32
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "18:00",
+    "water_liters": 34.1,
+    "occupancy": 21
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "18:30",
+    "water_liters": 36.8,
+    "occupancy": 23
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "19:00",
+    "water_liters": 6.7,
+    "occupancy": 6
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "19:30",
+    "water_liters": 11.7,
+    "occupancy": 8
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "20:00",
+    "water_liters": 0.2,
+    "occupancy": 1
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "20:30",
+    "water_liters": 2.9,
+    "occupancy": 2
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "21:00",
+    "water_liters": 15.7,
+    "occupancy": 9
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "21:30",
+    "water_liters": 6.2,
+    "occupancy": 5
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "22:00",
+    "water_liters": 4.7,
+    "occupancy": 1
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "22:30",
+    "water_liters": 3.4,
+    "occupancy": 2
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "23:00",
+    "water_liters": 0.0,
+    "occupancy": 1
+  },
+  {
+    "day": 30,
+    "day_of_week": "Tue",
+    "time": "23:30",
+    "water_liters": 0.0,
+    "occupancy": 0
+  }
+]

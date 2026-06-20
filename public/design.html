@@ -1,0 +1,1602 @@
+<!-- Water Monitoring -->
+<!DOCTYPE html>
+<html class="light" lang="en" style="">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>WateLetric - Water Usage Dashboard</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet">
+    <!-- Tailwind Config Verbatim -->
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-container": "#8e0a1e",
+                        "secondary-container": "#adf3b8",
+                        "on-primary-fixed-variant": "#8f0c1f",
+                        "on-secondary-container": "#307142",
+                        "tertiary-fixed-dim": "#a3cddb",
+                        "error-container": "#ffdad6",
+                        "inverse-on-surface": "#eff1f3",
+                        "secondary": "#296b3c",
+                        "surface-variant": "#e0e3e5",
+                        "outline": "#8d706f",
+                        "on-secondary-fixed": "#00210b",
+                        "on-tertiary-fixed": "#001f27",
+                        "on-secondary": "#ffffff",
+                        "on-background": "#191c1e",
+                        "tertiary-container": "#204b57",
+                        "surface-dim": "#d8dadc",
+                        "inverse-primary": "#ffb3b1",
+                        "surface-bright": "#f7f9fb",
+                        "on-tertiary-container": "#90bac8",
+                        "on-primary-fixed": "#410007",
+                        "on-primary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "primary": "#660011",
+                        "primary-fixed-dim": "#ffb3b1",
+                        "tertiary-fixed": "#beeaf8",
+                        "surface": "#f7f9fb",
+                        "surface-container-high": "#e6e8ea",
+                        "surface-container": "#eceef0",
+                        "outline-variant": "#e1bebd",
+                        "surface-container-low": "#f2f4f6",
+                        "secondary-fixed": "#adf3b8",
+                        "secondary-fixed-dim": "#92d69d",
+                        "on-surface-variant": "#594140",
+                        "background": "#f7f9fb",
+                        "on-secondary-fixed-variant": "#0a5226",
+                        "surface-tint": "#b12934",
+                        "tertiary": "#003440",
+                        "on-tertiary-fixed-variant": "#214c58",
+                        "surface-container-highest": "#e0e3e5",
+                        "primary-fixed": "#ffdad8",
+                        "on-surface": "#191c1e",
+                        "on-primary-container": "#ff9695",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "on-error": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "inverse-surface": "#2d3133"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-desktop": "40px",
+                        "unit": "8px",
+                        "margin-mobile": "16px",
+                        "container-padding": "32px",
+                        "card-gap": "24px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "headline-md": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "display-lg": ["Hanken Grotesk"],
+                        "label-mono": ["JetBrains Mono"],
+                        "title-lg": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "label-mono": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500" }],
+                        "title-lg": ["20px", { "lineHeight": "28px", "fontWeight": "500" }]
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        .scroll-hide::-webkit-scrollbar {
+            display: none;
+        }
+
+        .scroll-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        .utility-glow {
+            box-shadow: 0 0 20px rgba(41, 107, 60, 0.1);
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .animate-float {
+            animation: float 4s ease-in-out infinite;
+        }
+    </style>
+</head>
+
+<body class="bg-background text-on-surface font-body-md min-h-screen flex">
+    <!-- Sidebar Navigation (Desktop) -->
+    <aside class="fixed left-0 top-0 h-full flex flex-col z-50 bg-surface-container-low shadow-lg w-64 hidden md:flex">
+        <div class="p-6 flex flex-col h-full">
+            <div class="flex items-center gap-3 mb-10">
+                <div class="w-10 h-10 bg-primary rounded-xl flex items-center justify-center">
+                    <span class="material-symbols-outlined text-white">ac_unit</span>
+                </div>
+                <div>
+                    <h1 class="text-headline-md font-headline-lg text-primary">WateLetric</h1>
+                    <p class="text-label-mono font-label-mono text-on-surface-variant uppercase tracking-widest">Utility
+                        Management</p>
+                </div>
+            </div>
+            <nav class="flex-1 space-y-2">
+                <a class="flex items-center gap-4 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-all"
+                    href="#">
+                    <span class="material-symbols-outlined">bolt</span>
+                    <span class="font-label-mono text-label-mono">Electricity</span>
+                </a>
+                <a class="flex items-center gap-4 px-4 py-3 rounded-lg text-primary-container font-bold border-l-4 border-primary-container bg-primary/10 translate-x-1 transition-transform"
+                    href="#">
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">opacity</span>
+                    <span class="font-label-mono text-label-mono">Water</span>
+                </a>
+
+                <a class="flex items-center gap-4 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-all"
+                    href="#">
+                    <span class="material-symbols-outlined">settings</span>
+                    <span class="font-label-mono text-label-mono">Settings</span>
+                </a>
+            </nav>
+            <div class="pt-6 border-t border-outline-variant space-y-2">
+
+                <button
+                    class="w-full flex items-center gap-4 px-4 py-3 rounded-lg text-primary hover:bg-primary/5 transition-all"
+                    onclick="location.href='#'">
+                    <span class="material-symbols-outlined">logout</span>
+                    <span class="font-label-mono text-label-mono">Logout</span>
+                </button>
+            </div>
+        </div>
+    </aside>
+    <!-- Main Canvas -->
+    <main class="flex-1 md:ml-64 min-h-screen flex flex-col md:mr-80">
+        <!-- Top App Bar -->
+        <header
+            class="flex justify-between items-center px-margin-mobile md:px-margin-desktop w-full h-16 bg-surface shadow-sm sticky top-0 z-40">
+            <div class="flex items-center gap-4">
+                <button class="material-symbols-outlined md:hidden text-primary">menu</button>
+                <h2 class="text-headline-md font-headline-md text-primary">Water Usage</h2>
+            </div>
+            <div class="flex items-center gap-4">
+                <!-- Utility Slider/Toggle -->
+                <div
+                    class="hidden lg:flex items-center bg-surface-container p-1 rounded-full border border-outline-variant">
+                    <button
+                        class="px-4 py-1.5 rounded-full text-label-mono font-label-mono flex items-center gap-2 hover:bg-surface-container-high">
+                        <span class="material-symbols-outlined text-sm">bolt</span> Electricity
+                    </button>
+                    <button
+                        class="px-4 py-1.5 rounded-full bg-secondary-container text-on-secondary-container text-label-mono font-label-mono flex items-center gap-2 shadow-sm">
+                        <span class="material-symbols-outlined text-sm"
+                            style="font-variation-settings: 'FILL' 1;">opacity</span> Water
+                    </button>
+                </div>
+                <div class="flex items-center gap-2">
+                    <button
+                        class="material-symbols-outlined p-2 rounded-full hover:bg-surface-container-high transition-colors text-on-surface-variant">search</button>
+                    <button
+                        class="material-symbols-outlined p-2 rounded-full hover:bg-surface-container-high transition-colors text-primary">account_circle</button>
+                </div>
+            </div>
+        </header>
+        <!-- Content Body -->
+        <div class="p-margin-mobile md:p-container-padding space-y-card-gap max-w-5xl mx-auto w-full">
+            <!-- Real-time Hero Section -->
+            <section
+                class="bg-surface-container-lowest rounded-[32px] p-8 shadow-sm border border-outline-variant/30 overflow-hidden relative">
+                <div class="absolute top-0 right-0 p-8">
+                    <span class="flex items-center gap-2 text-secondary font-bold text-label-mono">
+                        <span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+                        LIVE MONITORING
+                    </span>
+                </div>
+                <div class="mb-8">
+                    <p class="text-on-surface-variant text-label-mono font-label-mono uppercase tracking-widest mb-1">
+                        Current Consumption</p>
+                    <h3 class="text-display-lg font-display-lg text-secondary">324.6 <span
+                            class="text-headline-md">L/hr</span></h3>
+                </div>
+                <!-- Main Usage Graph -->
+                <div class="h-64 w-full flex items-end gap-2 md:gap-4">
+                    <!-- Bars representing 30 min intervals -->
+                    <div
+                        class="flex-1 bg-secondary-container/20 rounded-t-xl hover:bg-secondary-container transition-all relative group h-[40%]">
+                        <div
+                            class="absolute -top-10 left-1/2 -translate-x-1/2 bg-on-surface text-white text-[10px] px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                            120L (09:00)</div>
+                    </div>
+                    <div
+                        class="flex-1 bg-secondary-container/20 rounded-t-xl hover:bg-secondary-container transition-all relative group h-[65%]">
+                        <div
+                            class="absolute -top-10 left-1/2 -translate-x-1/2 bg-on-surface text-white text-[10px] px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                            210L (09:30)</div>
+                    </div>
+                    <div
+                        class="flex-1 bg-secondary-container/20 rounded-t-xl hover:bg-secondary-container transition-all relative group h-[55%]">
+                    </div>
+                    <div
+                        class="flex-1 bg-secondary-container/20 rounded-t-xl hover:bg-secondary-container transition-all relative group h-[85%]">
+                    </div>
+                    <div
+                        class="flex-1 bg-secondary-container/20 rounded-t-xl hover:bg-secondary-container transition-all relative group h-[70%]">
+                    </div>
+                    <div
+                        class="flex-1 bg-secondary-container/20 rounded-t-xl hover:bg-secondary-container transition-all relative group h-[45%]">
+                    </div>
+                    <div
+                        class="flex-1 bg-secondary-container rounded-t-xl relative h-[95%] border-b-4 border-secondary shadow-lg">
+                        <div
+                            class="absolute -top-10 left-1/2 -translate-x-1/2 bg-secondary text-white text-[10px] px-2 py-1 rounded whitespace-nowrap">
+                            Current: 324L</div>
+                    </div>
+                </div>
+                <div class="flex justify-between mt-4 text-on-surface-variant font-label-mono text-[10px]">
+                    <span class="">08:00 AM</span>
+                    <span class="">10:00 AM</span>
+                    <span class="">12:00 PM</span>
+                    <span class="">02:00 PM</span>
+                </div>
+            </section>
+            <!-- Bottom Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-card-gap">
+                <!-- Prediction Card -->
+                <section
+                    class="bg-white rounded-[24px] p-6 border border-outline-variant/30 flex flex-col justify-between md:col-span-2">
+                    <div>
+                        <div class="flex justify-between items-start mb-6">
+                            <div>
+                                <h4 class="text-title-lg font-headline-md text-on-surface">Next 2 Hours Prediction</h4>
+                                <p class="text-body-md text-on-surface-variant">Based on historical weekday patterns</p>
+                            </div>
+                            <span
+                                class="material-symbols-outlined text-secondary-container bg-on-secondary-container p-2 rounded-xl">auto_graph</span>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between">
+                                <span class="text-label-mono font-label-mono text-on-surface-variant">Expected
+                                    Surge</span>
+                                <span class="text-body-md font-bold text-on-surface">+15% vs Avg</span>
+                            </div>
+                            <div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+                                <div class="bg-secondary-container h-full w-[65%]"></div>
+                            </div>
+                            <p class="text-body-md text-on-surface-variant leading-relaxed">
+                                Likely high consumption detected between <span class="font-bold text-secondary">03:30 PM
+                                    - 04:15 PM</span> due to automated irrigation cycles.
+                            </p>
+                        </div>
+                    </div>
+                    <button
+                        class="mt-6 w-full py-3 bg-secondary-container text-on-secondary-container font-bold rounded-xl hover:opacity-90 transition-all flex items-center justify-center gap-2">
+                        Adjust Thresholds <span class="material-symbols-outlined">chevron_right</span>
+                    </button>
+                </section>
+                <!-- Status & Health -->
+
+            </div>
+            <!-- Bento Mini Features -->
+            <div class="grid grid-cols-1 gap-card-gap sm:grid-cols-2">
+                <div class="bg-white p-6 rounded-2xl border border-outline-variant/30 flex items-center gap-4">
+                    <span class="material-symbols-outlined text-secondary text-3xl">savings</span>
+                    <div>
+                        <p class="text-label-mono text-on-surface-variant">Estimated Bill</p>
+                        <p class="text-title-lg font-bold">$42.30</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl border border-outline-variant/30 flex items-center gap-4">
+                    <span class="material-symbols-outlined text-secondary text-3xl">history</span>
+                    <div>
+                        <p class="text-label-mono text-on-surface-variant">Daily Avg</p>
+                        <p class="text-title-lg font-bold">1.2 kL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Persistent Chatbot Sidebar (Desktop Right) -->
+    <aside
+        class="fixed right-0 top-0 h-full w-80 bg-surface shadow-[-10px_0_30px_rgba(0,0,0,0.03)] border-l border-outline-variant/20 flex flex-col hidden lg:flex">
+        <div class="p-6 border-b border-outline-variant/20 flex items-center justify-between bg-primary/5">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center animate-float">
+                    <span class="material-symbols-outlined text-white text-sm">smart_toy</span>
+                </div>
+                <div>
+                    <h5 class="text-body-md font-bold text-primary">Utility AI Assistant</h5>
+                    <span class="text-[10px] text-secondary flex items-center gap-1">
+                        <span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Online
+                    </span>
+                </div>
+            </div>
+            <button class="material-symbols-outlined text-on-surface-variant">close</button>
+        </div>
+        <div class="flex-1 p-4 space-y-4 overflow-y-auto scroll-hide">
+            <div class="flex flex-col gap-1 items-start max-w-[85%]">
+                <div class="bg-surface-container p-3 rounded-2xl rounded-tl-none text-body-md">
+                    Hello! I noticed your water usage is 5% higher than last Tuesday. Would you like to see a breakdown?
+                </div>
+                <span class="text-[10px] text-on-surface-variant ml-1">10:42 AM</span>
+            </div>
+            <div class="flex flex-col gap-1 items-end ml-auto max-w-[85%]">
+                <div class="bg-primary text-white p-3 rounded-2xl rounded-tr-none text-body-md">
+                    Yes, please. Show me the kitchen versus garden consumption.
+                </div>
+                <span class="text-[10px] text-on-surface-variant mr-1">10:43 AM</span>
+            </div>
+
+        </div>
+        <div class="p-4 border-t border-outline-variant/20">
+            <div class="relative">
+                <input
+                    class="w-full bg-surface-container rounded-full py-3 px-5 pr-12 text-body-md border-none focus:ring-2 focus:ring-secondary/50"
+                    placeholder="Ask about your usage..." type="text">
+                <button
+                    class="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-secondary text-white flex items-center justify-center">
+                    <span class="material-symbols-outlined text-sm">send</span>
+                </button>
+            </div>
+        </div>
+    </aside>
+    <!-- Bottom Navigation (Mobile Only) -->
+    <nav
+        class="fixed bottom-0 left-0 w-full z-40 flex justify-around items-center h-16 md:hidden bg-surface shadow-lg rounded-t-xl border-t border-outline-variant">
+        <a class="flex flex-col items-center justify-center text-on-surface-variant" href="#">
+            <span class="material-symbols-outlined">bolt</span>
+            <span class="text-label-sm font-label-sm">Electricity</span>
+        </a>
+        <a class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-6 py-1 scale-90 transition-all"
+            href="#">
+            <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">opacity</span>
+            <span class="text-label-sm font-label-sm">Water</span>
+        </a>
+    </nav>
+    <!-- Custom Micro-interaction Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Logic for a "Live" bar update simulation
+            const bars = document.querySelectorAll('.flex-1.bg-secondary-container');
+            setInterval(() => {
+                const currentBar = document.querySelector('.border-b-4.border-secondary');
+                if (currentBar) {
+                    const randomFlux = (Math.random() * 4 - 2).toFixed(1);
+                    const baseValue = 324.5;
+                    const newValue = (parseFloat(baseValue) + parseFloat(randomFlux)).toFixed(1);
+                    document.querySelector('h3.text-display-lg').innerHTML = `${newValue} <span class="text-headline-md">L/hr</span>`;
+                }
+            }, 3000);
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>
+
+<!-- Electricity Monitoring Aligned -->
+<!DOCTYPE html>
+<html class="light" lang="en" style="">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>WateLetric - Electricity Dashboard</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap"
+        rel="stylesheet">
+    <!-- Material Symbols -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-container": "#8e0a1e",
+                        "secondary-container": "#adf3b8",
+                        "on-primary-fixed-variant": "#8f0c1f",
+                        "on-secondary-container": "#307142",
+                        "tertiary-fixed-dim": "#a3cddb",
+                        "error-container": "#ffdad6",
+                        "inverse-on-surface": "#eff1f3",
+                        "secondary": "#296b3c",
+                        "surface-variant": "#e0e3e5",
+                        "outline": "#8d706f",
+                        "on-secondary-fixed": "#00210b",
+                        "on-tertiary-fixed": "#001f27",
+                        "on-secondary": "#ffffff",
+                        "on-background": "#191c1e",
+                        "tertiary-container": "#204b57",
+                        "surface-dim": "#d8dadc",
+                        "inverse-primary": "#ffb3b1",
+                        "surface-bright": "#f7f9fb",
+                        "on-tertiary-container": "#90bac8",
+                        "on-primary-fixed": "#410007",
+                        "on-primary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "primary": "#660011",
+                        "primary-fixed-dim": "#ffb3b1",
+                        "tertiary-fixed": "#beeaf8",
+                        "surface": "#f7f9fb",
+                        "surface-container-high": "#e6e8ea",
+                        "surface-container": "#eceef0",
+                        "outline-variant": "#e1bebd",
+                        "surface-container-low": "#f2f4f6",
+                        "secondary-fixed": "#adf3b8",
+                        "secondary-fixed-dim": "#92d69d",
+                        "on-surface-variant": "#594140",
+                        "background": "#f7f9fb",
+                        "on-secondary-fixed-variant": "#0a5226",
+                        "surface-tint": "#b12934",
+                        "tertiary": "#003440",
+                        "on-tertiary-fixed-variant": "#214c58",
+                        "surface-container-highest": "#e0e3e5",
+                        "primary-fixed": "#ffdad8",
+                        "on-surface": "#191c1e",
+                        "on-primary-container": "#ff9695",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "on-error": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "inverse-surface": "#2d3133"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1rem",
+                        "3xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-desktop": "40px",
+                        "unit": "8px",
+                        "margin-mobile": "16px",
+                        "container-padding": "32px",
+                        "card-gap": "24px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "headline-md": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "display-lg": ["Hanken Grotesk"],
+                        "label-mono": ["JetBrains Mono"],
+                        "title-lg": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "label-mono": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500" }],
+                        "title-lg": ["20px", { "lineHeight": "28px", "fontWeight": "500" }]
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            background-color: #f7f9fb;
+            font-family: 'Hanken Grotesk', sans-serif;
+            color: #191c1e;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #e0e3e5;
+            border-radius: 10px;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .animate-float {
+            animation: float 4s ease-in-out infinite;
+        }
+    </style>
+</head>
+
+<body class="bg-background text-on-surface font-body-md min-h-screen flex">
+    <!-- Sidebar Navigation (Desktop) -->
+    <aside class="fixed left-0 top-0 h-full flex flex-col z-50 bg-surface-container-low shadow-lg w-64 hidden md:flex"
+        style="background-color: rgb(242, 244, 246); color: rgb(25, 28, 30);">
+        <div class="p-6 flex flex-col h-full">
+            <div class="flex items-center gap-3 mb-10">
+                <div class="w-10 h-10 bg-primary rounded-xl flex items-center justify-center"><span
+                        class="material-symbols-outlined text-white">ac_unit</span></div>
+                <div>
+                    <h1 class="text-headline-md font-headline-lg text-primary">WateLetric</h1>
+                    <p class="text-label-mono font-label-mono text-on-surface-variant uppercase tracking-widest">Utility
+                        Management</p>
+                </div>
+            </div>
+            <nav class="flex-1 space-y-2">
+                <a class="flex items-center gap-4 px-4 py-3 rounded-lg text-primary-container font-bold border-l-4 border-primary-container bg-primary/10 translate-x-1 transition-transform"
+                    href="#"
+                    style="background-color: rgba(102, 0, 17, 0.1); color: rgb(102, 0, 17); border-color: rgb(102, 0, 17);">
+                    <span class="material-symbols-outlined"
+                        style="font-variation-settings: &quot;FILL&quot; 1;">bolt</span>
+                    <span class="font-label-mono text-label-mono">Electricity</span>
+                </a>
+                <a class="flex items-center gap-4 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-all"
+                    href="#">
+                    <span class="material-symbols-outlined">opacity</span>
+                    <span class="font-label-mono text-label-mono">Water</span>
+                </a>
+                <a class="flex items-center gap-4 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-all"
+                    href="#">
+                    <span class="material-symbols-outlined">settings</span>
+                    <span class="font-label-mono text-label-mono">Settings</span>
+                </a>
+            </nav>
+            <div class="pt-6 border-t border-outline-variant space-y-2">
+                <button
+                    class="w-full flex items-center gap-4 px-4 py-3 rounded-lg text-primary hover:bg-primary/5 transition-all"
+                    onclick="location.reload()">
+                    <span class="material-symbols-outlined">logout</span>
+                    <span class="font-label-mono text-label-mono">Logout</span>
+                </button>
+            </div>
+        </div>
+    </aside>
+    <!-- Main Canvas -->
+    <main class="flex-1 md:ml-64 min-h-screen flex flex-col lg:mr-80">
+        <!-- Top Navigation Bar -->
+        <header
+            class="flex justify-between items-center px-margin-mobile md:px-margin-desktop w-full h-16 bg-surface shadow-sm sticky top-0 z-40">
+            <div class="flex items-center gap-4">
+                <button class="material-symbols-outlined md:hidden text-primary">menu</button>
+                <h2 class="text-headline-md font-headline-md text-primary">Electricity Usage</h2>
+            </div>
+            <div class="flex items-center gap-4">
+                <!-- Utility Slider/Toggle (Matched to SCREEN_5 colors) -->
+                <div
+                    class="hidden lg:flex items-center bg-surface-container p-1 rounded-full border border-outline-variant">
+                    <button
+                        class="px-4 py-1.5 rounded-full bg-secondary-container text-on-secondary-container text-label-mono font-label-mono flex items-center gap-2 shadow-sm">
+                        <span class="material-symbols-outlined text-sm"
+                            style="font-variation-settings: &quot;FILL&quot; 1;">bolt</span> Electricity
+                    </button>
+                    <button
+                        class="px-4 py-1.5 rounded-full text-on-surface-variant text-label-mono font-label-mono flex items-center gap-2 hover:bg-surface-container-high transition-colors"
+                        onclick="alert('Switching to Water Dashboard...')">
+                        <span class="material-symbols-outlined text-sm">opacity</span> Water
+                    </button>
+                </div>
+                <div class="flex items-center gap-2">
+                    <button
+                        class="material-symbols-outlined p-2 rounded-full hover:bg-surface-container-high transition-colors text-on-surface-variant">search</button>
+                    <button
+                        class="material-symbols-outlined p-2 rounded-full hover:bg-surface-container-high transition-colors text-primary">account_circle</button>
+                </div>
+            </div>
+        </header>
+        <!-- Content Body -->
+        <div class="p-margin-mobile md:p-container-padding space-y-card-gap max-w-5xl mx-auto w-full">
+            <!-- Real-time Hero Section (Matched to SCREEN_5 styling) -->
+            <section
+                class="bg-surface-container-lowest rounded-[32px] p-8 shadow-sm border border-outline-variant/30 overflow-hidden relative">
+                <div class="absolute top-0 right-0 p-8">
+                    <span class="flex items-center gap-2 text-secondary font-bold text-label-mono">
+                        <span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+                        LIVE MONITORING
+                    </span>
+                </div>
+                <div class="mb-8">
+                    <p class="text-on-surface-variant text-label-mono font-label-mono uppercase tracking-widest mb-1">
+                        Current Consumption</p>
+                    <h3 class="text-display-lg font-display-lg text-secondary">4.4 <span
+                            class="text-headline-md">kWh</span></h3>
+                </div>
+                <!-- Main Usage Graph (Matched to SCREEN_5 style green palette) -->
+                <div class="h-64 w-full flex items-end gap-2 md:gap-4">
+                    <div
+                        class="flex-1 bg-secondary-container/20 rounded-t-xl hover:bg-secondary-container transition-all relative group h-[40%]">
+                    </div>
+                    <div
+                        class="flex-1 bg-secondary-container/20 rounded-t-xl hover:bg-secondary-container transition-all relative group h-[65%]">
+                    </div>
+                    <div
+                        class="flex-1 bg-secondary-container/20 rounded-t-xl hover:bg-secondary-container transition-all relative group h-[55%]">
+                    </div>
+                    <div
+                        class="flex-1 bg-secondary-container/20 rounded-t-xl hover:bg-secondary-container transition-all relative group h-[85%]">
+                    </div>
+                    <div
+                        class="flex-1 bg-secondary-container/20 rounded-t-xl hover:bg-secondary-container transition-all relative group h-[70%]">
+                    </div>
+                    <div
+                        class="flex-1 bg-secondary-container/20 rounded-t-xl hover:bg-secondary-container transition-all relative group h-[45%]">
+                    </div>
+                    <div
+                        class="flex-1 bg-secondary-container rounded-t-xl relative h-[95%] border-b-4 border-secondary shadow-lg">
+                        <div
+                            class="absolute -top-10 left-1/2 -translate-x-1/2 bg-secondary text-white text-[10px] px-2 py-1 rounded whitespace-nowrap">
+                            Current: 4.2kWh</div>
+                    </div>
+                </div>
+                <div class="flex justify-between mt-4 text-on-surface-variant font-label-mono text-[10px]">
+                    <span class="">08:00 AM</span>
+                    <span class="">10:00 AM</span>
+                    <span class="">12:00 PM</span>
+                    <span class="">02:00 PM</span>
+                </div>
+            </section>
+            <!-- Prediction Section (Restructured to match SCREEN_5 green scheme) -->
+            <section class="bg-white rounded-[24px] p-6 border border-outline-variant/30 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-start mb-6">
+                        <div>
+                            <h4 class="text-title-lg font-headline-md text-on-surface">Next 2 Hours Prediction</h4>
+                            <p class="text-body-md text-on-surface-variant">Based on historical weekday patterns</p>
+                        </div>
+                        <span
+                            class="material-symbols-outlined text-secondary-container bg-on-secondary-container p-2 rounded-xl">auto_graph</span>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="text-label-mono font-label-mono text-on-surface-variant">Expected Trend</span>
+                            <span class="text-body-md font-bold text-on-surface">-12% vs Avg</span>
+                        </div>
+                        <div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+                            <div class="bg-secondary-container h-full w-[35%]"></div>
+                        </div>
+                        <p class="text-body-md text-on-surface-variant leading-relaxed">
+                            Usage is projected to drop to <span class="font-bold text-secondary">2.8 kWh</span> due to
+                            lower ambient temperatures and scheduled automation between <span
+                                class="font-bold text-primary">16:30 PM - 18:00 PM</span>.
+                        </p>
+                    </div>
+                </div>
+                <button
+                    class="mt-6 w-full py-3 bg-secondary-container text-on-secondary-container font-bold rounded-xl hover:opacity-90 transition-all flex items-center justify-center gap-2">
+                    Adjust Optimization <span class="material-symbols-outlined">chevron_right</span>
+                </button>
+            </section>
+            <!-- Bottom Grid Metrics -->
+            <div class="grid grid-cols-1 gap-card-gap sm:grid-cols-2">
+                <div
+                    class="bg-white p-6 rounded-2xl border border-outline-variant/30 flex items-center gap-4 shadow-sm">
+                    <span class="material-symbols-outlined text-secondary text-3xl">savings</span>
+                    <div>
+                        <p class="text-label-mono text-on-surface-variant">Estimated Bill</p>
+                        <p class="text-title-lg font-bold">$124.50</p>
+                    </div>
+                </div>
+                <div
+                    class="bg-white p-6 rounded-2xl border border-outline-variant/30 flex items-center gap-4 shadow-sm">
+                    <span class="material-symbols-outlined text-secondary text-3xl">history</span>
+                    <div>
+                        <p class="text-label-mono text-on-surface-variant">Daily Avg</p>
+                        <p class="text-title-lg font-bold">18.4 kWh</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Persistent Chatbot Sidebar -->
+    <aside
+        class="fixed right-0 top-0 h-full w-80 bg-surface shadow-[-10px_0_30px_rgba(0,0,0,0.03)] border-l border-outline-variant/20 flex flex-col hidden lg:flex"
+        style="background-color: rgb(255, 255, 255); color: rgb(25, 28, 30);">
+        <div
+            class="p-6 border-b border-outline-variant/20 flex items-center justify-between bg-primary/5 text-on-surface">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-full flex items-center justify-center animate-float bg-white/30">
+                    <span class="material-symbols-outlined text-white text-sm">smart_toy</span>
+                </div>
+                <div>
+                    <h5 class="text-body-md font-bold text-primary">Berry Assistant</h5>
+                    <span class="text-[10px] text-secondary flex items-center gap-1">
+                        <span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Online
+                    </span>
+                </div>
+            </div>
+            <button class="material-symbols-outlined text-on-surface-variant">close</button>
+        </div>
+        <div class="flex-1 p-4 space-y-4 overflow-y-auto custom-scrollbar">
+            <div class="flex flex-col gap-1 items-start max-w-[85%]">
+                <div class="p-3 rounded-2xl rounded-tl-none text-body-md bg-surface-container-lowest">
+                    Hello! I've analyzed your electricity usage. It looks like your HVAC system peaked at 2 PM. Would
+                    you like to see efficiency tips?
+                </div>
+                <span class="text-[10px] text-on-surface-variant ml-1">14:02</span>
+            </div>
+            <div class="flex flex-col gap-1 items-end ml-auto max-w-[85%]">
+                <div class="text-on-primary p-3 rounded-2xl rounded-tr-none text-body-md bg-primary">
+                    Yes, please. Show me how to optimize for the next 2 hours.
+                </div>
+                <span class="text-[10px] text-on-surface-variant mr-1">14:05</span>
+            </div>
+            <div class="flex flex-col gap-1 items-start max-w-[85%]">
+                <div class="p-3 rounded-2xl rounded-tl-none text-body-md bg-surface-container-lowest">
+                    Based on current grid pricing, increasing your thermostat by 2 degrees could save <span
+                        class="font-bold text-secondary">15% on your next bill</span>.
+                </div>
+                <span class="text-[10px] text-on-surface-variant ml-1">14:05</span>
+            </div>
+        </div>
+        <div class="p-4 border-t border-outline-variant/20">
+            <div class="relative">
+                <input
+                    class="w-full rounded-full py-3 px-5 pr-12 text-body-md border border-outline-variant/30 focus:ring-2 focus:ring-primary/50 bg-surface-container-low"
+                    placeholder="Ask about your usage..." type="text">
+                <button
+                    class="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full text-on-primary flex items-center justify-center bg-primary">
+                    <span class="material-symbols-outlined text-sm">send</span>
+                </button>
+            </div>
+        </div>
+    </aside>
+    <!-- Bottom Navigation for Mobile -->
+    <nav
+        class="fixed bottom-0 left-0 w-full z-40 flex justify-around items-center h-16 md:hidden bg-surface shadow-lg rounded-t-xl border-t border-outline-variant">
+        <a class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-6 py-1 scale-90 transition-all"
+            href="#">
+            <span class="material-symbols-outlined" style="font-variation-settings: &quot;FILL&quot; 1;">bolt</span>
+            <span class="text-label-sm font-label-sm">Electricity</span>
+        </a>
+        <a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-secondary-fixed-dim transition-colors"
+            href="#">
+            <span class="material-symbols-outlined">opacity</span>
+            <span class="text-label-sm font-label-sm">Water</span>
+        </a>
+    </nav>
+    <script>
+        // Menu Toggle Logic (Mobile)
+        document.querySelector('.md\\:hidden.text-primary').addEventListener('click', () => {
+            alert('Side menu would open here in mobile view.');
+        });
+
+        // Simple live update simulation
+        setInterval(() => {
+            const h3 = document.querySelector('h3.text-display-lg');
+            if (h3) {
+                const baseValue = 4.2;
+                const randomFlux = (Math.random() * 0.4 - 0.2).toFixed(1);
+                const newValue = (parseFloat(baseValue) + parseFloat(randomFlux)).toFixed(1);
+                h3.innerHTML = `${newValue} <span class="text-headline-md">kWh</span>`;
+            }
+        }, 3000);
+    </script>
+
+
+</body>
+
+</html>
+
+<!-- Your Profile -->
+<!DOCTYPE html>
+<html class="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>User Profile | WateLetric</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet">
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-container": "#8e0a1e",
+                        "secondary-container": "#adf3b8",
+                        "on-primary-fixed-variant": "#8f0c1f",
+                        "on-secondary-container": "#307142",
+                        "tertiary-fixed-dim": "#a3cddb",
+                        "error-container": "#ffdad6",
+                        "inverse-on-surface": "#eff1f3",
+                        "secondary": "#296b3c",
+                        "surface-variant": "#e0e3e5",
+                        "outline": "#8d706f",
+                        "on-secondary-fixed": "#00210b",
+                        "on-tertiary-fixed": "#001f27",
+                        "on-secondary": "#ffffff",
+                        "on-background": "#191c1e",
+                        "tertiary-container": "#204b57",
+                        "surface-dim": "#d8dadc",
+                        "inverse-primary": "#ffb3b1",
+                        "surface-bright": "#f7f9fb",
+                        "on-tertiary-container": "#90bac8",
+                        "on-primary-fixed": "#410007",
+                        "on-primary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "primary": "#660011",
+                        "primary-fixed-dim": "#ffb3b1",
+                        "tertiary-fixed": "#beeaf8",
+                        "surface": "#f7f9fb",
+                        "surface-container-high": "#e6e8ea",
+                        "surface-container": "#eceef0",
+                        "outline-variant": "#e1bebd",
+                        "surface-container-low": "#f2f4f6",
+                        "secondary-fixed": "#adf3b8",
+                        "secondary-fixed-dim": "#92d69d",
+                        "on-surface-variant": "#594140",
+                        "background": "#f7f9fb",
+                        "on-secondary-fixed-variant": "#0a5226",
+                        "surface-tint": "#b12934",
+                        "tertiary": "#003440",
+                        "on-tertiary-fixed-variant": "#214c58",
+                        "surface-container-highest": "#e0e3e5",
+                        "primary-fixed": "#ffdad8",
+                        "on-surface": "#191c1e",
+                        "on-primary-container": "#ff9695",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "on-error": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "inverse-surface": "#2d3133"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-desktop": "40px",
+                        "unit": "8px",
+                        "margin-mobile": "16px",
+                        "container-padding": "32px",
+                        "card-gap": "24px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "headline-md": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "display-lg": ["Hanken Grotesk"],
+                        "label-mono": ["JetBrains Mono"],
+                        "title-lg": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "label-mono": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500" }],
+                        "title-lg": ["20px", { "lineHeight": "28px", "fontWeight": "500" }]
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            background-color: #F8FAFC;
+            font-family: 'Hanken Grotesk', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        .tonal-layering {
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.04);
+        }
+
+        .blur-backdrop {
+            backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+
+<body class="bg-background text-on-surface">
+    <!-- Top Navigation Bar (Shared Component Logic) -->
+    <header
+        class="bg-surface shadow-sm docked full-width top-0 sticky z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop w-full h-16">
+        <div class="flex items-center gap-4">
+            <button class="p-2 rounded-full hover:bg-surface-container-high transition-colors"
+                onclick="window.history.back()">
+                <span class="material-symbols-outlined text-primary">arrow_back</span>
+            </button>
+            <h1 class="text-title-lg font-headline-lg text-primary">WateLetric</h1>
+        </div>
+        <div class="flex items-center gap-2">
+            <span class="text-label-md font-label-md text-on-surface-variant hidden md:block">Settings &amp;
+                Profile</span>
+            <div class="p-1 rounded-full border border-outline-variant">
+                <span class="material-symbols-outlined text-primary-container"
+                    style="font-variation-settings: 'FILL' 1;">account_circle</span>
+            </div>
+        </div>
+    </header>
+    <main class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop py-12">
+        <!-- Profile Header Section -->
+        <section class="mb-12 flex flex-col md:flex-row items-center gap-8 animate-in fade-in duration-700">
+            <div class="relative group">
+                <div
+                    class="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-lg overflow-hidden bg-surface-container-highest">
+                    <img class="w-full h-full object-cover"
+                        data-alt="A professional studio portrait of a modern corporate executive with a friendly expression. The lighting is soft and high-key, reflecting a bright and airy light-mode UI. The background is a clean, minimal gradient of sky blue and cool white, consistent with a winter berry color palette and a corporate modernist aesthetic."
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQWqrk_lfoP6ae1Gg8kwfvZRXDdgKWqxrAvkZCkBdlPaKie0QASGXTg4rnInTp21Plhvd586faW-CXBwS98upsgw8v-o-uI8CnxVWHM_NMKZ0z1wG_TP9dUQktPhN0rUI-5Wl2UWKqqNhhCjr0C8VN2yjGuxCEjgmxboYrfCkxDpzOP8627GxZE6a9oo_73gqYKN9OJt95oFoMt9Hhv6D5IhbxTrADfRkl6ltYvfZzAVeGpLPcpcJshILBxtENfsR5ycKRvC7BK1M">
+                </div>
+                <button
+                    class="absolute bottom-1 right-1 bg-primary text-white p-2 rounded-full shadow-md hover:scale-105 transition-transform">
+                    <span class="material-symbols-outlined text-sm">edit</span>
+                </button>
+            </div>
+            <div class="text-center md:text-left">
+                <h2 class="text-headline-lg font-headline-lg text-primary">Alex Sterling</h2>
+                <p class="text-body-lg font-body-lg text-on-surface-variant">Senior Infrastructure Manager • ID:
+                    WB-99281</p>
+                <div class="mt-4 flex flex-wrap justify-center md:justify-start gap-2">
+                    <span
+                        class="px-3 py-1 bg-secondary/15 text-secondary rounded-full text-label-mono font-label-mono uppercase tracking-wider">Admin</span>
+                    <span
+                        class="px-3 py-1 bg-tertiary-container/10 text-on-tertiary-container rounded-full text-label-mono font-label-mono uppercase tracking-wider">North
+                        Sector</span>
+                </div>
+            </div>
+        </section>
+        <!-- Profile Grid Layout -->
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+            <!-- Left Column: Personal Information & Security -->
+            <div class="md:col-span-8 flex flex-col gap-8">
+                <!-- Account Details Card -->
+                <div
+                    class="bg-surface-container-lowest p-8 rounded-2xl tonal-layering border border-surface-container transition-all duration-700 opacity-100 translate-y-0">
+                    <div class="flex items-center justify-between mb-6">
+                        <h3 class="text-title-lg font-headline-md text-on-surface">Account Details</h3>
+                        <button class="text-primary hover:underline text-body-md font-body-md">Edit All</button>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-8">
+                        <div class="space-y-1">
+                            <label
+                                class="text-label-mono font-label-mono text-on-surface-variant uppercase text-[10px]">Full
+                                Name</label>
+                            <p class="text-body-lg font-body-lg text-on-surface">Alex Sterling</p>
+                        </div>
+                        <div class="space-y-1">
+                            <label
+                                class="text-label-mono font-label-mono text-on-surface-variant uppercase text-[10px]">Email
+                                Address</label>
+                            <p class="text-body-lg font-body-lg text-on-surface">a.sterling@winterberry.io</p>
+                        </div>
+                        <div class="space-y-1">
+                            <label
+                                class="text-label-mono font-label-mono text-on-surface-variant uppercase text-[10px]">Mobile
+                                Number</label>
+                            <p class="text-body-lg font-body-lg text-on-surface">+1 (555) 012-3456</p>
+                        </div>
+                        <div class="space-y-1">
+                            <label
+                                class="text-label-mono font-label-mono text-on-surface-variant uppercase text-[10px]">Location</label>
+                            <p class="text-body-lg font-body-lg text-on-surface">Oslo, Norway HQ</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Utility Preferences Bento Grid Section -->
+                <div
+                    class="bg-surface-container-lowest p-8 rounded-2xl tonal-layering border border-surface-container transition-all duration-700 opacity-100 translate-y-0">
+                    <h3 class="text-title-lg font-headline-md text-on-surface mb-6">Utility Management Preferences</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <!-- Preference Toggle 1 -->
+                        <div
+                            class="p-4 rounded-xl bg-surface-container-low flex items-center justify-between hover:bg-surface-container transition-colors cursor-pointer group">
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="material-symbols-outlined text-secondary-container bg-secondary px-2 py-2 rounded-lg">bolt</span>
+                                <div>
+                                    <p class="text-body-md font-bold">Electricity Thresholds</p>
+                                    <p class="text-label-mono font-label-mono text-[10px]">Notify at 85% capacity</p>
+                                </div>
+                            </div>
+                            <div class="w-10 h-5 bg-secondary rounded-full relative">
+                                <div class="absolute right-1 top-1 w-3 h-3 bg-white rounded-full"></div>
+                            </div>
+                        </div>
+                        <!-- Preference Toggle 2 -->
+                        <div
+                            class="p-4 rounded-xl bg-surface-container-low flex items-center justify-between hover:bg-surface-container transition-colors cursor-pointer group">
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="material-symbols-outlined text-tertiary-fixed bg-tertiary-container px-2 py-2 rounded-lg">opacity</span>
+                                <div>
+                                    <p class="text-body-md font-bold">Water Conservation</p>
+                                    <p class="text-label-mono font-label-mono text-[10px]">Smart Leak Detection Active
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="w-10 h-5 bg-secondary rounded-full relative">
+                                <div class="absolute right-1 top-1 w-3 h-3 bg-white rounded-full"></div>
+                            </div>
+                        </div>
+                        <!-- Preference Toggle 3 -->
+                        <div
+                            class="p-4 rounded-xl border border-outline-variant/30 flex items-center justify-between hover:bg-surface-container transition-colors cursor-pointer group">
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="material-symbols-outlined text-on-surface-variant bg-surface-container-highest px-2 py-2 rounded-lg">notifications_active</span>
+                                <div>
+                                    <p class="text-body-md font-bold">Critical Alerts</p>
+                                    <p class="text-label-mono font-label-mono text-[10px]">SMS and Email Push</p>
+                                </div>
+                            </div>
+                            <div class="w-10 h-5 bg-outline-variant/40 rounded-full relative">
+                                <div class="absolute left-1 top-1 w-3 h-3 bg-white rounded-full"></div>
+                            </div>
+                        </div>
+                        <!-- Preference Toggle 4 -->
+                        <div
+                            class="p-4 rounded-xl border border-outline-variant/30 flex items-center justify-between hover:bg-surface-container transition-colors cursor-pointer group">
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="material-symbols-outlined text-on-surface-variant bg-surface-container-highest px-2 py-2 rounded-lg">history</span>
+                                <div>
+                                    <p class="text-body-md font-bold">Auto-Archiving</p>
+                                    <p class="text-label-mono font-label-mono text-[10px]">30-day data retention</p>
+                                </div>
+                            </div>
+                            <div class="w-10 h-5 bg-outline-variant/40 rounded-full relative">
+                                <div class="absolute left-1 top-1 w-3 h-3 bg-white rounded-full"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Security Management -->
+                <div
+                    class="bg-surface-container-lowest p-8 rounded-2xl tonal-layering border border-surface-container mb-12 md:mb-0 transition-all duration-700 opacity-100 translate-y-0">
+                    <h3 class="text-title-lg font-headline-md text-on-surface mb-6">Security &amp; Authentication</h3>
+                    <div class="space-y-4">
+                        <div
+                            class="flex items-center justify-between p-4 bg-surface rounded-xl border border-surface-container">
+                            <div class="flex items-center gap-4">
+                                <span class="material-symbols-outlined text-primary">key</span>
+                                <div>
+                                    <p class="text-body-md font-bold">Two-Factor Authentication</p>
+                                    <p class="text-body-md text-on-surface-variant">Secure your account with an extra
+                                        layer</p>
+                                </div>
+                            </div>
+                            <button
+                                class="bg-secondary-container text-on-secondary-container px-4 py-1.5 rounded-full text-label-mono font-label-mono uppercase tracking-tighter">Enabled</button>
+                        </div>
+                        <div
+                            class="flex items-center justify-between p-4 bg-surface rounded-xl border border-surface-container">
+                            <div class="flex items-center gap-4">
+                                <span class="material-symbols-outlined text-primary">devices</span>
+                                <div>
+                                    <p class="text-body-md font-bold">Active Sessions</p>
+                                    <p class="text-body-md text-on-surface-variant">3 devices currently logged in</p>
+                                </div>
+                            </div>
+                            <button
+                                class="text-primary hover:bg-primary/5 px-4 py-1.5 rounded-full text-label-mono font-label-mono border border-primary uppercase tracking-tighter transition-all active:scale-95">Manage</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Right Column: Quick Actions & Status -->
+            <div class="md:col-span-4 flex flex-col gap-8">
+                <!-- Subscription/Plan Card -->
+
+                <!-- Consumption Meter (Specialized Widget) -->
+
+                <!-- Quick Help Card -->
+
+                <!-- Sign Out -->
+                <button
+                    class="flex items-center justify-center gap-3 w-full p-4 rounded-2xl border border-error/30 text-error hover:bg-error/5 transition-all group">
+                    <span class="material-symbols-outlined group-hover:rotate-12 transition-transform">logout</span>
+                    <span class="font-bold">Sign Out of All Devices</span>
+                </button>
+            </div>
+        </div>
+    </main>
+    <!-- Bottom Navigation Bar (Mobile only, Shared Component Logic) -->
+    <nav
+        class="fixed bottom-0 left-0 w-full z-40 flex justify-around items-center h-16 md:hidden bg-surface shadow-lg rounded-t-xl border-t border-outline-variant">
+        <a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-secondary-fixed-dim transition-all p-2 rounded-lg"
+            href="#">
+            <span class="material-symbols-outlined">bolt</span>
+            <span class="text-label-sm font-label-sm">Electricity</span>
+        </a>
+        <a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-secondary-fixed-dim transition-all p-2 rounded-lg"
+            href="#">
+            <span class="material-symbols-outlined">opacity</span>
+            <span class="text-label-sm font-label-sm">Water</span>
+        </a>
+        <a class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-6 py-1 scale-90"
+            href="#">
+            <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">account_circle</span>
+            <span class="text-label-sm font-label-sm">Profile</span>
+        </a>
+    </nav>
+    <script>
+        // Micro-interactions for toggle buttons
+        document.querySelectorAll('.cursor-pointer').forEach(item => {
+            item.addEventListener('click', () => {
+                const toggle = item.querySelector('.relative > div');
+                const bg = item.querySelector('.relative');
+                if (toggle.classList.contains('right-1')) {
+                    toggle.classList.remove('right-1');
+                    toggle.classList.add('left-1');
+                    bg.classList.remove('bg-secondary');
+                    bg.classList.add('bg-outline-variant/40');
+                } else {
+                    toggle.classList.remove('left-1');
+                    toggle.classList.add('right-1');
+                    bg.classList.remove('bg-outline-variant/40');
+                    bg.classList.add('bg-secondary');
+                }
+            });
+        });
+
+        // Animation entrance on scroll/load
+        document.addEventListener('DOMContentLoaded', () => {
+            const observerOptions = {
+                threshold: 0.1
+            };
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('opacity-100', 'translate-y-0');
+                        entry.target.classList.remove('opacity-0', 'translate-y-10');
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.tonal-layering').forEach(el => {
+                el.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-10');
+                observer.observe(el);
+            });
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>
+
+<!-- Welcome to Winter Berry -->
+<!DOCTYPE html>
+<html class="light" lang="en" style="">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Winter Berry - Smart Utility Management</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet">
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-container": "#8e0a1e",
+                        "secondary-container": "#adf3b8",
+                        "on-primary-fixed-variant": "#8f0c1f",
+                        "on-secondary-container": "#307142",
+                        "tertiary-fixed-dim": "#a3cddb",
+                        "error-container": "#ffdad6",
+                        "inverse-on-surface": "#eff1f3",
+                        "secondary": "#296b3c",
+                        "surface-variant": "#e0e3e5",
+                        "outline": "#8d706f",
+                        "on-secondary-fixed": "#00210b",
+                        "on-tertiary-fixed": "#001f27",
+                        "on-secondary": "#ffffff",
+                        "on-background": "#191c1e",
+                        "tertiary-container": "#204b57",
+                        "surface-dim": "#d8dadc",
+                        "inverse-primary": "#ffb3b1",
+                        "surface-bright": "#f7f9fb",
+                        "on-tertiary-container": "#90bac8",
+                        "on-primary-fixed": "#410007",
+                        "on-primary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "primary": "#660011",
+                        "primary-fixed-dim": "#ffb3b1",
+                        "tertiary-fixed": "#beeaf8",
+                        "surface": "#f7f9fb",
+                        "surface-container-high": "#e6e8ea",
+                        "surface-container": "#eceef0",
+                        "outline-variant": "#e1bebd",
+                        "surface-container-low": "#f2f4f6",
+                        "secondary-fixed": "#adf3b8",
+                        "secondary-fixed-dim": "#92d69d",
+                        "on-surface-variant": "#594140",
+                        "background": "#f7f9fb",
+                        "on-secondary-fixed-variant": "#0a5226",
+                        "surface-tint": "#b12934",
+                        "tertiary": "#003440",
+                        "on-tertiary-fixed-variant": "#214c58",
+                        "surface-container-highest": "#e0e3e5",
+                        "primary-fixed": "#ffdad8",
+                        "on-surface": "#191c1e",
+                        "on-primary-container": "#ff9695",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "on-error": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "inverse-surface": "#2d3133"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1rem",
+                        "3xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-desktop": "40px",
+                        "unit": "8px",
+                        "margin-mobile": "16px",
+                        "container-padding": "32px",
+                        "card-gap": "24px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "headline-md": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "display-lg": ["Hanken Grotesk"],
+                        "label-mono": ["JetBrains Mono"],
+                        "title-lg": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "label-mono": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500" }],
+                        "title-lg": ["20px", { "lineHeight": "28px", "fontWeight": "500" }]
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Hanken Grotesk', sans-serif;
+            background-color: #f7f9fb;
+            color: #191c1e;
+            overflow-x: hidden;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(226, 232, 240, 0.5);
+        }
+
+        .winter-gradient {
+            background: linear-gradient(135deg, #f7f9fb 0%, #e6e8ea 100%);
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+
+<body class="min-h-screen flex flex-col"
+    style="background: linear-gradient(rgb(173, 216, 230) 0%, rgb(247, 249, 251) 100%);">
+    <!-- TopAppBar Shell (Suppressed Nav for Landing, showing only Identity & Actions) -->
+    <header
+        class="flex justify-between items-center px-margin-mobile md:px-margin-desktop w-full h-16 bg-surface dark:bg-inverse-surface shadow-sm z-50 fixed top-0">
+        <div class="text-title-lg font-headline-lg text-primary dark:text-primary-fixed-dim">WateLetric</div>
+        <div class="flex items-center gap-4">
+            <button
+                class="p-2 rounded-full hover:bg-surface-container-high transition-colors text-on-surface-variant active:scale-95 active:opacity-80">
+                <span class="material-symbols-outlined" data-icon="account_circle">account_circle</span>
+            </button>
+        </div>
+    </header>
+    <main class="flex-grow pt-16 flex flex-col">
+        <!-- Hero Split Section -->
+        <div class="flex flex-col md:flex-row flex-grow min-h-[calc(100vh-16rem)]">
+            <!-- Left Side: High Impact Brand Messaging -->
+            <div class="w-full md:w-1/2 flex flex-col justify-center px-margin-mobile md:px-24 py-12 relative overflow-hidden"
+                style="background-color: rgb(247, 249, 251); background-image: radial-gradient(at 0% 0%, rgba(142, 10, 30, 0.12) 0px, transparent 50%), radial-gradient(at 100% 0%, rgba(46, 111, 64, 0.1) 0px, transparent 50%), radial-gradient(at 100% 100%, rgba(173, 216, 230, 0.2) 0px, transparent 50%), radial-gradient(at 0% 100%, rgba(142, 10, 30, 0.08) 0px, transparent 50%), radial-gradient(rgba(173, 216, 230, 0.15) 0px, transparent 50%);">
+                <div class="absolute top-10 left-10 opacity-10 animate-float">
+                    <span class="material-symbols-outlined text-[120px]" data-icon="ac_unit">ac_unit</span>
+                </div>
+                <div class="relative z-10">
+                    <span
+                        class="inline-block px-3 py-1 mb-6 rounded-full bg-secondary-container text-on-secondary-container text-label-mono font-label-mono uppercase tracking-widest">
+                        Utility Intelligence
+                    </span>
+                    <h1 class="text-display-lg font-display-lg text-primary mb-6 leading-tight">Save Energy.<div
+                            class="">Save Water.</div>
+                        <div class="">Save Cost.</div>
+                    </h1>
+
+
+                </div>
+                <!-- Abstract Visual Element -->
+                <div class="absolute bottom-0 right-0 w-full h-1/2 pointer-events-none opacity-40">
+                    <div class="w-full h-full bg-surface-container-low"></div>
+                </div>
+            </div>
+            <!-- Right Side: Login Card -->
+            <div class="w-full md:w-1/2 flex items-center justify-center px-margin-mobile md:px-12 py-12 bg-white"
+                style="background-color: rgb(247, 249, 251); background-image: radial-gradient(at 0% 0%, rgba(142, 10, 30, 0.12) 0px, transparent 50%), radial-gradient(at 100% 0%, rgba(46, 111, 64, 0.1) 0px, transparent 50%), radial-gradient(at 100% 100%, rgba(173, 216, 230, 0.2) 0px, transparent 50%), radial-gradient(at 0% 100%, rgba(142, 10, 30, 0.08) 0px, transparent 50%), radial-gradient(rgba(173, 216, 230, 0.15) 0px, transparent 50%);">
+                <div class="w-full max-w-md p-8 rounded-3xl border border-outline-variant shadow-xl bg-white space-y-8">
+                    <div class="text-center">
+                        <h2 class="text-headline-md font-headline-md text-on-surface mb-2">Welcome Back</h2>
+                        <p class="text-body-md font-body-md text-on-surface-variant">Access your utility dashboard</p>
+                    </div>
+                    <form class="space-y-6" onsubmit="event.preventDefault()">
+                        <div class="space-y-2">
+                            <label class="block text-label-mono font-label-mono text-on-surface-variant ml-1">WORK
+                                EMAIL</label>
+                            <input
+                                class="w-full px-4 py-3 rounded-xl border border-outline-variant focus:ring-2 focus:ring-tertiary-fixed focus:border-tertiary transition-all outline-none"
+                                placeholder="name@company.com" type="email">
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex justify-between">
+                                <label
+                                    class="block text-label-mono font-label-mono text-on-surface-variant ml-1">PASSWORD</label>
+                                <a class="text-label-mono text-primary hover:underline" href="#">Forgot?</a>
+                            </div>
+                            <input
+                                class="w-full px-4 py-3 rounded-xl border border-outline-variant focus:ring-2 focus:ring-tertiary-fixed focus:border-tertiary transition-all outline-none"
+                                placeholder="••••••••" type="password">
+                        </div>
+                        <div class="flex items-center gap-2 px-1">
+                            <input class="rounded text-primary focus:ring-primary border-outline-variant" id="remember"
+                                type="checkbox">
+                            <label class="text-body-md text-on-surface-variant" for="remember">Remember this
+                                device</label>
+                        </div>
+                        <button
+                            class="w-full py-4 bg-primary text-on-primary rounded-xl font-bold shadow-md hover:opacity-90 active:scale-95 transition-all"
+                            type="submit">
+                            Sign In to Portal
+                        </button>
+                    </form>
+                    <div class="relative py-4">
+                        <div class="absolute inset-0 flex items-center">
+                            <div class="w-full border-t border-outline-variant"></div>
+                        </div>
+                        <div class="relative flex justify-center text-label-mono bg-white px-4 text-on-surface-variant">
+                            OR CONTINUE WITH</div>
+                    </div>
+                    <div class="grid gap-4">
+
+                        <button
+                            class="flex items-center justify-center gap-2 py-3 border border-outline-variant rounded-xl hover:bg-surface-container-low transition-colors">
+                            <span class="material-symbols-outlined text-[20px]" data-icon="key">key</span>
+                            <span class="text-body-md font-semibold">Passkey</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Feature Section -->
+        <section
+            class="bg-surface-container-low py-16 px-margin-mobile md:px-margin-desktop border-t border-outline-variant">
+            <div class="max-w-7xl mx-auto">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+                    <!-- Feature 1 -->
+                    <div
+                        class="flex flex-col items-center text-center p-6 bg-white rounded-2xl shadow-sm border border-outline-variant hover:shadow-md transition-shadow group">
+                        <div
+                            class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-4 group-hover:scale-110 transition-transform">
+                            <span class="material-symbols-outlined text-3xl" data-icon="bolt">bolt</span>
+                        </div>
+                        <h3 class="text-title-lg font-headline-md text-on-surface mb-2">Real-time Tracking</h3>
+                        <p class="text-body-md text-on-surface-variant leading-snug">Monitor consumption across all
+                            assets with sub-second latency.</p>
+                    </div>
+                    <!-- Feature 2 -->
+                    <div
+                        class="flex flex-col items-center text-center p-6 bg-white rounded-2xl shadow-sm border border-outline-variant hover:shadow-md transition-shadow group">
+                        <div
+                            class="w-16 h-16 rounded-full bg-secondary-container/30 flex items-center justify-center text-on-secondary-container mb-4 group-hover:scale-110 transition-transform">
+                            <span class="material-symbols-outlined text-3xl"
+                                data-icon="online_prediction">online_prediction</span>
+                        </div>
+                        <h3 class="text-title-lg font-headline-md text-on-surface mb-2">Smart Predictions</h3>
+                        <p class="text-body-md text-on-surface-variant leading-snug">ML-driven forecasting to anticipate
+                            load spikes and outages.</p>
+                    </div>
+                    <!-- Feature 3 -->
+                    <div
+                        class="flex flex-col items-center text-center p-6 bg-white rounded-2xl shadow-sm border border-outline-variant hover:shadow-md transition-shadow group">
+                        <div
+                            class="w-16 h-16 rounded-full bg-tertiary-fixed flex items-center justify-center text-tertiary mb-4 group-hover:scale-110 transition-transform">
+                            <span class="material-symbols-outlined text-3xl" data-icon="smart_toy">smart_toy</span>
+                        </div>
+                        <h3 class="text-title-lg font-headline-md text-on-surface mb-2">AI Support</h3>
+                        <p class="text-body-md text-on-surface-variant leading-snug">Automated troubleshooting and
+                            optimization recommendations.</p>
+                    </div>
+                    <!-- Feature 4 -->
+                    <div
+                        class="flex flex-col items-center text-center p-6 bg-white rounded-2xl shadow-sm border border-outline-variant hover:shadow-md transition-shadow group">
+                        <div
+                            class="w-16 h-16 rounded-full bg-on-surface-variant/10 flex items-center justify-center text-on-surface-variant mb-4 group-hover:scale-110 transition-transform">
+                            <span class="material-symbols-outlined text-3xl"
+                                data-icon="verified_user">verified_user</span>
+                        </div>
+                        <h3 class="text-title-lg font-headline-md text-on-surface mb-2">Secure Access</h3>
+                        <p class="text-body-md text-on-surface-variant leading-snug">Enterprise-grade encryption and
+                            multi-factor authentication.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Suppressed Bottom Navigation for Landing: No BottomNavBar here as it's transactional/landing -->
+    <footer class="bg-surface-container-highest py-10 px-margin-mobile md:px-margin-desktop text-on-surface-variant">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="flex flex-col items-center md:items-start">
+                <span class="text-headline-md font-headline-lg text-primary">WateLetric</span>
+                <span class="text-label-mono">v4.2.0 Management Suite</span>
+            </div>
+            <nav class="flex gap-8 text-label-mono uppercase tracking-widest">
+                <a class="hover:text-primary transition-colors" href="#">Compliance</a>
+                <a class="hover:text-primary transition-colors" href="#">Privacy</a>
+                <a class="hover:text-primary transition-colors" href="#">Contact</a>
+            </nav>
+            <div class="flex gap-4">
+                <button
+                    class="w-10 h-10 rounded-full flex items-center justify-center bg-surface-container-low hover:bg-surface-container-high transition-colors">
+                    <span class="material-symbols-outlined text-[20px]" data-icon="share">share</span>
+                </button>
+                <button
+                    class="w-10 h-10 rounded-full flex items-center justify-center bg-surface-container-low hover:bg-surface-container-high transition-colors">
+                    <span class="material-symbols-outlined text-[20px]" data-icon="help">help</span>
+                </button>
+            </div>
+        </div>
+        <p class="text-center mt-8 text-label-mono opacity-50">© 2024 WateLetric Systems. All rights reserved.</p>
+    </footer>
+    <script>
+        // Simple micro-interaction for input focus
+        const inputs = document.querySelectorAll('input');
+        inputs.forEach(input => {
+            input.addEventListener('focus', () => {
+                input.parentElement.querySelector('label')?.classList.add('text-primary');
+            });
+            input.addEventListener('blur', () => {
+                input.parentElement.querySelector('label')?.classList.remove('text-primary');
+            });
+        });
+
+        // Add scroll effect for header
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 20) {
+                header.classList.add('shadow-md');
+                header.classList.remove('shadow-sm');
+            } else {
+                header.classList.add('shadow-sm');
+                header.classList.remove('shadow-md');
+            }
+        });
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>

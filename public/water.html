@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>WateLetric - Water Usage Dashboard</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-container": "#8e0a1e",
+                        "secondary-container": "#adf3b8",
+                        "on-primary-fixed-variant": "#8f0c1f",
+                        "on-secondary-container": "#307142",
+                        "tertiary-fixed-dim": "#a3cddb",
+                        "error-container": "#ffdad6",
+                        "inverse-on-surface": "#eff1f3",
+                        "secondary": "#296b3c",
+                        "surface-variant": "#e0e3e5",
+                        "outline": "#8d706f",
+                        "on-secondary-fixed": "#00210b",
+                        "on-tertiary-fixed": "#001f27",
+                        "on-secondary": "#ffffff",
+                        "on-background": "#191c1e",
+                        "tertiary-container": "#204b57",
+                        "surface-dim": "#d8dadc",
+                        "inverse-primary": "#ffb3b1",
+                        "surface-bright": "#f7f9fb",
+                        "on-tertiary-container": "#90bac8",
+                        "on-primary-fixed": "#410007",
+                        "on-primary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "primary": "#660011",
+                        "primary-fixed-dim": "#ffb3b1",
+                        "tertiary-fixed": "#beeaf8",
+                        "surface": "#f7f9fb",
+                        "surface-container-high": "#e6e8ea",
+                        "surface-container": "#eceef0",
+                        "outline-variant": "#e1bebd",
+                        "surface-container-low": "#f2f4f6",
+                        "secondary-fixed": "#adf3b8",
+                        "secondary-fixed-dim": "#92d69d",
+                        "on-surface-variant": "#594140",
+                        "background": "#f7f9fb",
+                        "on-secondary-fixed-variant": "#0a5226",
+                        "surface-tint": "#b12934",
+                        "tertiary": "#003440",
+                        "on-tertiary-fixed-variant": "#214c58",
+                        "surface-container-highest": "#e0e3e5",
+                        "primary-fixed": "#ffdad8",
+                        "on-surface": "#191c1e",
+                        "on-primary-container": "#ff9695",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "on-error": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "inverse-surface": "#2d3133"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-desktop": "40px",
+                        "unit": "8px",
+                        "margin-mobile": "16px",
+                        "container-padding": "32px",
+                        "card-gap": "24px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "headline-md": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "display-lg": ["Hanken Grotesk"],
+                        "label-mono": ["JetBrains Mono"],
+                        "title-lg": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "label-mono": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "title-lg": ["20px", {"lineHeight": "28px", "fontWeight": "500"}]
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .scroll-hide::-webkit-scrollbar { display: none; }
+        .scroll-hide { -ms-overflow-style: none; scrollbar-width: none; }
+        .utility-glow {
+            box-shadow: 0 0 20px rgba(41, 107, 60, 0.1);
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .animate-float { animation: float 4s ease-in-out infinite; }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md min-h-screen flex">
+    <!-- Sidebar Navigation -->
+    <aside class="fixed left-0 top-0 h-full flex flex-col z-50 bg-surface-container-low shadow-lg w-64 hidden md:flex">
+        <div class="p-6 flex flex-col h-full">
+            <div class="flex items-center gap-3 mb-10 cursor-pointer" onclick="location.href='index.html'">
+                <div class="w-10 h-10 bg-primary rounded-xl flex items-center justify-center">
+                    <span class="material-symbols-outlined text-white">ac_unit</span>
+                </div>
+                <div>
+                    <h1 class="text-headline-md font-headline-lg text-primary">WateLetric</h1>
+                    <p class="text-label-mono font-label-mono text-on-surface-variant uppercase tracking-widest">Utility Management</p>
+                </div>
+            </div>
+            <nav class="flex-1 space-y-2">
+                <a class="flex items-center gap-4 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-all" href="electricity.html">
+                    <span class="material-symbols-outlined">bolt</span>
+                    <span class="font-label-mono text-label-mono">Electricity</span>
+                </a>
+                <a class="flex items-center gap-4 px-4 py-3 rounded-lg text-primary-container font-bold border-l-4 border-primary-container bg-primary/10 translate-x-1 transition-transform" href="water.html" style="background-color: rgba(102, 0, 17, 0.1); color: rgb(102, 0, 17); border-color: rgb(102, 0, 17);">
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">opacity</span>
+                    <span class="font-label-mono text-label-mono">Water</span>
+                </a>
+                <a class="flex items-center gap-4 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-all" href="summary.html">
+                    <span class="material-symbols-outlined">dashboard</span>
+                    <span class="font-label-mono text-label-mono">Summary</span>
+                </a>
+                <a class="flex items-center gap-4 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-all" href="profile.html">
+                    <span class="material-symbols-outlined">settings</span>
+                    <span class="font-label-mono text-label-mono">Settings</span>
+                </a>
+            </nav>
+            <div class="pt-6 border-t border-outline-variant space-y-2">
+                <button class="w-full flex items-center gap-4 px-4 py-3 rounded-lg text-primary hover:bg-primary/5 transition-all" onclick="location.href='index.html'">
+                    <span class="material-symbols-outlined">logout</span>
+                    <span class="font-label-mono text-label-mono">Logout</span>
+                </button>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Canvas -->
+    <main class="flex-1 md:ml-64 min-h-screen flex flex-col lg:mr-80 pb-20 md:pb-0">
+        <!-- Top App Bar -->
+        <header class="flex justify-between items-center px-margin-mobile md:px-margin-desktop w-full h-16 bg-surface shadow-sm sticky top-0 z-40">
+            <div class="flex items-center gap-4">
+                <button class="material-symbols-outlined md:hidden text-primary" onclick="alert('Menu opened')">menu</button>
+                <h2 class="text-headline-md font-headline-md text-primary">Water Usage</h2>
+            </div>
+            <div class="flex items-center gap-4">
+                <!-- Utility Slider/Toggle -->
+                <div class="hidden lg:flex items-center bg-surface-container p-1 rounded-full border border-outline-variant">
+                    <button class="px-4 py-1.5 rounded-full text-label-mono font-label-mono flex items-center gap-2 hover:bg-surface-container-high" onclick="location.href='electricity.html'">
+                        <span class="material-symbols-outlined text-sm">bolt</span> Electricity
+                    </button>
+                    <button class="px-4 py-1.5 rounded-full bg-secondary-container text-on-secondary-container text-label-mono font-label-mono flex items-center gap-2 shadow-sm" onclick="location.href='water.html'">
+                        <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">opacity</span> Water
+                    </button>
+                </div>
+                <div class="flex items-center gap-2">
+                    <button class="material-symbols-outlined p-2 rounded-full hover:bg-surface-container-high transition-colors text-on-surface-variant">search</button>
+                    <button class="material-symbols-outlined p-2 rounded-full hover:bg-surface-container-high transition-colors text-primary" onclick="location.href='profile.html'">account_circle</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Simulation Control Panel -->
+        <div class="bg-surface-container-low border-b border-outline-variant/30 px-margin-mobile md:px-margin-desktop py-4 flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <span class="material-symbols-outlined text-primary text-2xl animate-pulse">tune</span>
+                <div>
+                    <h4 class="font-bold text-on-surface">Simulation Control</h4>
+                    <p class="text-[11px] text-on-surface-variant">Toggle the simulation to playback live consumption data streaming into the dashboard.</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-2 w-full md:w-auto md:min-w-[250px]">
+                <button id="start-realtime-btn" class="bg-secondary-container text-on-secondary-container py-3 px-6 rounded-lg font-bold text-xs shadow-sm hover:opacity-90 flex items-center justify-center gap-2 w-full">
+                    <span class="material-symbols-outlined text-sm">play_circle</span> Start Simulation
+                </button>
+                <input type="range" id="day-slider" min="1" max="30" value="1" class="hidden">
+                <span id="current-day-label" class="hidden">1</span>
+            </div>
+        </div>
+
+        <!-- Content Body -->
+        <div class="p-margin-mobile md:p-container-padding space-y-card-gap max-w-5xl mx-auto w-full">
+            <!-- Real-time Hero Section -->
+            <section class="bg-surface-container-lowest rounded-[32px] p-8 shadow-sm border border-outline-variant/30 overflow-hidden relative">
+                <div class="absolute top-0 right-0 p-8 flex items-center gap-4">
+                    <span id="anomaly-badge" class="hidden px-3 py-1 rounded-full bg-error-container text-error text-xs font-bold animate-pulse">
+                        LEAK DETECTED
+                    </span>
+                    <span class="flex items-center gap-2 text-secondary font-bold text-label-mono">
+                        <span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+                        LIVE MONITORING
+                    </span>
+                </div>
+                <div class="mb-8">
+                    <p class="text-on-surface-variant text-label-mono font-label-mono uppercase tracking-widest mb-1">Current Consumption</p>
+                    <h3 class="text-display-lg font-display-lg text-secondary"><span id="live-consumption-val">324.6</span> <span class="text-headline-md">L/hr</span></h3>
+                </div>
+                <!-- Main Usage Graph -->
+                <div class="h-64 w-full relative">
+                    <canvas id="consumption-chart"></canvas>
+                </div>
+                <div class="relative w-full h-6 mt-4 text-on-surface-variant font-label-mono text-[10px]">
+                    <span class="absolute left-0">12:00 AM</span>
+                    <span class="absolute left-[12.5%] -translate-x-1/2 hidden sm:inline">03:00 AM</span>
+                    <span class="absolute left-[25%] -translate-x-1/2">06:00 AM</span>
+                    <span class="absolute left-[37.5%] -translate-x-1/2 hidden sm:inline">09:00 AM</span>
+                    <span class="absolute left-[50%] -translate-x-1/2">12:00 PM</span>
+                    <span class="absolute left-[62.5%] -translate-x-1/2 hidden sm:inline">03:00 PM</span>
+                    <span class="absolute left-[75%] -translate-x-1/2">06:00 PM</span>
+                    <span class="absolute left-[87.5%] -translate-x-1/2 hidden sm:inline">09:00 PM</span>
+                    <span class="absolute right-0">12:00 AM</span>
+                </div>
+            </section>
+
+            <!-- Bottom Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-card-gap">
+                <!-- Prediction Card -->
+                <section class="bg-white rounded-[24px] p-6 border border-outline-variant/30 flex flex-col justify-between md:col-span-2">
+                    <div>
+                        <div class="flex justify-between items-start mb-6">
+                            <div>
+                                <h4 class="text-title-lg font-headline-md text-on-surface">Next 30 Minutes Prediction</h4>
+                                <p class="text-body-md text-on-surface-variant">Based on historical weekday patterns</p>
+                            </div>
+                            <span class="material-symbols-outlined text-secondary-container bg-on-secondary-container p-2 rounded-xl">auto_graph</span>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between">
+                                <span class="text-label-mono font-label-mono text-on-surface-variant">Expected Surge</span>
+                                <span id="surge-pct-val" class="text-body-md font-bold text-on-surface">+15% vs Avg</span>
+                            </div>
+                            <div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+                                <div id="surge-progress-bar" class="bg-secondary-container h-full w-[65%] transition-all duration-500"></div>
+                            </div>
+                            <p class="text-body-md text-on-surface-variant leading-relaxed">
+                                AI predicts likely consumption of <span id="next-2h-liters" class="font-bold text-secondary">324 L</span> in the <span class="font-bold text-secondary">next 30 minutes</span> based on the current day's profile.
+                            </p>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+
+            <!-- Bento Mini Features -->
+            <div class="grid grid-cols-1 gap-card-gap sm:grid-cols-2">
+                <div class="bg-white p-6 rounded-2xl border border-outline-variant/30 flex items-center gap-4 hover:shadow-md transition-shadow">
+                    <span class="material-symbols-outlined text-secondary text-3xl">savings</span>
+                    <div class="flex-grow">
+                        <p class="text-label-mono text-on-surface-variant">Estimated Bill</p>
+                        <p id="estimated-bill-val" class="text-title-lg font-bold">RM 42.30</p>
+                        <p id="pumping-cost-label" class="text-[10px] text-on-surface-variant mt-0.5">Includes RM 0.00 pumping cost</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl border border-outline-variant/30 flex items-center gap-4 hover:shadow-md transition-shadow">
+                    <span class="material-symbols-outlined text-secondary text-3xl">history</span>
+                    <div>
+                        <p class="text-label-mono text-on-surface-variant">Daily Avg (Month-to-date)</p>
+                        <p id="daily-avg-val" class="text-title-lg font-bold">1,200 Liters</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Chatbot Sidebar (Right) -->
+    <aside class="fixed right-0 top-0 h-full w-80 bg-surface shadow-[-10px_0_30px_rgba(0,0,0,0.03)] border-l border-outline-variant/20 flex flex-col hidden lg:flex">
+        <div class="p-6 border-b border-outline-variant/20 flex items-center justify-between bg-primary/5">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center animate-float">
+                    <span class="material-symbols-outlined text-white text-sm">smart_toy</span>
+                </div>
+                <div>
+                    <h5 class="text-body-md font-bold text-primary">Utility AI Assistant</h5>
+                    <span class="text-[10px] text-secondary flex items-center gap-1">
+                        <span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Online
+                    </span>
+                </div>
+            </div>
+            <button class="material-symbols-outlined text-on-surface-variant hover:opacity-75">close</button>
+        </div>
+        
+        <!-- Conversation Container -->
+        <div id="chat-messages" class="flex-1 p-4 space-y-4 overflow-y-auto scroll-hide bg-surface-bright/50">
+            <!-- Dynamic messages updated by JS -->
+        </div>
+
+        <div class="p-4 border-t border-outline-variant/20 bg-white">
+            <div class="relative">
+                <input id="chat-input" class="w-full bg-surface-container rounded-full py-3 px-5 pr-12 text-body-md border-none focus:ring-2 focus:ring-secondary/50" placeholder="Ask about your bill..." type="text">
+                <button id="send-btn" class="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-secondary text-white flex items-center justify-center hover:opacity-90 transition-opacity">
+                    <span class="material-symbols-outlined text-sm">send</span>
+                </button>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Bottom Navigation (Mobile Only) -->
+    <nav class="fixed bottom-0 left-0 w-full z-40 flex justify-around items-center h-16 md:hidden bg-surface shadow-lg rounded-t-xl border-t border-outline-variant">
+        <a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-secondary-fixed-dim transition-colors" href="electricity.html">
+            <span class="material-symbols-outlined">bolt</span>
+            <span class="text-label-sm font-label-sm">Electricity</span>
+        </a>
+        <a class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-6 py-1 scale-90 transition-all" href="water.html">
+            <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">opacity</span>
+            <span class="text-label-sm font-label-sm">Water</span>
+        </a>
+        <a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-secondary-fixed-dim transition-colors" href="summary.html">
+            <span class="material-symbols-outlined">dashboard</span>
+            <span class="text-label-sm font-label-sm">Summary</span>
+        </a>
+        <a class="flex flex-col items-center justify-center text-on-surface-variant" href="profile.html">
+            <span class="material-symbols-outlined">settings</span>
+            <span class="text-label-sm font-label-sm">Settings</span>
+        </a>
+    </nav>
+
+    <!-- Load the generated ML forecasting billing dataset -->
+    <script src="billing_data.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Firebase App and Auth SDKs compat -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+    <script src="firebase-mock.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const slider = document.getElementById('day-slider');
+            const dayLabel = document.getElementById('current-day-label');
+            const estimatedBillVal = document.getElementById('estimated-bill-val');
+            const dailyAvgVal = document.getElementById('daily-avg-val');
+            const surgePctVal = document.getElementById('surge-pct-val');
+            const surgeProgressBar = document.getElementById('surge-progress-bar');
+            const liveConsumptionVal = document.getElementById('live-consumption-val');
+            const anomalyBadge = document.getElementById('anomaly-badge');
+            const pumpingCostLabel = document.getElementById('pumping-cost-label');
+            const chatMessages = document.getElementById('chat-messages');
+            const chatInput = document.getElementById('chat-input');
+            const sendBtn = document.getElementById('send-btn');
+
+            let currentDay = 1;
+            slider.value = currentDay;
+
+            // Initialize Firebase Mock / Real Firebase SDK
+            const firebaseConfig = { projectId: "wateletric-production" };
+            firebase.initializeApp(firebaseConfig);
+            const db = firebase.firestore();
+
+            // Load real Firebase credentials dynamically for Auth
+            fetch('/api/firebase-config')
+                .then(res => res.json())
+                .then(config => {
+                    const isPlaceholder = config.apiKey.includes("ReplaceMe") || !config.apiKey;
+                    if (!isPlaceholder) {
+                        firebase.initializeApp(config);
+                        firebase.auth().onAuthStateChanged(user => {
+                            if (!user) {
+                                window.location.href = 'index.html';
+                            }
+                        });
+                    }
+                })
+                .catch(err => console.error("Error loading real firebase config", err));
+
+            // Initialize Chart.js Bar Chart
+            const ctx = document.getElementById('consumption-chart').getContext('2d');
+            const chartInstance = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: Array.from({length: 48}, (_, i) => {
+                        const h = Math.floor(i / 2);
+                        const m = i % 2 === 0 ? "00" : "30";
+                        return `${h.toString().padStart(2, '0')}:${m}`;
+                    }),
+                    datasets: [{
+                        label: 'Water (Liters)',
+                        data: [],
+                        backgroundColor: [],
+                        borderColor: '#296b3c',
+                        borderWidth: 0,
+                        borderRadius: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const val = context.parsed.y;
+                                    const index = context.dataIndex;
+                                    const isFuture = index * 0.5 > 14.0;
+                                    return `${val.toFixed(0)} L/hr ${isFuture ? '(Forecast)' : ''}`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: { display: false },
+                        y: {
+                            beginAtZero: true,
+                            grid: { color: 'rgba(0, 0, 0, 0.04)' },
+                            ticks: { font: { family: 'JetBrains Mono', size: 9 } }
+                        }
+                    }
+                }
+            });
+
+            let unsubscribeSummary = null;
+            let unsubscribeIntervals = null;
+            let activeWaterData = {};
+
+            function updateUI(day) {
+                dayLabel.innerText = day;
+                currentDay = day;
+
+                // Unsubscribe from previous observers
+                if (unsubscribeSummary) unsubscribeSummary();
+                if (unsubscribeIntervals) unsubscribeIntervals();
+
+                // 1. Observe Daily Summary Document
+                unsubscribeSummary = db.collection("daily_summaries")
+                  .doc(`day${day}_water`)
+                  .onSnapshot((doc) => {
+                      if (doc.exists) {
+                          const water = doc.data();
+                          activeWaterData = water;
+                          estimatedBillVal.innerText = `RM ${water.estimated_bill_rm.toFixed(2)}`;
+                          dailyAvgVal.innerText = `${Math.round(water.daily_avg_kl * 1000).toLocaleString()} Liters`;
+                          pumpingCostLabel.innerText = `Includes RM ${water.pumping_electricity_cost_rm.toFixed(2)} pumping electricity cost`;
+
+                          const isSurge = water.surge_pct >= 0;
+                          surgePctVal.innerText = `${isSurge ? '+' : ''}${water.surge_pct}% vs Avg`;
+                          surgePctVal.className = `text-body-md font-bold ${isSurge ? 'text-primary' : 'text-secondary'}`;
+
+                          const progressWidth = Math.max(10, Math.min(100, 50 + water.surge_pct));
+                          surgeProgressBar.style.width = `${progressWidth}%`;
+                          if (isSurge) {
+                              surgeProgressBar.className = "bg-primary-container h-full transition-all duration-500";
+                          } else {
+                              surgeProgressBar.className = "bg-secondary h-full transition-all duration-500";
+                          }
+
+                          document.getElementById('next-2h-liters').innerText = `${Math.round(water.next_30m_prediction_liters)} L`;
+
+                          if (water.has_anomaly && water.anomaly_type !== 'occupancy_mismatch') {
+                              anomalyBadge.innerText = water.anomaly_type.toUpperCase().replace('_', ' ');
+                              anomalyBadge.classList.remove('hidden');
+                          } else {
+                              anomalyBadge.classList.add('hidden');
+                          }
+
+                          updateChatbot(day, water);
+                      }
+                  });
+
+                // 2. Observe Intervals Collection (Real-Time Chart Updates)
+                unsubscribeIntervals = db.collection("intervals")
+                  .where("day", "==", parseInt(day))
+                  .where("utility_type", "==", "water")
+                  .onSnapshot((snapshot) => {
+                      const values = [];
+                      const colors = [];
+                      
+                      snapshot.forEach((doc) => {
+                          const record = doc.data();
+                          values.push(record.value);
+                          
+                          const time = record.time;
+                          if (time > 14.0) {
+                              colors.push('rgba(41, 107, 60, 0.25)'); // forecast faded green
+                          } else if (time === 14.0) {
+                              colors.push('rgba(41, 107, 60, 1.0)'); // active secondary green
+                          } else {
+                              colors.push('rgba(41, 107, 60, 0.45)'); // history light green
+                          }
+                      });
+                      
+                      chartInstance.data.datasets[0].data = values;
+                      chartInstance.data.datasets[0].backgroundColor = colors;
+                      chartInstance.update();
+
+                      // Set live value (using current hour's value: time = 14.0)
+                      if (!window.realtimeInterval && values.length > 0) {
+                          liveConsumptionVal.innerText = (values[28] || values[values.length - 1]).toFixed(1);
+                      }
+                  });
+            }
+
+            function updateChatbot(day, water) {
+                chatMessages.innerHTML = '';
+                
+                let botMessage = '';
+                if (water.has_anomaly && water.anomaly_type !== 'occupancy_mismatch') {
+                    if (water.anomaly_type === 'water_leak') {
+                        botMessage = `⚠️ <b>ALERT: Potential Water Leak Detected on Day ${day}!</b><br><br>
+                        Between 02:00 AM and 04:00 AM, consumption spiked unexpectedly to 22.9 L/hr despite zero building occupancy. 
+                        This has increased your estimated monthly water bill by approximately <b>RM 15.00</b>.<br><br>
+                        Would you like me to dispatch a maintenance ticket or trigger an automatic main valve shutoff?`;
+                    }
+                } else {
+                    botMessage = `👋 Hello! I am your Utility AI Assistant.<br><br>
+                    Based on your water usage up to Day ${day} and my XGBoost forecast for the rest of the month, your projected monthly consumption is <b>${Math.round(water.projected_total_liters || water.projected_total || 0.0).toLocaleString()} Liters</b>.<br><br>
+                    Your estimated monthly water bill is <b>RM ${(water.estimated_bill_rm || water.estimated_bill || 0.0).toFixed(2)}</b> (Air Selangor Non-Domestic Tariff).<br>
+                    <i>(Note: This includes about RM ${(water.pumping_electricity_cost_rm || 0.0).toFixed(2)} in electricity costs required to pump ${Math.round(water.actual_so_far_liters || water.actual_so_far || 0.0).toLocaleString()} Liters of water).</i>`;
+                }
+
+                addMessage('bot', botMessage);
+            }
+
+            function addMessage(sender, text) {
+                const bubble = document.createElement('div');
+                bubble.className = `flex flex-col gap-1 ${sender === 'user' ? 'items-end ml-auto' : 'items-start'} max-w-[85%]`;
+                
+                const time = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+                
+                const content = document.createElement('div');
+                content.className = sender === 'user' 
+                    ? 'bg-primary text-white p-3 rounded-2xl rounded-tr-none text-body-md shadow-sm'
+                    : 'bg-surface-container p-3 rounded-2xl rounded-tl-none text-body-md shadow-sm border border-outline-variant/15 text-on-surface';
+                content.innerHTML = text;
+
+                const timeLabel = document.createElement('span');
+                timeLabel.className = 'text-[9px] text-on-surface-variant mx-1';
+                timeLabel.innerText = time;
+
+                bubble.appendChild(content);
+                bubble.appendChild(timeLabel);
+                chatMessages.appendChild(bubble);
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }
+
+            // Events
+            slider.addEventListener('input', (e) => {
+                currentDay = e.target.value;
+                updateUI(currentDay);
+            });
+
+            sendBtn.addEventListener('click', () => {
+                const text = chatInput.value.trim();
+                if (text) {
+                    addMessage('user', text);
+                    chatInput.value = '';
+                    
+                    // Add Thinking... indicator
+                    const thinkingBubble = document.createElement('div');
+                    thinkingBubble.id = 'thinking-indicator';
+                    thinkingBubble.className = 'flex flex-col gap-1 items-start max-w-[85%] animate-pulse';
+                    const thinkingContent = document.createElement('div');
+                    thinkingContent.className = 'bg-surface-container p-3 rounded-2xl rounded-tl-none text-body-md shadow-sm border border-outline-variant/15 text-on-surface-variant italic';
+                    thinkingContent.innerText = 'Thinking...';
+                    thinkingBubble.appendChild(thinkingContent);
+                    chatMessages.appendChild(thinkingBubble);
+                    chatMessages.scrollTop = chatMessages.scrollHeight;
+                    
+                    // Call proxy API
+                    fetch('/api/chat', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            message: text,
+                            day: currentDay,
+                            waterData: activeWaterData,
+                            electricityData: window.billingData[currentDay] ? window.billingData[currentDay].electricity : activeWaterData
+                        })
+                    })
+                    .then(res => res.json())
+                    .then(data => {
+                        // Remove thinking indicator
+                        const indicator = document.getElementById('thinking-indicator');
+                        if (indicator) indicator.remove();
+                        
+                        // Render reply
+                        addMessage('bot', data.reply);
+                    })
+                    .catch(err => {
+                        const indicator = document.getElementById('thinking-indicator');
+                        if (indicator) indicator.remove();
+                        addMessage('bot', 'Error: Could not connect to Utility Assistant. Ensure the backend server is running.');
+                    });
+                }
+            });
+
+            chatInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    sendBtn.click();
+                }
+            });
+
+            // Initial UI load
+            updateUI(currentDay);
+
+            // Simulating slight fluctuations in the live consumption
+            setInterval(() => {
+                if (window.realtimeInterval) return; // Don't fluctuate if realtime feed is running
+                const liveVal = document.getElementById('live-consumption-val');
+                if (liveVal && activeWaterData && activeWaterData.intervals) {
+                    const currentVal = parseFloat(liveVal.innerText);
+                    const randomFlux = (Math.random() * 2 - 1).toFixed(1);
+                    const newVal = (currentVal + parseFloat(randomFlux)).toFixed(1);
+                    // keep it within a reasonable range of the historical 2:00 PM interval
+                    const base2PMVal = activeWaterData.intervals.find(i => i.time === 14.0).value;
+                    if (newVal > base2PMVal - 10 && newVal < base2PMVal + 10) {
+                        liveVal.innerText = newVal;
+                    }
+                }
+            }, 3000);
+
+            // Real-time sensor logic
+            const realtimeBtn = document.getElementById('start-realtime-btn');
+            window.realtimeInterval = null;
+            let runtimeData = [];
+            
+            realtimeBtn.addEventListener('click', () => {
+                if (window.realtimeInterval) {
+                    clearInterval(window.realtimeInterval);
+                    window.realtimeInterval = null;
+                    realtimeBtn.innerHTML = '<span class="material-symbols-outlined text-sm">play_circle</span> Start Simulation';
+                    updateUI(currentDay); // Reset back to daily view
+                    return;
+                }
+                
+                realtimeBtn.innerHTML = '<span class="material-symbols-outlined text-sm">stop_circle</span> Stop Simulation';
+                
+                runtimeData = window.billingData["1"].water.intervals;
+                startDataStream();
+            });
+
+            function startDataStream() {
+                let currentIndex = 0;
+                let hasAlerted = false;
+                window.simulatedIntervals = [];
+                anomalyBadge.classList.add('hidden');
+                
+                window.realtimeInterval = setInterval(() => {
+                    if (currentIndex >= runtimeData.length) {
+                        clearInterval(window.realtimeInterval);
+                        window.realtimeInterval = null;
+                        realtimeBtn.innerHTML = '<span class="material-symbols-outlined text-sm">play_circle</span> Start Simulation';
+                        return;
+                    }
+                    
+                    const point = runtimeData[currentIndex];
+                    liveConsumptionVal.innerText = point.water_liters.toFixed(1);
+                    
+                    // Add point to simulated database array
+                    window.simulatedIntervals.push({
+                        time: point.time,
+                        time_str: point.time_str,
+                        value: point.water_liters,
+                        predicted: point.predicted,
+                        anomaly: point.anomaly
+                    });
+                    
+                    // Dispatch update event for firebase-mock
+                    window.dispatchEvent(new CustomEvent("firestore-update"));
+                    
+                    // Check for anomaly
+                    if (point.anomaly && !hasAlerted) {
+                        anomalyBadge.innerText = "LEAK DETECTED";
+                        anomalyBadge.classList.remove('hidden');
+                        hasAlerted = true;
+                        
+                        addMessage('bot', `⚠️ <b>ALERT: Potential Water Leak Detected!</b><br><br>
+                        At ${point.time_str}, consumption spiked unexpectedly to ${point.water_liters.toFixed(1)} L/hr despite zero building occupancy. 
+                        This has increased your estimated monthly water bill by approximately <b>RM 15.00</b>.<br><br>
+                        Would you like me to dispatch a maintenance ticket or trigger an automatic main valve shutoff?`);
+
+                        // Trigger Telegram Alert on backend
+                        fetch('/api/trigger-alert', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({
+                                utility: 'water',
+                                anomaly_type: 'water_leak',
+                                time: point.time_str,
+                                value: point.water_liters
+                            })
+                        }).catch(err => console.error("Failed to trigger Telegram alert", err));
+                    } else if (!point.anomaly) {
+                        anomalyBadge.classList.add('hidden');
+                        hasAlerted = false;
+                    }
+                    
+                    currentIndex++;
+                }, 1000);
+            }
+        });
+    </script>
+</body>
+</html>

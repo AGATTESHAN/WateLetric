@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>User Profile | WateLetric</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "primary-container": "#8e0a1e",
+                    "secondary-container": "#adf3b8",
+                    "on-primary-fixed-variant": "#8f0c1f",
+                    "on-secondary-container": "#307142",
+                    "tertiary-fixed-dim": "#a3cddb",
+                    "error-container": "#ffdad6",
+                    "inverse-on-surface": "#eff1f3",
+                    "secondary": "#296b3c",
+                    "surface-variant": "#e0e3e5",
+                    "outline": "#8d706f",
+                    "on-secondary-fixed": "#00210b",
+                    "on-tertiary-fixed": "#001f27",
+                    "on-secondary": "#ffffff",
+                    "on-background": "#191c1e",
+                    "tertiary-container": "#204b57",
+                    "surface-dim": "#d8dadc",
+                    "inverse-primary": "#ffb3b1",
+                    "surface-bright": "#f7f9fb",
+                    "on-tertiary-container": "#90bac8",
+                    "on-primary-fixed": "#410007",
+                    "on-primary": "#ffffff",
+                    "error": "#ba1a1a",
+                    "primary": "#660011",
+                    "primary-fixed-dim": "#ffb3b1",
+                    "tertiary-fixed": "#beeaf8",
+                    "surface": "#f7f9fb",
+                    "surface-container-high": "#e6e8ea",
+                    "surface-container": "#eceef0",
+                    "outline-variant": "#e1bebd",
+                    "surface-container-low": "#f2f4f6",
+                    "secondary-fixed": "#adf3b8",
+                    "secondary-fixed-dim": "#92d69d",
+                    "on-surface-variant": "#594140",
+                    "background": "#f7f9fb",
+                    "on-secondary-fixed-variant": "#0a5226",
+                    "surface-tint": "#b12934",
+                    "tertiary": "#003440",
+                    "on-tertiary-fixed-variant": "#214c58",
+                    "surface-container-highest": "#e0e3e5",
+                    "primary-fixed": "#ffdad8",
+                    "on-surface": "#191c1e",
+                    "on-primary-container": "#ff9695",
+                    "on-tertiary": "#ffffff",
+                    "surface-container-lowest": "#ffffff",
+                    "on-error": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "inverse-surface": "#2d3133"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "2xl": "1rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "margin-desktop": "40px",
+                    "unit": "8px",
+                    "margin-mobile": "16px",
+                    "container-padding": "32px",
+                    "card-gap": "24px",
+                    "gutter": "24px"
+            },
+            "fontFamily": {
+                    "headline-lg-mobile": ["Hanken Grotesk"],
+                    "headline-md": ["Hanken Grotesk"],
+                    "body-lg": ["Hanken Grotesk"],
+                    "body-md": ["Hanken Grotesk"],
+                    "headline-lg": ["Hanken Grotesk"],
+                    "display-lg": ["Hanken Grotesk"],
+                    "label-mono": ["JetBrains Mono"],
+                    "title-lg": ["Hanken Grotesk"]
+            },
+            "fontSize": {
+                    "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "label-mono": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                    "title-lg": ["20px", {"lineHeight": "28px", "fontWeight": "500"}]
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+        body {
+            background-color: #F8FAFC;
+            font-family: 'Hanken Grotesk', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .tonal-layering {
+            box-shadow: 0px 4px 20px rgba(0,0,0,0.04);
+        }
+        .blur-backdrop {
+            backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface">
+    <!-- Top Navigation Bar -->
+    <header class="bg-surface shadow-sm docked full-width top-0 sticky z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop w-full h-16">
+        <div class="flex items-center gap-4">
+            <button class="p-2 rounded-full hover:bg-surface-container-high transition-colors" onclick="window.history.back()">
+                <span class="material-symbols-outlined text-primary">arrow_back</span>
+            </button>
+            <h1 class="text-title-lg font-headline-lg text-primary cursor-pointer" onclick="location.href='water.html'">WateLetric</h1>
+        </div>
+        <div class="flex items-center gap-2">
+            <span class="text-label-md font-label-md text-on-surface-variant hidden md:block">Settings &amp; Profile</span>
+            <div class="p-1 rounded-full border border-outline-variant cursor-pointer" onclick="location.reload()">
+                <span class="material-symbols-outlined text-primary-container" style="font-variation-settings: 'FILL' 1;">account_circle</span>
+            </div>
+        </div>
+    </header>
+    <main class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop py-12">
+        <!-- Profile Header Section -->
+        <section class="mb-12 flex flex-col md:flex-row items-center gap-8 animate-in fade-in duration-700">
+            <div class="relative group">
+                <div class="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-lg overflow-hidden bg-surface-container-highest">
+                    <img class="w-full h-full object-cover" alt="Avatar Portrait" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQWqrk_lfoP6ae1Gg8kwfvZRXDdgKWqxrAvkZCkBdlPaKie0QASGXTg4rnInTp21Plhvd586faW-CXBwS98upsgw8v-o-uI8CnxVWHM_NMKZ0z1wG_TP9dUQktPhN0rUI-5Wl2UWKqqNhhCjr0C8VN2yjGuxCEjgmxboYrfCkxDpzOP8627GxZE6a9oo_73gqYKN9OJt95oFoMt9Hhv6D5IhbxTrADfRkl6ltYvfZzAVeGpLPcpcJshILBxtENfsR5ycKRvC7BK1M">
+                </div>
+                <button class="absolute bottom-1 right-1 bg-primary text-white p-2 rounded-full shadow-md hover:scale-105 transition-transform">
+                    <span class="material-symbols-outlined text-sm">edit</span>
+                </button>
+            </div>
+            <div class="text-center md:text-left">
+                <h2 class="text-headline-lg font-headline-lg text-primary">Agatteshan Kumaresan</h2>
+                <p class="text-body-lg font-body-lg text-on-surface-variant">Senior Infrastructure Manager • ID: WB-99281</p>
+                <div class="mt-4 flex flex-wrap justify-center md:justify-start gap-2">
+                    <span class="px-3 py-1 bg-secondary/15 text-secondary rounded-full text-label-mono font-label-mono uppercase tracking-wider">Admin</span>
+                    <span class="px-3 py-1 bg-tertiary-container/10 text-on-tertiary-container rounded-full text-label-mono font-label-mono uppercase tracking-wider">North Sector</span>
+                </div>
+            </div>
+        </section>
+        <!-- Profile Grid Layout -->
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+            <!-- Left Column: Personal Information -->
+            <div class="md:col-span-8 flex flex-col gap-8">
+                <!-- Account Details Card -->
+                <div class="bg-surface-container-lowest p-8 rounded-2xl tonal-layering border border-surface-container">
+                    <div class="flex items-center justify-between mb-6">
+                        <h3 class="text-title-lg font-headline-md text-on-surface">Account Details</h3>
+                        <button class="text-primary hover:underline text-body-md font-body-md">Edit All</button>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-8">
+                        <div class="space-y-1">
+                            <label class="text-label-mono font-label-mono text-on-surface-variant uppercase text-[10px]">Full Name</label>
+                            <p class="text-body-lg font-body-lg text-on-surface">Agatteshan Kumaresan</p>
+                        </div>
+                        <div class="space-y-1">
+                            <label class="text-label-mono font-label-mono text-on-surface-variant uppercase text-[10px]">Email Address</label>
+                            <p class="text-body-lg font-body-lg text-on-surface">demo@wateletric.com</p>
+                        </div>
+                        <div class="space-y-1">
+                            <label class="text-label-mono font-label-mono text-on-surface-variant uppercase text-[10px]">Mobile Number</label>
+                            <p class="text-body-lg font-body-lg text-on-surface">012-3456789</p>
+                        </div>
+                        <div class="space-y-1">
+                            <label class="text-label-mono font-label-mono text-on-surface-variant uppercase text-[10px]">Location</label>
+                            <p class="text-body-lg font-body-lg text-on-surface">Kuala Lumpur, Malaysia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Right Column: Sign Out -->
+            <div class="md:col-span-4 flex flex-col gap-8">
+                <button class="flex items-center justify-center gap-3 w-full p-4 rounded-2xl border border-error/30 text-error hover:bg-error/5 transition-all group" onclick="handleSignOut()">
+                    <span class="material-symbols-outlined group-hover:rotate-12 transition-transform">logout</span>
+                    <span class="font-bold">Sign Out of All Devices</span>
+                </button>
+            </div>
+        </div>
+    </main>
+    <!-- Bottom Navigation Bar (Mobile only) -->
+    <nav class="fixed bottom-0 left-0 w-full z-40 flex justify-around items-center h-16 md:hidden bg-surface shadow-lg rounded-t-xl border-t border-outline-variant">
+        <a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-secondary-fixed-dim transition-all p-2 rounded-lg" href="electricity.html">
+            <span class="material-symbols-outlined">bolt</span>
+            <span class="text-label-sm font-label-sm">Electricity</span>
+        </a>
+        <a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-secondary-fixed-dim transition-all p-2 rounded-lg" href="water.html">
+            <span class="material-symbols-outlined">opacity</span>
+            <span class="text-label-sm font-label-sm">Water</span>
+        </a>
+        <a class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-6 py-1 scale-90" href="profile.html">
+            <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">account_circle</span>
+            <span class="text-label-sm font-label-sm">Profile</span>
+        </a>
+    <!-- Firebase App and Auth SDKs compat -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+    
+    <script>
+        // Initialize Firebase Authentication dynamically
+        fetch('/api/firebase-config')
+            .then(res => res.json())
+            .then(config => {
+                firebase.initializeApp(config);
+                const isPlaceholder = config.apiKey.includes("ReplaceMe") || !config.apiKey;
+                
+                if (!isPlaceholder) {
+                    firebase.auth().onAuthStateChanged(user => {
+                        if (!user) {
+                            window.location.href = 'index.html';
+                        } else {
+                            // Update email dynamically in Account Details
+                            const emailLabel = document.evaluate("//label[contains(text(), 'Email Address')]/following-sibling::p", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+                            if (emailLabel) {
+                                emailLabel.innerText = user.email;
+                            }
+                        }
+                    });
+                } else {
+                    // Update email dynamically using stored localStorage email in bypass/demo mode
+                    const savedEmail = localStorage.getItem('userEmail') || 'demo@wateletric.com';
+                    const emailLabel = document.evaluate("//label[contains(text(), 'Email Address')]/following-sibling::p", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+                    if (emailLabel) {
+                        emailLabel.innerText = savedEmail;
+                    }
+                }
+            })
+            .catch(err => {
+                console.error("Could not fetch Firebase configuration", err);
+            });
+
+        function handleSignOut() {
+            localStorage.removeItem('userEmail');
+            if (window.firebase && typeof firebase.auth === "function") {
+                firebase.auth().signOut().then(() => {
+                    window.location.href = 'index.html';
+                }).catch(err => {
+                    console.error("Error signing out:", err);
+                    window.location.href = 'index.html';
+                });
+            } else {
+                window.location.href = 'index.html';
+            }
+        }
+
+        document.querySelectorAll('.cursor-pointer').forEach(item => {
+            item.addEventListener('click', () => {
+                const toggle = item.querySelector('.relative > div');
+                const bg = item.querySelector('.relative');
+                if (toggle) {
+                    if (toggle.classList.contains('right-1')) {
+                        toggle.classList.remove('right-1');
+                        toggle.classList.add('left-1');
+                        bg.classList.remove('bg-secondary');
+                        bg.classList.add('bg-outline-variant/40');
+                    } else {
+                        toggle.classList.remove('left-1');
+                        toggle.classList.add('right-1');
+                        bg.classList.remove('bg-outline-variant/40');
+                        bg.classList.add('bg-secondary');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
