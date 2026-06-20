@@ -8,7 +8,9 @@ WateLetric is an AI-powered smart utility management and monitoring platform des
 
 *   **Team Name:** Team WateLetric
 *   **Team Members:**
-    *   **Agatteshan Kumaresan** (First year undergraduate student in AI, Universiti Teknologi Malaysia Kuala Lumpur)
+    *   **Agatteshan Kumaresan**
+    *   **Aliff Aiman Abdul Halim**
+    *   **Imran Yusri**
 
 ---
 
