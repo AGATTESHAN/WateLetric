@@ -6,7 +6,7 @@ WateLetric is an AI-powered smart utility management and monitoring platform des
 
 ## 👥 Team Information
 
-*   **Team Name:**Dim Sum
+*   **Team Name:**Dim Sum**
 *   **Team Members:**
     *   **Agatteshan Kumaresan**
     *   **Aliff Aiman Abdul Halim**
